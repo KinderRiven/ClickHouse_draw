@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T10:48:05.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3BMqaN0TdhQ4ebY3pXPp" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T10:51:10.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="nVrDb8ssuQ_8fNjbPdQc" version="16.6.4" type="github">
   <diagram id="_HqeAvMFlBjQq41nbWqJ" name="Page-1">
-    <mxGraphModel dx="42" dy="29" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="573" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,6 +34,9 @@
         </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-8" value="&lt;div style=&quot;text-align: left&quot;&gt;struct ColumnWithTypeAndName&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="115" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ywrMgLWDB-zxPI7q9aUQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="1" source="ywrMgLWDB-zxPI7q9aUQ-11" target="ywrMgLWDB-zxPI7q9aUQ-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-11" value="&lt;div style=&quot;text-align: left&quot;&gt;ColumnPtr column&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="160" width="120" height="20" as="geometry" />
@@ -74,6 +77,9 @@
               <mxPoint x="409" y="248" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ywrMgLWDB-zxPI7q9aUQ-19" value="&lt;div style=&quot;text-align: left&quot;&gt;class Column&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

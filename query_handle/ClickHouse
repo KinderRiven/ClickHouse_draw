@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T07:25:46.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="N8cKj8X83IoWoOnmq9pN" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T07:28:01.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="evmQXdl5p5qHaThtxckT" version="16.6.2" type="github">
   <diagram id="Wss5wZBBWg8hQlYD8d_y" name="Page-1">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,6 +76,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="8fb2-N6XzUWbcdLPCTn--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.078;exitY=0.988;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#FF0000;endArrow=classic;endFill=1;exitPerimeter=0;" edge="1" parent="1" source="8fb2-N6XzUWbcdLPCTn--22" target="8fb2-N6XzUWbcdLPCTn--28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8fb2-N6XzUWbcdLPCTn--22" value="&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;BlockIO InterpreterSelectWithUnionQuery::execute()&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="960" width="510" height="40" as="geometry" />
         </mxCell>
@@ -99,6 +106,18 @@
         </mxCell>
         <mxCell id="8fb2-N6XzUWbcdLPCTn--28" value="&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;void InterpreterSelectWithUnionQuery::buildQueryPlan&lt;/b&gt;(QueryPlan &amp;amp; query_plan)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="1030" width="750" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8fb2-N6XzUWbcdLPCTn--31" value="&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;QueryPipeline QueryPipelineBuilder::getPipeline&lt;/b&gt;(QueryPipelineBuilder builder)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1090" width="750" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8fb2-N6XzUWbcdLPCTn--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#FF0000;endArrow=classic;endFill=1;exitX=0.08;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8fb2-N6XzUWbcdLPCTn--22" target="8fb2-N6XzUWbcdLPCTn--31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.78" y="1009.52" as="sourcePoint" />
+            <mxPoint x="410" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="361" y="1110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T15:09:53.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="F9cAe5VwDU_540ITDL-D" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T15:11:49.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="PEwEMhL8xzFSKUS6p9PT" version="16.6.4" type="github">
   <diagram id="_HqeAvMFlBjQq41nbWqJ" name="Page-1">
-    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="757" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,6 +214,9 @@
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=block;endFill=1;strokeColor=#1A1A1A;" edge="1" parent="1" source="ywrMgLWDB-zxPI7q9aUQ-60" target="ywrMgLWDB-zxPI7q9aUQ-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ywrMgLWDB-zxPI7q9aUQ-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=block;endFill=1;strokeColor=#1A1A1A;" edge="1" parent="1" source="ywrMgLWDB-zxPI7q9aUQ-60" target="ywrMgLWDB-zxPI7q9aUQ-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-60" value="&lt;div style=&quot;text-align: left&quot;&gt;class ISerialization&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="660" y="580" width="107" height="20" as="geometry" />
         </mxCell>
@@ -282,6 +285,12 @@
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=block;endFill=1;strokeColor=#1A1A1A;" edge="1" parent="1" source="ywrMgLWDB-zxPI7q9aUQ-73" target="ywrMgLWDB-zxPI7q9aUQ-102">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ywrMgLWDB-zxPI7q9aUQ-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=block;endFill=1;strokeColor=#1A1A1A;" edge="1" parent="1" source="ywrMgLWDB-zxPI7q9aUQ-73" target="ywrMgLWDB-zxPI7q9aUQ-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ywrMgLWDB-zxPI7q9aUQ-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=block;endFill=1;strokeColor=#1A1A1A;" edge="1" parent="1" source="ywrMgLWDB-zxPI7q9aUQ-73" target="ywrMgLWDB-zxPI7q9aUQ-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-73" value="&lt;div style=&quot;text-align: left&quot;&gt;class SimpleTextSerialization&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="840" y="750" width="163" height="20" as="geometry" />
         </mxCell>
@@ -335,6 +344,15 @@
         </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-102" value="&lt;div style=&quot;text-align: left&quot;&gt;class SerializationNothing&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1070" y="910" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ywrMgLWDB-zxPI7q9aUQ-104" value="&lt;div style=&quot;text-align: left&quot;&gt;class SerializationNullable&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="840" y="970" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ywrMgLWDB-zxPI7q9aUQ-106" value="&lt;div style=&quot;text-align: left&quot;&gt;class SerializationTuple&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1071" y="750" width="139" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ywrMgLWDB-zxPI7q9aUQ-108" value="&lt;div style=&quot;text-align: left&quot;&gt;class SerializationUUID&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="710" width="139" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

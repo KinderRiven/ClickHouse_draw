@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T15:11:49.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="PEwEMhL8xzFSKUS6p9PT" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T15:12:13.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Z9-PYQ5F-TPLjaUhGI7k" version="16.6.4" type="github">
   <diagram id="_HqeAvMFlBjQq41nbWqJ" name="Page-1">
-    <mxGraphModel dx="757" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -340,10 +340,10 @@
           <mxGeometry x="840" y="1110" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-100" value="&lt;div style=&quot;text-align: left&quot;&gt;class SerializationMap&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="860" width="140" height="20" as="geometry" />
+          <mxGeometry x="1070.5" y="840" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-102" value="&lt;div style=&quot;text-align: left&quot;&gt;class SerializationNothing&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="910" width="160" height="20" as="geometry" />
+          <mxGeometry x="1070.5" y="880" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-104" value="&lt;div style=&quot;text-align: left&quot;&gt;class SerializationNullable&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="840" y="970" width="160" height="20" as="geometry" />

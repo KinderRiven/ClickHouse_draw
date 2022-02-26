@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T09:42:43.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="1DuSzjr4_Qi5FdG74EbJ" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T09:45:53.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="rW0sHFcxa8awHzlvY4vq" version="16.6.2" type="github">
   <diagram id="4MtPXrOQASbYvDg00nte" name="Page-1">
-    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,6 +98,27 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="330.0000000000001" as="sourcePoint" />
             <mxPoint x="480" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="531r5zbdbLCfJZbEdbix-35" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Data ALWAYS_INLINE pullData(bool set_not_needed = false)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="531r5zbdbLCfJZbEdbix-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="531r5zbdbLCfJZbEdbix-30" target="531r5zbdbLCfJZbEdbix-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279.9999999999999" y="120" as="sourcePoint" />
+            <mxPoint x="319.9999999999999" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="531r5zbdbLCfJZbEdbix-37" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Chunk ALWAYS_INLINE pull(bool set_not_needed = false)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="531r5zbdbLCfJZbEdbix-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" target="531r5zbdbLCfJZbEdbix-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="240" as="sourcePoint" />
+            <mxPoint x="410" y="289.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="340" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>

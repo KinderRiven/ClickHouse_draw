@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T16:50:45.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="F1c67Ns3Y8ZaBW5flT_G" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T16:53:20.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="p3K5sTbwhKbfndXkH0hw" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="315" dy="215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="631" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,15 @@
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-99" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class IQueryPlanStep&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="520" y="500" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-100" value="&lt;b&gt;DataStreams&lt;/b&gt; input_streams" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="520" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-101" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;std::optional&amp;lt;DataStream&amp;gt; &lt;/b&gt;output_stream&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-102" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;std::string &lt;/b&gt;step_description&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

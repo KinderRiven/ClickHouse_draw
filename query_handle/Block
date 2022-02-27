@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T08:34:05.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Bgt-gZ1pqRMo_K-bCqts" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T08:41:08.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="2cOEGGAFbzxMO3Yx6f_7" version="16.6.4" type="github">
   <diagram id="_HqeAvMFlBjQq41nbWqJ" name="Page-1">
-    <mxGraphModel dx="860" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -287,6 +287,22 @@
         </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-71" value="&lt;div style=&quot;text-align: left&quot;&gt;class SerializationWrapper&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="840" y="540" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeColor=#1A1A1A;" edge="1" parent="1" source="ywrMgLWDB-zxPI7q9aUQ-72" target="QfK599DAl0ej0uQjZLdh-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="450" />
+              <mxPoint x="1020" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeColor=#1A1A1A;" edge="1" parent="1" source="ywrMgLWDB-zxPI7q9aUQ-72" target="QfK599DAl0ej0uQjZLdh-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="450" />
+              <mxPoint x="1020" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ywrMgLWDB-zxPI7q9aUQ-72" value="&lt;div style=&quot;text-align: left&quot;&gt;class SerializationString&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="840" y="440" width="150" height="20" as="geometry" />
@@ -602,6 +618,12 @@
         </mxCell>
         <mxCell id="QfK599DAl0ej0uQjZLdh-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.001;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeColor=#1A1A1A;" edge="1" parent="1" source="QfK599DAl0ej0uQjZLdh-114" target="QfK599DAl0ej0uQjZLdh-16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-118" value="&lt;div&gt;&lt;b&gt;void serializeBinaryBulk&lt;/b&gt;(const IColumn &amp;amp; column, WriteBuffer &amp;amp; ostr, size_t offset, size_t limit)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1058" y="410" width="365" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-119" value="&lt;div&gt;&lt;b&gt;void SerializationString::deserializeBinaryBulk&lt;/b&gt;(IColumn &amp;amp; column, ReadBuffer &amp;amp; istr, size_t limit, double avg_value_size_hint)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1058" y="450" width="365" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

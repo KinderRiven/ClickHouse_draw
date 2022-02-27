@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T07:03:11.389Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="JQXG5rbExdkDI_2lZHKm" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T07:05:42.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="IKjvUzHKnTBj00o71YrS" version="16.6.4" type="github">
   <diagram id="_HqeAvMFlBjQq41nbWqJ" name="Page-1">
-    <mxGraphModel dx="1479" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1238" dy="1450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -438,8 +438,19 @@
         <mxCell id="QfK599DAl0ej0uQjZLdh-27" value="class SubstreamPath" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#ffff88;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1400" y="-280" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=block;endFill=0;strokeColor=#1A1A1A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QfK599DAl0ej0uQjZLdh-28" target="QfK599DAl0ej0uQjZLdh-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="-190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1565" y="-180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QfK599DAl0ej0uQjZLdh-28" value="public std::vector&amp;lt;Substream&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#ffff88;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1510" y="-240" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-33" value="struct Substream" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#ffff88;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1620" y="-195" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

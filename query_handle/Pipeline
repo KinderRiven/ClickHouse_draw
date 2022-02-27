@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T16:33:56.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="tTcE3NpG6nt5RtIrnsYS" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T16:36:27.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="wfkhWwY5JlfxdpQ7J6Sv" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="701" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,8 +49,20 @@
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-77" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class InterpreterSelectWithUnionQuery&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="480" y="270" width="240" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.001;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-80" target="4nuNxfB_0Uh0BvwMZ_Dk-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-80" value="&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;BlockIO InterpreterSelectWithUnionQuery::execute()&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="520" y="70" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-84" value="&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;void InterpreterSelectWithUnionQuery::buildQueryPlan(QueryPlan &amp;amp; query_plan)&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="930" y="130" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-87" value="&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;void InterpreterSelectWithUnionQuery::buildQueryPlan(QueryPlan &amp;amp; query_plan)&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="930" y="170" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-88" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class QueryPlan&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

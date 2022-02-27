@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T07:08:31.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="lMtJCfmml3aplA8vMxQu" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T07:10:45.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="zn2eMFEYix2My2Ky_pRq" version="16.6.4" type="github">
   <diagram id="_HqeAvMFlBjQq41nbWqJ" name="Page-1">
-    <mxGraphModel dx="1503" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1205" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -451,7 +451,7 @@
             <mxPoint x="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QfK599DAl0ej0uQjZLdh-28" value="public std::vector&amp;lt;Substream&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#ffff88;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="QfK599DAl0ej0uQjZLdh-28" value="public std::vector&amp;lt;Substream&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#cce5ff;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1510" y="-240" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QfK599DAl0ej0uQjZLdh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=block;endFill=0;strokeColor=#1A1A1A;" edge="1" parent="1" source="QfK599DAl0ej0uQjZLdh-33" target="QfK599DAl0ej0uQjZLdh-36">
@@ -465,8 +465,23 @@
         <mxCell id="QfK599DAl0ej0uQjZLdh-33" value="struct Substream" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#ffff88;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1660" y="-192.5" width="130" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=block;endFill=0;strokeColor=#1A1A1A;" edge="1" parent="1" source="QfK599DAl0ej0uQjZLdh-36" target="QfK599DAl0ej0uQjZLdh-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QfK599DAl0ej0uQjZLdh-36" value="struct SubstreamData" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#ffff88;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1800" y="-150" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-40" value="DataTypePtr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-100" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-41" value="ColumnPtr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-75" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-42" value="SerializationPtr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-50" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="QfK599DAl0ej0uQjZLdh-43" value="SubcolumnCreatorPtr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-25" width="160" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

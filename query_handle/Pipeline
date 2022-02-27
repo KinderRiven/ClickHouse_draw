@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T16:44:29.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3_8PadNONFaCqMoEqysR" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T16:46:28.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Esg0gota8GRx6ApxCRV3" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,11 +72,17 @@
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-89" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Nodes&lt;/b&gt; nodes = list&amp;lt;Node&amp;gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="160" y="520" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-90" target="4nuNxfB_0Uh0BvwMZ_Dk-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-90" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Node &lt;/b&gt;root&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="160" y="490" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-93" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;std::vector&amp;lt;ContextPtr&amp;gt; &lt;/b&gt;interpreter_context&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="160" y="550" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-94" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;struct QueryPlan::Node&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="360" y="490" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

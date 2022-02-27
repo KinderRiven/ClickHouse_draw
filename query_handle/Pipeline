@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T16:41:18.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="X5DuMhQooVrN2_TMfjKK" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T16:41:51.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="USMJsMbIUPOvfIKCJ8Qq" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,14 +58,22 @@
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-84" value="&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;void InterpreterSelectWithUnionQuery::buildQueryPlan(QueryPlan &amp;amp; query_plan)&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="930" y="130" width="760" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-88" target="4nuNxfB_0Uh0BvwMZ_Dk-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-92" value="&lt;font color=&quot;#1a1a1a&quot;&gt;include&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="4nuNxfB_0Uh0BvwMZ_Dk-91">
+          <mxGeometry x="0.2624" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-88" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class QueryPlan&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="40" y="440" width="120" height="30" as="geometry" />
+          <mxGeometry x="40" y="440" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-89" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Nodes nodes&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="110" y="490" width="90" height="30" as="geometry" />
+          <mxGeometry x="160" y="490" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-90" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Node root&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="110" y="520" width="90" height="30" as="geometry" />
+          <mxGeometry x="160" y="520" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

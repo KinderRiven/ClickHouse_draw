@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T13:57:45.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="o8iDDQQckOJJahR-ACGw" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T13:59:32.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Z_xJy4Jdq9igfqKwnBqe" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="860" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="631" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="440" width="960" height="240" as="geometry" />
+          <mxGeometry x="40" y="440" width="880" height="290" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="40" y="160" width="530" height="240" as="geometry" />
@@ -93,8 +93,23 @@
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-39" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class ASTCreateQuery&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="680" y="500" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;fontColor=#FFFFFF;endArrow=block;endFill=0;" edge="1" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-41" target="4nuNxfB_0Uh0BvwMZ_Dk-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-41" value="&lt;b&gt;class ASTQueryWithOnCluster&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="60" y="630" width="190" height="30" as="geometry" />
+          <mxGeometry x="60" y="680" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-49" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class ASTInsertQuery&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="200" y="590" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;fontColor=#FFFFFF;endArrow=block;endFill=0;" edge="1" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-50" target="4nuNxfB_0Uh0BvwMZ_Dk-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-50" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class ASTQueryWithOutput&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="200" y="620" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-51" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class ASTSelectWithUnionQuery&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

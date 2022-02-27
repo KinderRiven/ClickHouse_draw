@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T13:22:21.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7M_1ptSn0mpIvNjCRq5a" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T13:26:34.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-osSaoe35ycN2tmC3Cgr" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="676" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,6 +54,32 @@
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-20" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;void ASTSelectQuery::setExpression&lt;/b&gt;(Expression expr, ASTPtr &amp;amp;&amp;amp; ast)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="720" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="530" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;fontColor=#FF0000;endArrow=classic;endFill=1;" edge="1" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-23" target="4nuNxfB_0Uh0BvwMZ_Dk-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-26" value="&lt;font color=&quot;#1a1a1a&quot;&gt;include&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontColor=#FF0000;" vertex="1" connectable="0" parent="4nuNxfB_0Uh0BvwMZ_Dk-25">
+          <mxGeometry x="0.1267" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-23" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class IAST&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-24" target="4nuNxfB_0Uh0BvwMZ_Dk-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="475" />
+              <mxPoint x="360" y="440" />
+              <mxPoint x="100" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-24" value="&lt;b&gt;ASTs&lt;/b&gt; children = &lt;br&gt;std::vector&amp;lt;&lt;b&gt;ASTPtr&lt;/b&gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

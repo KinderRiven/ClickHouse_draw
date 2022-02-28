@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T04:02:09.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="5AAX07sJDFvIlHifDaJ-" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T04:05:00.113Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="XkRDXoNkbWPf0SJVhFJt" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-104" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="20" y="420" width="1090" height="380" as="geometry" />
+          <mxGeometry x="20" y="420" width="1090" height="390" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="20" y="200" width="720" height="180" as="geometry" />
@@ -110,6 +110,9 @@
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-101" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;std::optional&amp;lt;DataStream&amp;gt; &lt;/b&gt;output_stream&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="520" y="570" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#1A1A1A;endArrow=block;endFill=0;" edge="1" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-102" target="4nuNxfB_0Uh0BvwMZ_Dk-204">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-102" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;std::string &lt;/b&gt;step_description&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="520" y="610" width="160" height="30" as="geometry" />
@@ -277,6 +280,18 @@
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-200" value="&lt;b style=&quot;font-size: 11px&quot;&gt;QueryPipelineBuilderPtr&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;IQueryPlanStep::&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;updatePipeline &lt;/b&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;(QueryPipelineBuilders pipelines, const BuildQueryPipelineSettings &amp;amp; settings)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="2360" y="160" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-204" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class JoinStep&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="520" y="670" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-206" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class UnionStep&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="520" y="730" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-207" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class ISourceStep&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="520" y="700" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-208" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

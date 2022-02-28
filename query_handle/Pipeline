@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T06:58:39.876Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="O-lKYxuwAkRQwnGyac6G" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T07:01:54.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="xne_HV11LrXz8OHYCn_-" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="20" y="420" width="1090" height="390" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-182" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;strokeColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="20" y="830" width="1090" height="550" as="geometry" />
+          <mxGeometry x="20" y="830" width="1090" height="520" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;strokeColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="20" y="200" width="720" height="180" as="geometry" />
@@ -316,10 +316,10 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-4" target="GLADV_qJz34p-wnXOpVd-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-4" value="&lt;b&gt;void push(Chunk chunk)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="GLADV_qJz34p-wnXOpVd-4" value="&lt;b&gt;void push(Chunk chunk)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="540" y="1060" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-5" value="&lt;b&gt;void pushData(Data data_)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="GLADV_qJz34p-wnXOpVd-5" value="&lt;b&gt;void pushData(Data data_)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="540" y="1090" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-7" value="&lt;b&gt;struct Port::State&lt;/b&gt;&lt;b&gt;::Data&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
@@ -376,32 +376,32 @@
           <mxGeometry x="950" y="970" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-40" value="&lt;b&gt;class OutputPort&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1180" width="160" height="30" as="geometry" />
+          <mxGeometry x="80" y="1169" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-41" value="&lt;b&gt;Port::Data::State&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1240" width="380" height="20" as="geometry" />
+          <mxGeometry x="80" y="1259" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-42" target="GLADV_qJz34p-wnXOpVd-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-42" value="&lt;b&gt;InputPort * input_port&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1210" width="160" height="30" as="geometry" />
+          <mxGeometry x="80" y="1199" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-44" value="&lt;b&gt;class IntputPort&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1180" width="160" height="30" as="geometry" />
+          <mxGeometry x="300" y="1169" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-46" target="GLADV_qJz34p-wnXOpVd-40">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="1225" />
-              <mxPoint x="240" y="1210" />
-              <mxPoint x="220" y="1210" />
-              <mxPoint x="220" y="1195" />
+              <mxPoint x="280" y="1214" />
+              <mxPoint x="280" y="1199" />
+              <mxPoint x="260" y="1199" />
+              <mxPoint x="260" y="1184" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-46" value="&lt;b&gt;OutputPort * output_port&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1210" width="160" height="30" as="geometry" />
+          <mxGeometry x="300" y="1199" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-56" value="&lt;b&gt;class InputPort&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="540" y="850" width="160" height="30" as="geometry" />
@@ -417,20 +417,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-58" value="&lt;b&gt;Chunk pull()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="GLADV_qJz34p-wnXOpVd-58" value="&lt;b&gt;Chunk pull()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="540" y="910" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-59" value="&lt;b&gt;Data pullData()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="GLADV_qJz34p-wnXOpVd-59" value="&lt;b&gt;Data pullData()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="540" y="940" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-67" value="&lt;font color=&quot;#ffffff&quot;&gt;src/Processors&lt;/font&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#1A1A1A;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="990" y="830" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-68" value="input.output_port = &amp;amp;output; &lt;br&gt;output.input_port = &amp;amp;input; &lt;br&gt;input.state = std::make_shared&amp;lt;Port::State&amp;gt;(); output.state = input.state;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1290" width="260" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-70" value="&lt;b&gt;Port::Data data&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1260" width="380" height="20" as="geometry" />
+          <mxGeometry x="80" y="1289" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-71" target="GLADV_qJz34p-wnXOpVd-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-71" value="&lt;b&gt;void push(Chunk chunk)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1229" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-72" value="&lt;b&gt;Chunk pull()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1229" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" target="GLADV_qJz34p-wnXOpVd-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1244" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

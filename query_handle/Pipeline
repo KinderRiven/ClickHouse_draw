@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T07:51:44.969Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="SCpba8EPGA1z4gURFJcQ" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T07:54:18.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="MZNGwi7OQYAVoAcUHzmC" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -481,6 +481,9 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-94" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;IProcessor&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1180" y="440" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-95" target="GLADV_qJz34p-wnXOpVd-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-95" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class ISource&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1380" y="440" width="140" height="30" as="geometry" />
         </mxCell>
@@ -492,6 +495,15 @@
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-99" value="&lt;b style=&quot;font-size: 9px;&quot;&gt;OutputPorts &lt;/b&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;outputs&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;=&lt;/span&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt; &lt;/b&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;std::list&amp;lt;&lt;b style=&quot;font-size: 9px;&quot;&gt;OutputPort&lt;/b&gt;&amp;gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1180" y="510" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-100" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="500" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-101" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class NullSource&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="440" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-102" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class NullSource&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="470" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

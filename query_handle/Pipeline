@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T07:28:51.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="zJDB5zj1_gmYJ7OAZ-c9" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T07:33:20.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="YWbe72aa5a4Uu1EP9QQt" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -458,13 +458,16 @@
           <mxGeometry x="180" y="600" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-85" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;void ReadFromMergeTree::initializePipeline&lt;br&gt;&lt;/b&gt;(QueryPipelineBuilder &amp;amp; pipeline, const BuildQueryPipelineSettings &amp;amp;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="2680" y="280" width="450" height="40" as="geometry" />
+          <mxGeometry x="2680" y="360" width="450" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-87" target="GLADV_qJz34p-wnXOpVd-85">
+        <mxCell id="GLADV_qJz34p-wnXOpVd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-87" target="GLADV_qJz34p-wnXOpVd-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-87" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;QueryPipelineBuilderPtr updatePipeline&lt;/b&gt;&lt;br&gt;(QueryPipelineBuilders pipelines, const BuildQueryPipelineSettings &amp;amp; settings)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="2530" y="220" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-89" value="&lt;b&gt;void QueryPipelineBuilder::init&lt;/b&gt;(Pipe pipe_)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="280" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

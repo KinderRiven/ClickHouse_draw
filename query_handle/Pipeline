@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T16:24:12.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="voVcW4BTVBqMhzrcpkle" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T16:27:20.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="_bCDqR1yIasfHAvcDouC" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="860" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="701" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GLADV_qJz34p-wnXOpVd-234" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="420" width="780" height="260" as="geometry" />
+          <mxGeometry x="1760" y="420" width="780" height="250" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-196" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1160" y="835" width="550" height="295" as="geometry" />
@@ -662,6 +662,21 @@
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-233" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;┌─explain─────────────────────────────────────────┐&lt;br&gt;│ Expression ((Projection + Before ORDER BY))                                 │&lt;br&gt;│   Filter (WHERE)                                                            │&lt;br&gt;│     SettingQuotaAndLimits (Set limits &lt;span style=&quot;color: #cc7832&quot;&gt;and &lt;/span&gt;quota after reading from storage) │&lt;br&gt;│       ReadFromMergeTree                                                     │&lt;br&gt;└──────────────────────────────────────────────┘&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#1A1A1A;" vertex="1" parent="1">
           <mxGeometry x="1790" y="420" width="740" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-235" target="GLADV_qJz34p-wnXOpVd-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-235" value="class SettingQuotaAndLimitsStep" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="600" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-236" target="GLADV_qJz34p-wnXOpVd-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-236" value="class ReadFromMergeTree" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="600" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-237" value="class FilterStep" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="600" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

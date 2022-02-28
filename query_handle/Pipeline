@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T06:55:28.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-qVibj7EvPdetl7YHNYO" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T06:58:15.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="hgLXOK3VPBGaMu802KTC" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="450" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,45 +378,30 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-40" value="&lt;b&gt;class OutputPort&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="40" y="1180" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-41" value="&lt;b&gt;Port::Data&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1210" width="160" height="30" as="geometry" />
+        <mxCell id="GLADV_qJz34p-wnXOpVd-41" value="&lt;b&gt;Port::Data::State&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1240" width="380" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-42" target="GLADV_qJz34p-wnXOpVd-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-62" value="connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GLADV_qJz34p-wnXOpVd-47">
-          <mxGeometry x="-0.1233" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-42" value="&lt;b&gt;InputPort * input_port&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1240" width="160" height="30" as="geometry" />
+          <mxGeometry x="40" y="1210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-44" value="&lt;b&gt;class IntputPort&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="260" y="1180" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-45" value="&lt;b&gt;Port::Data&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1210" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-46" target="GLADV_qJz34p-wnXOpVd-48">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-63" value="connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GLADV_qJz34p-wnXOpVd-52">
-          <mxGeometry x="-0.0529" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="GLADV_qJz34p-wnXOpVd-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-46" target="GLADV_qJz34p-wnXOpVd-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1225" />
+              <mxPoint x="240" y="1210" />
+              <mxPoint x="220" y="1210" />
+              <mxPoint x="220" y="1195" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-46" value="&lt;b&gt;OutputPort * output_port&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1240" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-48" value="&lt;b&gt;class OutputPort&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="499.04" y="1180" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-49" value="&lt;b&gt;Port::Data&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="499.04" y="1210" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-50" value="&lt;b&gt;InputPort * input_port&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="499.04" y="1240" width="160" height="30" as="geometry" />
+          <mxGeometry x="260" y="1210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-56" value="&lt;b&gt;class InputPort&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="540" y="850" width="160" height="30" as="geometry" />
@@ -442,7 +427,10 @@
           <mxGeometry x="990" y="830" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-68" value="input.output_port = &amp;amp;output; &lt;br&gt;output.input_port = &amp;amp;input; &lt;br&gt;input.state = std::make_shared&amp;lt;Port::State&amp;gt;(); output.state = input.state;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;align=left;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1290" width="260" height="70" as="geometry" />
+          <mxGeometry x="440" y="1180" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-70" value="&lt;b&gt;Port::Data data&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1260" width="380" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

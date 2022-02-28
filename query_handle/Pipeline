@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T05:55:40.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="uKLXQC9KzAK7wimPcrrD" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T05:58:34.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="2PjK8NXlpi2jhWB1QnhC" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="378" dy="258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,13 +323,19 @@
           <mxGeometry x="540" y="1090" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-7" value="&lt;b&gt;struct Port::State&lt;/b&gt;&lt;b&gt;::Data&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="755" y="1150" width="140" height="30" as="geometry" />
+          <mxGeometry x="755" y="1120" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-9" value="&lt;b&gt;class Chunk&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="755" y="1000" width="145" height="30" as="geometry" />
+          <mxGeometry x="755" y="1000" width="155" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-11" value="&lt;b&gt;Columns&lt;/b&gt; columns =&lt;br&gt;std::vector&amp;lt;ColumnPtr&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="755" y="1030" width="145" height="40" as="geometry" />
+          <mxGeometry x="755" y="1020" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-12" value="&lt;b&gt;UInt64 &lt;/b&gt;num_rows" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="755" y="1060" width="155" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-13" value="&lt;b&gt;ChunkInfoPtr&lt;/b&gt; chunk_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="755" y="1080" width="155" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

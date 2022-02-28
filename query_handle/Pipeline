@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T03:49:36.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="9zZqe3wiED0I96BUGz1h" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T03:50:04.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="R_P9D2PJ3_infy5fllN-" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -255,22 +255,22 @@
           <mxGeometry x="280" y="880" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-191" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;PipelineResourcesHolder&lt;/b&gt; holder&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="280" y="910" width="200" height="20" as="geometry" />
+          <mxGeometry x="280" y="910" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-192" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Processors processors&lt;/b&gt; =&lt;br&gt;&lt;/span&gt;std::vector&amp;lt;ProcessorPtr&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="280" y="930" width="200" height="30" as="geometry" />
+          <mxGeometry x="280" y="940" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-193" value="&lt;b&gt;OutputPortRawPtrs&lt;/b&gt; output_ports" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="280" y="960" width="200" height="30" as="geometry" />
+          <mxGeometry x="280" y="970" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-196" value="&lt;b&gt;OutputPort * &lt;/b&gt;totals_port" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="280" y="990" width="200" height="30" as="geometry" />
+          <mxGeometry x="280" y="1000" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-197" value="&lt;b&gt;OutputPort * &lt;/b&gt;extremes_port" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1020" width="200" height="30" as="geometry" />
+          <mxGeometry x="280" y="1030" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-198" value="&lt;b&gt;Processors * &lt;/b&gt;collected_processors" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1050" width="200" height="30" as="geometry" />
+          <mxGeometry x="280" y="1060" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

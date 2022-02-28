@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T09:43:16.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="eDQ5pdtAqknz4azcJ3Zt" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T09:47:23.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="K7tuu4viABM1x1DEZtdr" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -608,6 +608,9 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-169" value="&lt;b&gt;Processors *&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="752.5" y="530" width="127.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-180" target="GLADV_qJz34p-wnXOpVd-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-177" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class QueryPipeline&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1180" y="850" width="180" height="25" as="geometry" />
         </mxCell>
@@ -637,6 +640,24 @@
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-188" value="&lt;b&gt;size_t&lt;/b&gt; num_threads" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1180" y="1090" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-189" value="&lt;b&gt;struct PipelineResourcesHolder&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="860" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-190" value="std::vector&amp;lt;std::shared_ptr&amp;lt;const Context&amp;gt;&amp;gt; interpreter_context" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="880" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-191" value="std::vector&amp;lt;&lt;b&gt;StoragePtr&lt;/b&gt;&amp;gt; storage_holders" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="910" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-192" value="std::vector&amp;lt;&lt;b&gt;TableLockHolder&lt;/b&gt;&amp;gt; table_locks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="930" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-193" value="std::vector&amp;lt;std::unique_ptr&amp;lt;&lt;b&gt;QueryPlan&lt;/b&gt;&amp;gt;&amp;gt; query_plans" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="950" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-194" value="std::shared_ptr&amp;lt;QueryIdHolder&amp;gt; query_id_holder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="990" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

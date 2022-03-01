@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T01:50:22.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="oH-LgK2wessqHmF0tm_d" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T01:53:10.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="MA5Ob1rdUu77Y5okuuaX" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="1051" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="678" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -672,7 +672,7 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-235" target="GLADV_qJz34p-wnXOpVd-237">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-235" value="SettingQuotaAndLimitsStep&lt;br&gt;(unknow)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="GLADV_qJz34p-wnXOpVd-235" value="SettingQuotaAndLimitsStep&lt;br&gt;(unknow step)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1970" y="600" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-236" target="GLADV_qJz34p-wnXOpVd-235">
@@ -693,7 +693,7 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-243" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;class FilterStep&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="920" y="670" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-245" value="&lt;span style=&quot;font-size: 11px&quot;&gt;ExpressionStep&lt;br&gt;(unknow)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="GLADV_qJz34p-wnXOpVd-245" value="&lt;span style=&quot;font-size: 11px&quot;&gt;ExpressionStep&lt;br&gt;(unknow step)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="2400" y="600" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-247" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
@@ -704,6 +704,27 @@
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-251" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;┌─explain───────────────┐&lt;br&gt;│ (Expression)                    │&lt;br&gt;│ ExpressionTransform × &lt;span style=&quot;color: #6897bb&quot;&gt;4         &lt;/span&gt;│&lt;br&gt;│   (Filter)                      │&lt;br&gt;│   FilterTransform × &lt;span style=&quot;color: #6897bb&quot;&gt;4           &lt;/span&gt;│&lt;br&gt;│     (SettingQuotaAndLimits)     │&lt;br&gt;│       (ReadFromMergeTree)       │&lt;br&gt;│       MergeTreeThread × &lt;span style=&quot;color: #6897bb&quot;&gt;4 0 &lt;/span&gt;→ &lt;span style=&quot;color: #6897bb&quot;&gt;1 &lt;/span&gt;│&lt;br&gt;└────────────────────┘&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1790" y="690" width="347" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-253" target="GLADV_qJz34p-wnXOpVd-257">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-253" value="FilterTransform" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="910" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-254" target="GLADV_qJz34p-wnXOpVd-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-254" value="SettingQuotaAndLimitsStep&lt;br&gt;(unknow)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="900" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-256" target="GLADV_qJz34p-wnXOpVd-254">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-256" value="ReadFromMergeTree&lt;br&gt;(read data)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="900" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-257" value="ExpressionTransform" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="910" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

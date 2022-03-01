@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T03:22:59.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="yETPvf0YqB7PBSfXoF15" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T03:23:38.397Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="gRBHFMyKQiXx3ctBGY0T" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -735,30 +735,6 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-293" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;struct PullingAsyncPipelineExecutor::Data&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="680" y="1530" width="440" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-294" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;struct PullingAsyncPipelineExecutor::Data&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="1400" width="341" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-295" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;PipelineExecutorPtr executor&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="1450" width="341" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-296" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;std::exception_ptr exception&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="1495" width="341" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-297" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;LazyOutputFormat * lazy_format&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="1545" width="341" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-298" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;std::atomic_bool is_finished&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="1595" width="341" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-299" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;std::atomic_bool has_exception&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="1645" width="341" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-300" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;ThreadFromGlobalPool thread&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="1695" width="341" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GLADV_qJz34p-wnXOpVd-301" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Poco::Event finish_event&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="1745" width="341" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-303" target="GLADV_qJz34p-wnXOpVd-291">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -900,6 +876,9 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-336" value="&lt;font face=&quot;monospace&quot;&gt;struct&lt;/font&gt;&lt;span style=&quot;font-family: monospace&quot;&gt;PipelineExecutor::&lt;/span&gt;&lt;font face=&quot;monospace&quot;&gt;ExpandPipelineTask&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1200" y="2015" width="320" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-337" target="GLADV_qJz34p-wnXOpVd-342">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-337" value="&lt;font face=&quot;monospace&quot;&gt;ExecutingGraph::Node * node_to_expand&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1200" y="2045" width="320" height="30" as="geometry" />
         </mxCell>
@@ -920,6 +899,33 @@
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-345" value="&lt;font face=&quot;monospace&quot;&gt;Edges back_edges (input port)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1200" y="2260" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-348" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1198" y="1450" width="302" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-294" value="&lt;font face=&quot;monospace&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;struct PullingAsyncPipelineExecutor::Data&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=11;" vertex="1" parent="GLADV_qJz34p-wnXOpVd-348">
+          <mxGeometry width="302" height="43.037974683544306" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-295" value="&lt;font face=&quot;monospace&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;PipelineExecutorPtr executor&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=11;" vertex="1" parent="GLADV_qJz34p-wnXOpVd-348">
+          <mxGeometry y="43.037974683544306" width="302" height="43.037974683544306" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-296" value="&lt;font face=&quot;monospace&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;std::exception_ptr exception&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=11;" vertex="1" parent="GLADV_qJz34p-wnXOpVd-348">
+          <mxGeometry y="81.77215189873418" width="302" height="43.037974683544306" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-297" value="&lt;font face=&quot;monospace&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;LazyOutputFormat * lazy_format&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=11;" vertex="1" parent="GLADV_qJz34p-wnXOpVd-348">
+          <mxGeometry y="124.8101265822785" width="302" height="43.037974683544306" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-298" value="&lt;font face=&quot;monospace&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;std::atomic_bool is_finished&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=11;" vertex="1" parent="GLADV_qJz34p-wnXOpVd-348">
+          <mxGeometry y="167.84810126582278" width="302" height="43.037974683544306" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-299" value="&lt;font face=&quot;monospace&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;std::atomic_bool has_exception&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=11;" vertex="1" parent="GLADV_qJz34p-wnXOpVd-348">
+          <mxGeometry y="210.8860759493671" width="302" height="43.037974683544306" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-300" value="&lt;font face=&quot;monospace&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;ThreadFromGlobalPool thread&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=11;" vertex="1" parent="GLADV_qJz34p-wnXOpVd-348">
+          <mxGeometry y="253.92405063291142" width="302" height="43.037974683544306" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-301" value="&lt;font face=&quot;monospace&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;Poco::Event finish_event&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=11;" vertex="1" parent="GLADV_qJz34p-wnXOpVd-348">
+          <mxGeometry y="296.96202531645577" width="302" height="43.037974683544306" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

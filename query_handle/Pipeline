@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T03:23:38.397Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="gRBHFMyKQiXx3ctBGY0T" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T03:25:24.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="US2YTxpGU3mSffTpivjy" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2365" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -894,6 +894,9 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-343" value="&lt;font face=&quot;monospace&quot;&gt;IProcessor * processor&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1200" y="2190" width="320" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-344" target="GLADV_qJz34p-wnXOpVd-349">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-344" value="&lt;font face=&quot;monospace&quot;&gt;Edges direct_edges （output port)&lt;br&gt;= std::list&amp;lt;Edge&amp;gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1200" y="2220" width="320" height="40" as="geometry" />
         </mxCell>
@@ -926,6 +929,15 @@
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-301" value="&lt;font face=&quot;monospace&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;Poco::Event finish_event&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=11;" vertex="1" parent="GLADV_qJz34p-wnXOpVd-348">
           <mxGeometry y="296.96202531645577" width="302" height="43.037974683544306" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-349" value="&lt;font face=&quot;monospace&quot;&gt;struct&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: monospace&quot;&gt;ExecutingGraph::&lt;/span&gt;&lt;font face=&quot;monospace&quot;&gt;Edge&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1560" y="2160" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-351" value="&lt;font face=&quot;monospace&quot;&gt;uint64_t input_port_number&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1560" y="2190" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-352" value="&lt;font face=&quot;monospace&quot;&gt;uint64_t output_port_number&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1560" y="2220" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

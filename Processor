@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T15:28:41.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="FLbQoU0AqG9sjRGdX41Z" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T15:41:15.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="se67bD2YrquN4tdDX2mY" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="1351" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="701" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -515,11 +515,11 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-121" value="Chunk MergeTreeBaseSelectProcessor::readFromPartImpl()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="840" y="1960" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-127" target="Lfx7dPJ4N00ivkeSFCbG-116">
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-127" target="Lfx7dPJ4N00ivkeSFCbG-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-127" value="std::optional&amp;lt;Chunk&amp;gt; ISource::tryGenerate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="1720" width="360" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-127" value="void ISource::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="1734" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-129" target="Lfx7dPJ4N00ivkeSFCbG-4">
           <mxGeometry relative="1" as="geometry">

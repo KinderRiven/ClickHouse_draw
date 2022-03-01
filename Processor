@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T09:48:11.343Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="nG9uS_h6kNoQhjggP3Io" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T09:52:44.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="_cy7U9DzQ6mMPwdzP5Jp" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="1056" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -322,10 +322,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-53" value="MergeTreeBaseSelectProcessor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="110" width="240" height="40" as="geometry" />
+          <mxGeometry x="1560" y="110" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-55" value="&lt;font color=&quot;#1a1a1a&quot;&gt;MergeTreeSequentialSource&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="600" width="240" height="40" as="geometry" />
+          <mxGeometry x="1560" y="700" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-57" value="MergeTreeThreadSelectProcessor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1880" y="110" width="280" height="40" as="geometry" />
@@ -340,25 +340,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="640" width="240" height="40" as="geometry" />
+          <mxGeometry x="1560" y="740" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-62" value="const MergeTreeData &amp;amp; storage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="150" width="240" height="40" as="geometry" />
+          <mxGeometry x="1560" y="150" width="250" height="31.428571428571427" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="190" width="240" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-63" value="StorageMetadataPtr metadata_snapshot" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="181.43" width="300" height="31.43" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="230" width="240" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-64" value="PrewhereInfoPtr prewhere_info" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="212.85714285714286" width="250" height="31.428571428571427" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="270" width="240" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-65" value="std::unique_ptr&lt;PrewhereExprInfo&gt; prewhere_actions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="244.28571428571428" width="250" height="31.428571428571427" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="310" width="240" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-66" value="UInt64 max_block_size_rows" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="275.7142857142857" width="250" height="31.428571428571427" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="350" width="240" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-67" value="UInt64 preferred_block_size_bytes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="307.1428571428571" width="250" height="31.428571428571427" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-68" value="UInt64 preferred_max_column_in_block_size_bytes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="338.57" width="360" height="31.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-70" value="MergeTreeReaderSettings reader_settings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="370" width="300" height="31.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-71" value="bool use_uncompressed_cache" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="401.43" width="230" height="31.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-72" value="DataTypePtr partition_value_type" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="432.86" width="260" height="31.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-73" value="Block header_without_virtual_columns" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="464.29" width="300" height="31.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-74" value="std::unique_ptr&amp;lt;MergeTreeReadTask&amp;gt; task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="495.72" width="320" height="31.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-75" value="std::shared_ptr&amp;lt;MarkCache&amp;gt; owned_mark_cache" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="558.58" width="450" height="31.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-76" value="std::shared_ptr&amp;lt;UncompressedCache&amp;gt; owned_uncompressed_cache" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="527.15" width="480" height="31.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-80" value="MergeTreeReaderPtr reader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="590.0100000000001" width="200" height="31.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-81" value="MergeTreeReaderPtr pre_reader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="620" width="240" height="31.43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

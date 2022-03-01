@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T02:41:33.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Mk_TSXAj6eG5E-tiiCwu" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T02:46:27.456Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Q9bMPvezU8Iq1Uz7jmVn" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="1051" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2102" dy="1436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -774,6 +774,15 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-289" value="&lt;b style=&quot;color: rgb(26 , 26 , 26) ; font-family: monospace ; font-size: 16px&quot;&gt;bool PullingAsyncPipelineExecutor::pull&lt;/b&gt;&lt;br style=&quot;color: rgb(26 , 26 , 26) ; font-family: monospace ; font-size: 16px&quot;&gt;&lt;span style=&quot;color: rgb(26 , 26 , 26) ; font-family: monospace ; font-size: 16px&quot;&gt;(Block &amp;amp; block, uint64_t milliseconds)&lt;/span&gt;&lt;font face=&quot;monospace&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="40" y="1480" width="560" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-312" value="apply" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-291" target="GLADV_qJz34p-wnXOpVd-303">
+          <mxGeometry x="0.033" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="1718" />
+              <mxPoint x="620" y="1630" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-291" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;ThreadFromGlobalPool::&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;b style=&quot;color: rgb(26 , 26 , 26) ; font-family: monospace ; font-size: 16px&quot;&gt;ThreadFromGlobalPool&lt;/b&gt;&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;(Function &amp;amp;&amp;amp; func, Args &amp;amp;&amp;amp;... args)&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="680" y="1680" width="440" height="50" as="geometry" />
         </mxCell>
@@ -811,7 +820,18 @@
           <mxGeometry x="1198" y="1745" width="341" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-303" target="GLADV_qJz34p-wnXOpVd-291">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="1650" />
+              <mxPoint x="660" y="1650" />
+              <mxPoint x="660" y="1705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-311" value="args" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#1A1A1A;" vertex="1" connectable="0" parent="GLADV_qJz34p-wnXOpVd-304">
+          <mxGeometry x="0.0435" y="-2" relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-303" target="GLADV_qJz34p-wnXOpVd-306">
           <mxGeometry relative="1" as="geometry" />

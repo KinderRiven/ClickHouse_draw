@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T16:23:15.506Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="dwpweSLRx-z23fw0FusG" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T16:47:37.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="M7Wp_tvTG5sj09cwHayw" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="1261" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -555,45 +555,6 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-145" value="void SourceWithProgress::progress(const Progress &amp;amp; value)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
           <mxGeometry y="80" width="280" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-151" value="std::optional&amp;lt;Chunk&amp;gt; ISource::tryGenerate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="450" y="2070" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-152" value="Chunk MergeTreeBaseSelectProcessor::generate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="610" y="2150" width="410" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-151" target="Lfx7dPJ4N00ivkeSFCbG-152">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-154" value="bool MergeTreeInOrderSelectProcessor::getNewTask()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="610" y="2190" width="410" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-155" value="Chunk MergeTreeBaseSelectProcessor::readFromPart()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="610" y="2230" width="410" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-156" value="Chunk MergeTreeBaseSelectProcessor::readFromPartImpl()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1090" y="2230" width="440" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-155" target="Lfx7dPJ4N00ivkeSFCbG-156">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-159" target="Lfx7dPJ4N00ivkeSFCbG-151">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-159" value="void ISource::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="370" y="2000" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-161" target="Lfx7dPJ4N00ivkeSFCbG-159">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-161" value="void ISourceWithProgress::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="50" y="2000" width="280" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-162" value="void SourceWithProgress::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="50" y="1960" width="280" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-163" value="void SourceWithProgress::progress(const Progress &amp;amp; value)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="50" y="2040" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-164" value="MergeTreeThreadSelectProcessor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2670" y="495" width="280" height="40" as="geometry" />

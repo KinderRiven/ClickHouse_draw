@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T09:00:31.315Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QztisRr7aUU0hkaw1TRn" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T09:14:13.637Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="vH_ewc5vvjiNxxzBn7yE" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="1188" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,6 +166,9 @@
         <mxCell id="0-Vxbik3-O8wGtfYBQuE-10" value="RemoteExtremesSource" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="680" y="380" width="180" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0-Vxbik3-O8wGtfYBQuE-11" target="Lfx7dPJ4N00ivkeSFCbG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0-Vxbik3-O8wGtfYBQuE-11" value="ISourceWithProgress" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="680" y="420" width="180" height="40" as="geometry" />
         </mxCell>
@@ -180,6 +183,9 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-2" value="&lt;span&gt;MergeSorterSource&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="680" y="580" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-4" value="ISourceWithProgress" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="100" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

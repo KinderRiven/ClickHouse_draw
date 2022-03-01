@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T16:53:02.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="y38FS-2tBnjU-wLIWeWn" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T16:53:47.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Ernf9bvQixGwPSzsoakB" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -566,19 +566,25 @@
           <mxGeometry x="2670" y="482.86" width="190" height="31.43" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-168" value="&lt;span style=&quot;font-weight: normal&quot;&gt;size_t thread&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="594.29" width="160" height="40" as="geometry" />
+          <mxGeometry x="2660" y="594.29" width="160" height="35.71" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-169" value="&lt;span style=&quot;font-weight: 400&quot;&gt;std::shared_ptr&amp;lt;MergeTreeReadPool&amp;gt; pool&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="634.29" width="300" height="40" as="geometry" />
+          <mxGeometry x="2660" y="630" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-170" value="&lt;span style=&quot;font-weight: 400&quot;&gt;size_t min_marks_to_read&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="674.29" width="200" height="40" as="geometry" />
+          <mxGeometry x="2660" y="670" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-171" value="std::string last_readed_part_name" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="714.29" width="260" height="35.71" as="geometry" />
+          <mxGeometry x="2660" y="710" width="260" height="35.71" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-172" value="Names ordered_names" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="750" width="180" height="35.71" as="geometry" />
+          <mxGeometry x="2660" y="745.72" width="180" height="35.71" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-173" value="bool getNewTask()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="781.43" width="180" height="35.71" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-174" value="String getName()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="817.14" width="180" height="35.71" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

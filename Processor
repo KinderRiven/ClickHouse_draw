@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T16:14:46.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="vwWAsc10ZrE9Y2Ahz8_I" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T16:16:16.254Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="g7nwa0v-pXIchBzRCepJ" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -514,44 +514,86 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-140" value="virtual void addTotalRowsApprox(size_t value) = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="430" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-116" value="std::optional&amp;lt;Chunk&amp;gt; ISource::tryGenerate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="440" y="1760" width="360" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-149" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="1620" width="1480" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-117" value="Chunk MergeTreeBaseSelectProcessor::generate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="600" y="1840" width="410" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-116" value="std::optional&amp;lt;Chunk&amp;gt; ISource::tryGenerate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
+          <mxGeometry x="400" y="110" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-116" target="Lfx7dPJ4N00ivkeSFCbG-117">
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-117" value="Chunk MergeTreeBaseSelectProcessor::generate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
+          <mxGeometry x="560" y="190" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="Lfx7dPJ4N00ivkeSFCbG-149" source="Lfx7dPJ4N00ivkeSFCbG-116" target="Lfx7dPJ4N00ivkeSFCbG-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-119" value="bool MergeTreeInOrderSelectProcessor::getNewTask()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="600" y="1880" width="410" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-119" value="bool MergeTreeInOrderSelectProcessor::getNewTask()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
+          <mxGeometry x="560" y="230" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-120" value="Chunk MergeTreeBaseSelectProcessor::readFromPart()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="600" y="1920" width="410" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-120" value="Chunk MergeTreeBaseSelectProcessor::readFromPart()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
+          <mxGeometry x="560" y="270" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-121" value="Chunk MergeTreeBaseSelectProcessor::readFromPartImpl()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1080" y="1920" width="440" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-121" value="Chunk MergeTreeBaseSelectProcessor::readFromPartImpl()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
+          <mxGeometry x="1040" y="270" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-120" target="Lfx7dPJ4N00ivkeSFCbG-121">
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0" edge="1" parent="Lfx7dPJ4N00ivkeSFCbG-149" source="Lfx7dPJ4N00ivkeSFCbG-120" target="Lfx7dPJ4N00ivkeSFCbG-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-127" target="Lfx7dPJ4N00ivkeSFCbG-116">
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="Lfx7dPJ4N00ivkeSFCbG-149" source="Lfx7dPJ4N00ivkeSFCbG-127" target="Lfx7dPJ4N00ivkeSFCbG-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-127" value="void ISource::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="360" y="1690" width="200" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-127" value="void ISource::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
+          <mxGeometry x="320" y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-141" target="Lfx7dPJ4N00ivkeSFCbG-127">
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="Lfx7dPJ4N00ivkeSFCbG-149" source="Lfx7dPJ4N00ivkeSFCbG-141" target="Lfx7dPJ4N00ivkeSFCbG-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-141" value="void ISourceWithProgress::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="40" y="1690" width="280" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-141" value="void ISourceWithProgress::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
+          <mxGeometry y="40" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-143" value="void SourceWithProgress::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="1650" width="280" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-143" value="void SourceWithProgress::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
+          <mxGeometry width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-145" value="void SourceWithProgress::progress(const Progress &amp;amp; value)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="40" y="1730" width="280" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-145" value="void SourceWithProgress::progress(const Progress &amp;amp; value)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-149">
+          <mxGeometry y="80" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-151" value="std::optional&amp;lt;Chunk&amp;gt; ISource::tryGenerate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="2070" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-152" value="Chunk MergeTreeBaseSelectProcessor::generate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="2150" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-151" target="Lfx7dPJ4N00ivkeSFCbG-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-154" value="bool MergeTreeInOrderSelectProcessor::getNewTask()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="610" y="2190" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-155" value="Chunk MergeTreeBaseSelectProcessor::readFromPart()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="610" y="2230" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-156" value="Chunk MergeTreeBaseSelectProcessor::readFromPartImpl()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1090" y="2230" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-155" target="Lfx7dPJ4N00ivkeSFCbG-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-159" target="Lfx7dPJ4N00ivkeSFCbG-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-159" value="void ISource::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="370" y="2000" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontStyle=0" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-161" target="Lfx7dPJ4N00ivkeSFCbG-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-161" value="void ISourceWithProgress::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="50" y="2000" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-162" value="void SourceWithProgress::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="1960" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-163" value="void SourceWithProgress::progress(const Progress &amp;amp; value)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="50" y="2040" width="280" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

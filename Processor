@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T14:59:12.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="o1JRXe914CGDLyQYQZ1P" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T14:59:21.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HFbX-pY2Sx5cBDdy_td5" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="901" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -492,10 +492,10 @@
           <mxGeometry width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-112" value="ISourceWithProgress::work()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-124">
-          <mxGeometry y="40" width="250" height="40" as="geometry" />
+          <mxGeometry y="40" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-113" value="void SourceWithProgress::progress&lt;br&gt;(const Progress &amp;amp; value)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="Lfx7dPJ4N00ivkeSFCbG-124">
-          <mxGeometry y="80" width="250" height="40" as="geometry" />
+          <mxGeometry y="70" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-116" value="std::optional&amp;lt;Chunk&amp;gt; ISource::tryGenerate()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="40" y="1760" width="360" height="40" as="geometry" />

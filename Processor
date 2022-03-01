@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T16:05:24.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bOe6c5jvydEBzBrq4Plp" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T16:08:01.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="auA430eYco30jSY-t4ya" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="823" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -495,10 +495,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-119" value="bool MergeTreeInOrderSelectProcessor::getNewTask()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="600" y="1880" width="410" height="40" as="geometry" />
+          <mxGeometry x="600" y="1920" width="410" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-120" value="Chunk MergeTreeBaseSelectProcessor::readFromPart()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="600" y="1920" width="410" height="40" as="geometry" />
+          <mxGeometry x="600" y="1960" width="410" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-121" value="Chunk MergeTreeBaseSelectProcessor::readFromPartImpl()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1080" y="1920" width="440" height="40" as="geometry" />
@@ -552,6 +552,12 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-145" value="void SourceWithProgress::progress(const Progress &amp;amp; value)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="40" y="1730" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-146" value="while" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#6a00ff;strokeColor=#3700CC;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1880" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-147" value="endwhile" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#6a00ff;strokeColor=#3700CC;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2000" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

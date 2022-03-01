@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T08:23:05.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="_gO7rSuRISGfeWX3z_iW" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T08:27:59.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="dqm0KafZh04DnDc7MwlU" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="_W88KkMsV6V8cURlqZ51-7" value="&lt;b&gt;LimitTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="170" y="480" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_W88KkMsV6V8cURlqZ51-8" value="IMergingTransformBase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="_W88KkMsV6V8cURlqZ51-8" value="IMergingTransformBase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="170" y="520" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_W88KkMsV6V8cURlqZ51-9" value="&lt;b&gt;OffsetTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
@@ -61,17 +61,41 @@
         <mxCell id="_W88KkMsV6V8cURlqZ51-14" value="&lt;b&gt;ConvertingAggregatedToChunksTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="170" y="760" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_W88KkMsV6V8cURlqZ51-16" value="&lt;b&gt;DelayedSource&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="_W88KkMsV6V8cURlqZ51-16" value="&lt;b&gt;AggregatingTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="170" y="800" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_W88KkMsV6V8cURlqZ51-17" value="&lt;b&gt;DelayedSource&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="170" y="840" width="180" height="40" as="geometry" />
+        <mxCell id="_W88KkMsV6V8cURlqZ51-17" value="&lt;b&gt;ExceptionKeepingTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="840" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_W88KkMsV6V8cURlqZ51-18" value="&lt;b&gt;DelayedSource&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="170" y="880" width="180" height="40" as="geometry" />
+        <mxCell id="_W88KkMsV6V8cURlqZ51-18" value="&lt;b&gt;IntersectOrExceptTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="880" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_W88KkMsV6V8cURlqZ51-19" value="&lt;b&gt;DelayedSource&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="_W88KkMsV6V8cURlqZ51-19" value="&lt;b&gt;JoiningTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="170" y="920" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_W88KkMsV6V8cURlqZ51-20" value="&lt;b&gt;FillingRightJoinSideTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="960" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_W88KkMsV6V8cURlqZ51-21" value="&lt;b&gt;GroupingAggregatedTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1000" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_W88KkMsV6V8cURlqZ51-22" value="SortingAggregatedTransform" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="170" y="1040" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_W88KkMsV6V8cURlqZ51-23" value="&lt;b&gt;SortingTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1080" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_W88KkMsV6V8cURlqZ51-24" value="&lt;b&gt;WindowTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1120" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_W88KkMsV6V8cURlqZ51-25" value="&lt;b&gt;CopyingDataToViewsTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1160" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_W88KkMsV6V8cURlqZ51-26" value="&lt;b&gt;FinalizingViewsTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1200" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_W88KkMsV6V8cURlqZ51-27" value="&lt;b&gt;CopyTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1240" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

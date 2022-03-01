@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T02:58:54.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="dbgk6bxyoyNkzMv3zHqq" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T03:00:09.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="nR7zyi72lT4gZKcH-rM0" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="728" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -854,8 +854,14 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-314" value="&lt;font face=&quot;monospace&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;void PipelineExecutor::executeImpl&lt;br&gt;(size_t num_threads)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1319" y="1920" width="341" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-319" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;" edge="1" parent="1" source="GLADV_qJz34p-wnXOpVd-316" target="GLADV_qJz34p-wnXOpVd-318">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-316" value="&lt;font face=&quot;monospace&quot;&gt;&lt;b&gt;void PipelineExecutor::executeSingleThread&lt;br&gt;&lt;/b&gt;(size_t thread_num, size_t num_threads)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1449" y="2000" width="341" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GLADV_qJz34p-wnXOpVd-318" value="&lt;font face=&quot;monospace&quot;&gt;&lt;b&gt;void PipelineExecutor::executeStepImpl&lt;/b&gt;&lt;br&gt;(size_t thread_num, size_t num_threads, std::atomic_bool * yield_flag)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1579" y="2080" width="301" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

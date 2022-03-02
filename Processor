@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T07:49:59.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="s9x8XGz8c382OJpq4qjn" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T07:50:30.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7yso_vIpsyIyhdmG9kd8" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1037,11 +1037,11 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-346" value="virtual void listFiles(const String &amp;amp; path, std::vector&amp;lt;String&amp;gt; &amp;amp; file_names)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="5200" y="1062.87" width="510" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-347" value="virtual std::unique_ptr&lt;ReadBufferFromFileBase&gt; readFile( const String &amp; path, const ReadSettings &amp; settings = ReadSettings{}, std::optional&lt;size_t&gt; size = {})" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5200" y="1112.87" width="450" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-347" value="virtual std::unique_ptr&amp;lt;ReadBufferFromFileBase&amp;gt; readFile( const String &amp;amp; path, const ReadSettings &amp;amp; settings = ReadSettings{}, std::optional&amp;lt;size_t&amp;gt; size = {})" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1112.87" width="550" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-348" value="virtual std::unique_ptr&lt;WriteBufferFromFileBase&gt; writeFile( const String &amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5200" y="1162.87" width="530" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-348" value="virtual std::unique_ptr&amp;lt;WriteBufferFromFileBase&amp;gt; writeFile( const String &amp;amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1162.87" width="600" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-349" value="virtual void removeFile(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="5200" y="1212.87" width="320" height="50" as="geometry" />

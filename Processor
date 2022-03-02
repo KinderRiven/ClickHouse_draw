@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T01:58:09.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="DLDDgGRRcrUlptEEi1k0" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T01:58:48.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="KcTedsWNWYm3Nd3hm8Cp" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="2703" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="591" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -364,8 +364,8 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-73" value="Block header_without_virtual_columns" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="1950" y="464.29" width="270" height="31.43" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-74" value="std::unique_ptr&amp;lt;MergeTreeReadTask&amp;gt; task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="495.72" width="300" height="31.43" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-74" value="std::unique_ptr&amp;lt;MergeTreeReadTask&amp;gt; task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="495.72" width="330" height="31.43" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-75" value="std::shared_ptr&amp;lt;MarkCache&amp;gt; owned_mark_cache" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="1950" y="558.58" width="340" height="31.43" as="geometry" />
@@ -373,8 +373,8 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-76" value="std::shared_ptr&amp;lt;UncompressedCache&amp;gt; owned_uncompressed_cache" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="1950" y="527.15" width="480" height="31.43" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-80" value="MergeTreeReaderPtr reader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="590.0100000000001" width="200" height="31.43" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-80" value="MergeTreeReaderPtr reader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="590.01" width="220" height="31.43" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-81" value="MergeTreeReaderPtr pre_reader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="1950" y="620" width="240" height="31.43" as="geometry" />

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T16:32:06.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="uQqlDr0jJzPYP6WrWgdu" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T16:33:20.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="G7AL_ie7-IdTAOAJIgiM" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="728" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="511" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1520,6 +1520,9 @@
         </mxCell>
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-30" value="IDisk" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#a0522d;strokeColor=#6D1F00;rotation=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1192.5" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-33" value="ReadBufferFromFileBase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#76608a;strokeColor=#432D57;rotation=0;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1237.5" width="200" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

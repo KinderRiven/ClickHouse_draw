@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T08:34:28.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="KDodJrryyieN8gCiIHYh" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T08:35:52.706Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ljYbBt0PbiIyEPdP-irI" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="757" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1186,6 +1186,18 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-398" value="&lt;b&gt;std::make_unique&amp;lt;MMapReadBufferFromFileWithCache&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="6280" y="680" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-401" value="&lt;b&gt;std::make_unique&amp;lt;ReadBufferFromFile&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="6410" y="720" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-402" value="&lt;b&gt;std::make_unique&amp;lt;ReadBufferFromFilePReadWithDescriptorsCache&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="6210" y="755" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-403" value="&lt;b&gt;std::make_shared&amp;lt;SynchronousReader&amp;gt;()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="6410" y="795" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-404" value="&lt;b&gt;std::make_shared&amp;lt;ThreadPoolReader&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="6410" y="835" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T02:02:45.258Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="DI7hv7ToNS6bqQREnhoE" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T02:15:57.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="gbAH61eah1qaJNK_K3b0" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -639,6 +639,9 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-194" value="MergeTreeReaderInMemory" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="2920" y="1000" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-196" value="MergeTreeReadTask" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="1240" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

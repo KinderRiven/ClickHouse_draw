@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T03:34:56.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="qm7b-fqrOYXNoL0I6hyI" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T03:35:27.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7PKfgHx5djbuZQVbIFxc" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="1455" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -802,14 +802,14 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-252" value="&lt;b&gt;size_t MergeTreeRangeReader::DelayedStream::finalize&lt;/b&gt;&lt;br&gt;(Columns &amp;amp; columns)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3740" y="2007.5" width="440" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-256" target="Lfx7dPJ4N00ivkeSFCbG-258">
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-256" target="Lfx7dPJ4N00ivkeSFCbG-258">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-256" value="&lt;b&gt;size_t MergeTreeRangeReader::DelayedStream::readRows&lt;/b&gt;&lt;br&gt;(Columns &amp;amp; columns, size_t num_rows)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3930" y="2087.5" width="450" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-258" value="&lt;b&gt;IMergeTreeReader::readRows&lt;br&gt;(size_t from_mark, size_t current_task_last_mark, bool continue_reading, size_t max_rows_to_read, Columns &amp;amp; res_columns)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4460" y="2077.5" width="560" height="75" as="geometry" />
+          <mxGeometry x="4130" y="2170" width="560" height="75" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-260" value="MergeTreeRangeReader::ReadResult read&lt;br&gt;(size_t max_rows, MarkRanges &amp;amp; ranges)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1080" y="2100" width="440" height="50" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T16:57:06.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="V4-Gt4OF1RFNdbvAKNnx" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T16:57:35.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7Pg8OOm1HWUP3vSVgrDG" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="631" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1513,7 +1513,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-27" value="&lt;b&gt;ReadBuffer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e3c800;strokeColor=#B09500;rotation=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="827.8" y="1290.47" width="320" height="39.53" as="geometry" />
+          <mxGeometry x="827" y="1250.47" width="132.2" height="89.53" as="geometry" />
         </mxCell>
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="757.8" y="1478.4299999999998" width="284.38" height="138.13" as="geometry" />
@@ -1527,11 +1527,11 @@
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-36" value="&lt;b&gt;MergeTreeMarksLoader&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d80073;strokeColor=#A50040;rotation=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="900.0000000000001" y="1131.25" width="186.56" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="1rFgEm3q2ZKk34zS4ytC-38" value="CachedCompressed&lt;br&gt;ReadBuffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;rotation=0;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="827.8" y="1240" width="150" height="50" as="geometry" />
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-38" value="CachedCompressedReadBuffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;rotation=0;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="959.2" y="1250" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1rFgEm3q2ZKk34zS4ytC-39" value="Compressed&lt;br&gt;ReadBufferFromFile" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#6a00ff;strokeColor=#3700CC;rotation=0;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="977.8" y="1240" width="170" height="50" as="geometry" />
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-39" value="CompressedReadBufferFromFile" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#6a00ff;strokeColor=#3700CC;rotation=0;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="959.2" y="1300" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

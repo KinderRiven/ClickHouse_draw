@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T03:18:18.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ZZU22Wo8SM63dhbZHceN" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T03:19:00.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="t9AvADtBHwO-McTgL8GB" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="701" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -787,8 +787,8 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-248" value="&lt;span&gt;&lt;b&gt;size_t MergeTreeRangeReader::Stream::readRows&lt;/b&gt;&lt;br&gt;(Columns &amp;amp; columns, size_t num_rows)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4120" y="1945" width="380" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-250" value="&lt;span&gt;&lt;b&gt;size_t MergeTreeRangeReader::Stream::readRows&lt;/b&gt;&lt;br&gt;(Columns &amp;amp; columns, size_t num_rows)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4280" y="2030" width="380" height="55" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-250" value="&lt;span&gt;&lt;b&gt;size_t MergeTreeRangeReader::DelayedStream::read&lt;/b&gt;&lt;br&gt;(Columns &amp;amp; columns, size_t from_mark, size_t offset, size_t num_rows)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4280" y="2030" width="490" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

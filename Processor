@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T03:52:28.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="IjHArJVFYloWKcwZ-07C" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T03:53:31.443Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="YD80QKI1p2gojgbFpNuk" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="1351" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -855,6 +855,9 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-275" value="ColumnsFromPart columns_from_part" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="2830" y="1300" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-276" value="&lt;b&gt;size_t readRows&lt;/b&gt;(size_t from_mark, size_t current_task_last_mark, bool continue_reading, size_t max_rows_to_read, Columns &amp;amp; res_columns)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="800" width="360" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

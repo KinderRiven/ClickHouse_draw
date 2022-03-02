@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T09:29:47.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="y8Gz1iJqcW9ipKyRm0tn" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T09:34:43.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ZyZhgjv3h-xFnn1gD8Iu" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1281,7 +1281,7 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-426" value="&lt;b&gt;Base&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="6160" y="256.78999999999996" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-442" value="&lt;b&gt;void ISerialization::&lt;/b&gt;&lt;b&gt;deserializeBinaryBulkStatePrefix&lt;/b&gt;( DeserializeBinaryBulkSettings &amp;amp; /*settings*/, DeserializeBinaryBulkStatePtr &amp;amp; /*state*/)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-442" value="&lt;b&gt;DeserializeBinaryBulkSettings::OutputStreamGetter&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3380" y="1587.5" width="665" height="52.5" as="geometry" />
         </mxCell>
       </root>

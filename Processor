@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T08:27:04.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="CPhWmLDuraw3kxbB7QNG" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T08:28:28.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TSmFiKtMwEVWXOm-HzRx" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1170,7 +1170,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-393" value="&lt;b&gt;std::unique_ptr&amp;lt;ReadBufferFromFileBase&amp;gt; &lt;/b&gt;DiskLocal::readFile(const String &amp;amp; path, const ReadSettings &amp;amp; settings, std::optional&amp;lt;size_t&amp;gt; size) const" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5880" y="490" width="550" height="60" as="geometry" />
+          <mxGeometry x="5880" y="490" width="560" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

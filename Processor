@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T09:36:58.946Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="YDDkcuriYt9PpJKt7fcZ" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T09:38:47.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="YW7yccoI3J2vSeFXzjR8" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1281,8 +1281,23 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-442" value="&lt;b&gt;DeserializeBinaryBulkSettings&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4192.5" y="1639" width="287.5" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-444" value="InputStreamGetter getter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4192.5" y="1691.5" width="287.5" height="38.5" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-444" value="InputStreamGetter getter =&lt;br&gt;std::function&amp;lt;ReadBuffer*(const SubstreamPath &amp;amp;)&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1691.5" width="357.5" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-445" value="SubstreamPath path" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1740" width="207.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-446" value="bool continuous_reading = true" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1770" width="277.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-447" value="bool position_independent_encoding = true" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1800" width="327.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-448" value="bool native_format = false" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1830" width="207.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-449" value="double avg_value_size_hint" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1860" width="207.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

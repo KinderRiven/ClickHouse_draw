@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T11:14:01.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="j02xszMG9s9T9VUyb_lu" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T11:18:33.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="4WD2xXipoXtnNhjUHnXZ" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="1113" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -918,7 +918,10 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-294" value="&lt;b&gt;void ISerialization::&lt;/b&gt;&lt;b&gt;deserializeBinaryBulkStatePrefix&lt;/b&gt;( DeserializeBinaryBulkSettings &amp;amp; /*settings*/, DeserializeBinaryBulkStatePtr &amp;amp; /*state*/)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3380" y="1408.75" width="665" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-296" value="&lt;b&gt;virtual void deserializeBinaryBulkWithMultipleStreams&lt;/b&gt;( ColumnPtr &amp;amp; column, size_t limit, DeserializeBinaryBulkSettings &amp;amp; settings, DeserializeBinaryBulkStatePtr &amp;amp; state, SubstreamsCache * cache) const;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-453" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-296" target="Lfx7dPJ4N00ivkeSFCbG-452">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-296" value="&lt;b&gt;virtual void&lt;/b&gt;&lt;b&gt;ISerialization::&lt;/b&gt;&lt;b&gt;deserializeBinaryBulkWithMultipleStreams&lt;/b&gt;( ColumnPtr &amp;amp; column, size_t limit, DeserializeBinaryBulkSettings &amp;amp; settings, DeserializeBinaryBulkStatePtr &amp;amp; state, SubstreamsCache * cache) const;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3380" y="1460" width="665" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-297" value="&lt;b&gt;void readData&lt;/b&gt;( const NameAndTypePair &amp;amp; name_and_type, ColumnPtr &amp;amp; column, size_t from_mark, bool continue_reading, size_t current_task_last_mark, size_t max_rows_to_read, ISerialization::SubstreamsCache &amp;amp; cache, bool was_prefetched)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;" vertex="1" parent="1">
@@ -1298,6 +1301,9 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-449" value="double avg_value_size_hint" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4192.5" y="1860" width="207.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-452" value="&lt;b&gt;virtual void&amp;nbsp;&lt;span&gt;ISerialization::&lt;/span&gt;deserializeBinaryBulk&lt;/b&gt;(IColumn &amp;amp; column, ReadBuffer &amp;amp; istr, size_t limit, double avg_value_size_hint)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="3380" y="1567.5" width="665" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

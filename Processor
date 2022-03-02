@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T11:19:30.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="6_EiVq7B-GB2TQ1a3mJi" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T11:21:16.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="S3bqH0fkr5QqmT7Ksf7Q" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="728" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="610" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -969,6 +969,9 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-313" value="std::unique_ptr&amp;lt;CompressedReadBufferFromFile&amp;gt; non_cached_buffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4192.5" y="1322.5" width="367.5" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-455" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-314" target="Lfx7dPJ4N00ivkeSFCbG-454">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-314" value="MergeTreeMarksLoader marks_loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4192.5" y="1362.5" width="287.5" height="40" as="geometry" />
         </mxCell>
@@ -1304,6 +1307,9 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-452" value="&lt;b&gt;virtual void&amp;nbsp;&lt;span&gt;ISerialization::&lt;/span&gt;deserializeBinaryBulk&lt;/b&gt;(IColumn &amp;amp; column, ReadBuffer &amp;amp; istr, size_t limit, double avg_value_size_hint)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3380" y="1567.5" width="665" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-454" value="MergeTreeMarksLoader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4680" y="1362.5" width="287.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

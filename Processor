@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T11:38:20.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="04BVoMFnK0ruj9qb7G5I" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T11:40:45.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3t_Uezgy-G4NpTiLlLyb" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="1261" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1357,6 +1357,15 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-475" value="&lt;b&gt;static ReadBuffer * getStream&lt;/b&gt;( bool seek_to_start, &lt;b&gt;&lt;u&gt;const ISerialization::SubstreamPath&lt;/u&gt;&lt;/b&gt; &amp;amp; substream_path, &lt;b&gt;&lt;u&gt;MergeTreeReaderWide::FileStreams&lt;/u&gt;&lt;/b&gt; &amp;amp; streams, &lt;b&gt;&lt;u&gt;const NameAndTypePair&lt;/u&gt;&lt;/b&gt; &amp;amp; name_and_type, size_t from_mark, bool seek_to_mark, size_t current_task_last_mark, ISerialization::SubstreamsCache &amp;amp; cache)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e3c800;strokeColor=#B09500;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3790" y="110" width="665" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-476" value="&lt;b&gt;MergeTreeReaderStream&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="3790" y="195" width="665" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-477" value="&lt;b&gt;MergeTreeReaderStream::SeekToStart()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="3790" y="240" width="665" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-478" value="&lt;b&gt;MergeTreeReaderStream::SeekToMark()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="3790" y="284.28" width="665" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

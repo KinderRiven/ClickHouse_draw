@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T06:14:03.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="uk3Cm1to9eGWph8DEk06" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T06:19:55.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="jxdK6zvvAzKNo9ANy2bD" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -893,8 +893,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-290" value="&lt;b&gt;static ReadBuffer * getStream&lt;/b&gt;( bool seek_to_start, &lt;b&gt;&lt;u&gt;const ISerialization::SubstreamPath&lt;/u&gt;&lt;/b&gt; &amp;amp; substream_path, &lt;b&gt;&lt;u&gt;MergeTreeReaderWide::FileStreams&lt;/u&gt;&lt;/b&gt; &amp;amp; streams, &lt;b&gt;&lt;u&gt;const NameAndTypePair&lt;/u&gt;&lt;/b&gt; &amp;amp; name_and_type, size_t from_mark, bool seek_to_mark, size_t current_task_last_mark, ISerialization::SubstreamsCache &amp;amp; cache)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4180" y="1072.5" width="660" height="85" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-290" value="&lt;b&gt;static ReadBuffer * getStream&lt;/b&gt;( bool seek_to_start, &lt;b&gt;&lt;u&gt;const ISerialization::SubstreamPath&lt;/u&gt;&lt;/b&gt; &amp;amp; substream_path, &lt;b&gt;&lt;u&gt;MergeTreeReaderWide::FileStreams&lt;/u&gt;&lt;/b&gt; &amp;amp; streams, &lt;b&gt;&lt;u&gt;const NameAndTypePair&lt;/u&gt;&lt;/b&gt; &amp;amp; name_and_type, size_t from_mark, bool seek_to_mark, size_t current_task_last_mark, ISerialization::SubstreamsCache &amp;amp; cache)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4135" y="1072.5" width="660" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

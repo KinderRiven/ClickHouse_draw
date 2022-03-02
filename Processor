@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T08:38:13.117Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="iAIRW2c-dREwTvNiOn0q" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T08:39:30.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="kdekPIbIHGCaOX2-bevn" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="823" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="631" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1204,6 +1204,12 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-407" value="&lt;b&gt;ReadBufferFromFile&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="6800" y="600" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-409" value="&lt;b&gt;explicit ReadBufferFromFile&lt;/b&gt;(const std::string &amp;amp; file_name_, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, int flags = -1, char * existing_memory = nullptr, size_t alignment = 0)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="6800" y="640" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-410" value="&lt;b&gt;explicit ReadBufferFromFile&lt;/b&gt;( int &amp;amp; fd, /// Will be set to -1 if constructor didn&#39;t throw and ownership of file descriptor is passed to the object. const std::string &amp;amp; original_file_name = {}, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, char * existing_memory = nullptr, size_t alignment = 0)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="6800" y="710" width="560" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

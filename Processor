@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T07:50:30.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7yso_vIpsyIyhdmG9kd8" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T07:52:09.153Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="51dcjQRDdCpQmDbfGJkV" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -938,17 +938,17 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-309" value="MarkCache * mark_cache" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4192.5" y="1157.49" width="227.5" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-310" value="std::optional&lt;size_t&gt; last_right_offset" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4192.5" y="1192.5" width="227.5" height="35" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-310" value="std::optional&amp;lt;size_t&amp;gt; last_right_offset" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1192.5" width="277.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-311" value="const MergeTreeIndexGranularityInfo * index_granularity_info" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4192.5" y="1227.5" width="287.5" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-312" value="std::unique_ptr&lt;CachedCompressedReadBuffer&gt; cached_buffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4192.5" y="1282.5" width="227.5" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-312" value="std::unique_ptr&amp;lt;CachedCompressedReadBuffer&amp;gt; cached_buffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1282.5" width="447.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-313" value="std::unique_ptr&lt;CompressedReadBufferFromFile&gt; non_cached_buffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4192.5" y="1322.5" width="247.5" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-313" value="std::unique_ptr&amp;lt;CompressedReadBufferFromFile&amp;gt; non_cached_buffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1322.5" width="367.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-314" value="MergeTreeMarksLoader marks_loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4192.5" y="1362.5" width="287.5" height="40" as="geometry" />
@@ -962,8 +962,8 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-318" value="void adjustForRange(MarkRange range)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4192.5" y="1482.5" width="287.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-319" value="std::pair&lt;size_t, size_t&gt; getRightOffsetAndBytesRange(size_t left_mark, size_t right_mark)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4192.5" y="1522.5" width="367.5" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-319" value="std::pair&amp;lt;size_t, size_t&amp;gt; getRightOffsetAndBytesRange(size_t left_mark, size_t right_mark)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4192.5" y="1522.5" width="447.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-320" value="&lt;b&gt;MergeTreeReaderStream::MergeTreeReaderStream&lt;/b&gt;( &lt;b&gt;DiskPtr &lt;/b&gt;disk_, const String &amp;amp; path_prefix_, const String &amp;amp; data_file_extension_, size_t marks_count_, const MarkRanges &amp;amp; all_mark_ranges, const MergeTreeReaderSettings &amp;amp; settings, MarkCache * mark_cache_, UncompressedCache * uncompressed_cache, size_t file_size_, const MergeTreeIndexGranularityInfo * index_granularity_info_, const ReadBufferFromFileBase::ProfileCallback &amp;amp; profile_callback, clockid_t clock_type)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4192.5" y="845" width="727.5" height="105" as="geometry" />

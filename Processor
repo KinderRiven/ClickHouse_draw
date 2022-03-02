@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T07:41:39.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="yNnRU_95eeuRPyXQGIqb" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T07:44:41.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="dYiZNcz7IqscYdYr6PfP" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="996" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -972,94 +972,112 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-322" value="&lt;b&gt;Space&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5030" y="717.5" width="120" height="50" as="geometry" />
+          <mxGeometry x="5000" y="72.87" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-323" value="&lt;b&gt;IDisk&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="717.5" width="280" height="50" as="geometry" />
+          <mxGeometry x="5200" y="72.87" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-326" value="virtual const String &amp; getPath() const" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="767.5" width="280" height="50" as="geometry" />
+          <mxGeometry x="5200" y="122.87" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-327" value="virtual UInt64 getTotalSpace()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="817.5" width="280" height="50" as="geometry" />
+          <mxGeometry x="5200" y="172.87" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-328" value="virtual UInt64 getAvailableSpace()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="867.5" width="280" height="50" as="geometry" />
+          <mxGeometry x="5200" y="222.87" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-329" value="virtual UInt64 getUnreservedSpace()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="917.5" width="280" height="50" as="geometry" />
+          <mxGeometry x="5200" y="272.87" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-330" value="virtual UInt64 getKeepingFreeSpace()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="967.5" width="280" height="50" as="geometry" />
+          <mxGeometry x="5200" y="322.87" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-331" value="virtual bool exists(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1017.5" width="280" height="50" as="geometry" />
+          <mxGeometry x="5200" y="372.87" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-332" value="virtual bool isFile(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1067.5" width="280" height="50" as="geometry" />
+          <mxGeometry x="5200" y="422.87" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-333" value="virtual bool isDirectory(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1117.5" width="310" height="50" as="geometry" />
+          <mxGeometry x="5200" y="472.87" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-335" value="virtual size_t getFileSize(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1162.5" width="310" height="50" as="geometry" />
+          <mxGeometry x="5200" y="517.87" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-336" value="virtual void createDirectory(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1210" width="370" height="50" as="geometry" />
+          <mxGeometry x="5200" y="565.37" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-337" value="virtual void createDirectories(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1260" width="370" height="50" as="geometry" />
+          <mxGeometry x="5200" y="615.37" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-338" value="virtual void clearDirectory(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1310" width="350" height="50" as="geometry" />
+          <mxGeometry x="5200" y="665.37" width="350" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-339" value="virtual void moveDirectory(const String &amp; from_path, const String &amp; to_path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1358.75" width="310" height="50" as="geometry" />
+          <mxGeometry x="5200" y="714.12" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-340" value="virtual DiskDirectoryIteratorPtr iterateDirectory(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1408.75" width="310" height="50" as="geometry" />
+          <mxGeometry x="5200" y="764.12" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-341" value="bool isDirectoryEmpty(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1458.75" width="310" height="50" as="geometry" />
+          <mxGeometry x="5200" y="814.12" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-342" value="virtual void createFile(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1508.75" width="310" height="50" as="geometry" />
+          <mxGeometry x="5200" y="864.12" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-343" value="virtual void moveFile(const String &amp; from_path, const String &amp; to_path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1557.5" width="310" height="50" as="geometry" />
+          <mxGeometry x="5200" y="912.87" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-344" value="virtual void replaceFile(const String &amp; from_path, const String &amp; to_path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1607.5" width="310" height="50" as="geometry" />
+          <mxGeometry x="5200" y="962.87" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-345" value="virtual void copy(const String &amp; from_path, const std::shared_ptr&lt;IDisk&gt; &amp; to_disk, const String &amp; to_path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1657.5" width="370" height="50" as="geometry" />
+          <mxGeometry x="5200" y="1012.87" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-346" value="virtual void listFiles(const String &amp; path, std::vector&lt;String&gt; &amp; file_names)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1707.5" width="310" height="50" as="geometry" />
+          <mxGeometry x="5200" y="1062.87" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-347" value="virtual std::unique_ptr&lt;ReadBufferFromFileBase&gt; readFile( const String &amp; path, const ReadSettings &amp; settings = ReadSettings{}, std::optional&lt;size_t&gt; size = {})" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1757.5" width="450" height="50" as="geometry" />
+          <mxGeometry x="5200" y="1112.87" width="450" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-348" value="virtual std::unique_ptr&lt;WriteBufferFromFileBase&gt; writeFile( const String &amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1807.5" width="530" height="50" as="geometry" />
+          <mxGeometry x="5200" y="1162.87" width="530" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-349" value="virtual std::unique_ptr&lt;WriteBufferFromFileBase&gt; writeFile( const String &amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1857.5" width="530" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-349" value="virtual void removeFile(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1212.87" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-350" value="virtual std::unique_ptr&lt;WriteBufferFromFileBase&gt; writeFile( const String &amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1907.5" width="530" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-350" value="virtual void removeFileIfExists(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1262.87" width="350" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-351" value="virtual std::unique_ptr&lt;WriteBufferFromFileBase&gt; writeFile( const String &amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="1957.5" width="530" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-351" value="virtual void removeDirectory(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1312.87" width="350" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-352" value="virtual std::unique_ptr&lt;WriteBufferFromFileBase&gt; writeFile( const String &amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="2007.5" width="530" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-352" value="virtual void removeRecursive(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1362.87" width="350" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-353" value="virtual std::unique_ptr&lt;WriteBufferFromFileBase&gt; writeFile( const String &amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="2057.5" width="530" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-353" value="virtual void removeSharedFile(const String &amp; path, bool)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1412.87" width="380" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-354" value="virtual std::unique_ptr&lt;WriteBufferFromFileBase&gt; writeFile( const String &amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="2107.5" width="530" height="50" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-354" value="virtual void removeSharedRecursive" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1462.87" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-355" value="virtual void removeSharedFileIfExists(const String &amp; path, bool)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1512.87" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-356" value="virtual void setLastModified(const String &amp; path, const Poco::Timestamp &amp; timestamp)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1562.87" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-357" value="virtual Poco::Timestamp getLastModified(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1612.87" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-358" value="virtual void setReadOnly(const String &amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1662.87" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-359" value="virtual void createHardLink(const String &amp; src_path, const String &amp; dst_path)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1712.87" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-360" value="virtual void truncateFile(const String &amp; path, size_t size)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5200" y="1762.87" width="380" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

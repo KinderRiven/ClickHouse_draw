@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T01:48:40.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="6oUqE_v-BqCHJMiDiOoB" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T01:49:40.321Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="SyU_3u9YKqKMaJcWvg78" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="728" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1314,8 +1314,8 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-427" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-426" target="Lfx7dPJ4N00ivkeSFCbG-424" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-426" value="&lt;b&gt;Base&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="6160" y="256.78999999999996" width="200" height="40" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-426" value="&lt;b&gt;SeekableReadBuffer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="6160" y="244.28999999999996" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-442" value="&lt;b&gt;DeserializeBinaryBulkSettings&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="4192.5" y="1639" width="287.5" height="52.5" as="geometry" />
@@ -1574,6 +1574,18 @@
         </mxCell>
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-75" value="&lt;b&gt;ReadBufferFromFileBase&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3930" y="477.15" width="470" height="72.85" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;fillColor=default;" edge="1" parent="1" source="1rFgEm3q2ZKk34zS4ytC-77" target="Lfx7dPJ4N00ivkeSFCbG-426">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-77" value="&lt;b&gt;ReadBuffer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="6160" y="317.86999999999995" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;fillColor=default;" edge="1" parent="1" source="1rFgEm3q2ZKk34zS4ytC-79" target="1rFgEm3q2ZKk34zS4ytC-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-79" value="&lt;b&gt;BufferBase&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="6160" y="389.99999999999994" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

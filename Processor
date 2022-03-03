@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T02:56:21.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Xe9EQwmIiK7TKCQ-4pDt" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T02:57:49.249Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3ZSHiDTK-NRJNHMkK5eq" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1541,6 +1541,14 @@
         </mxCell>
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-114" value="&lt;b&gt;MergeTreeReaderStream&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f0a30a;strokeColor=#BD7000;rotation=0;fontColor=#000000;" vertex="1" parent="1rFgEm3q2ZKk34zS4ytC-150">
           <mxGeometry x="265.94000000000005" y="226.51000000000022" width="188.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;fontColor=#1A1A1A;strokeWidth=3;fillColor=default;" edge="1" parent="1rFgEm3q2ZKk34zS4ytC-150" source="1rFgEm3q2ZKk34zS4ytC-115" target="1rFgEm3q2ZKk34zS4ytC-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-187" value="Column" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#1A1A1A;" vertex="1" connectable="0" parent="1rFgEm3q2ZKk34zS4ytC-186">
+          <mxGeometry x="-0.2913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-115" value="&lt;b&gt;ReadBuffer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e3c800;strokeColor=#B09500;rotation=0;fontColor=#000000;" vertex="1" parent="1rFgEm3q2ZKk34zS4ytC-150">
           <mxGeometry x="285.94000000000005" y="294.48" width="93" height="89.53" as="geometry" />

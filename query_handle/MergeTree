@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T08:00:14.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="lIWJzbVywRVTzxRD2xeR" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T08:03:08.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="V-gEpuw0hx-2CwP45gcn" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="631" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="701" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,13 +108,13 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-52" target="AUfJygzl4c1fihGhgo_K-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-52" value="virtual MergeTreeReaderPtr getReader()" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-52" value="virtual MergeTreeReaderPtr getReader()" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="560" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-54" target="AUfJygzl4c1fihGhgo_K-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-54" value="virtual MergeTreeWriterPtr getWriter()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-54" value="virtual MergeTreeWriterPtr getWriter()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="590" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-37" value="MergeTreeDataPartWide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=14;" vertex="1" parent="1">
@@ -156,7 +156,7 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-72" target="AUfJygzl4c1fihGhgo_K-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-72" value="virtual bool isStoredOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-72" value="virtual bool isStoredOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=13;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="620" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-73" target="AUfJygzl4c1fihGhgo_K-41">
@@ -167,7 +167,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-73" value="virtual bool isStoredOnRemoteDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-73" value="virtual bool isStoredOnRemoteDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=13;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="650" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-74" target="AUfJygzl4c1fihGhgo_K-42">
@@ -179,7 +179,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-74" value="virtual bool supportsVerticalMerge()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-74" value="virtual bool supportsVerticalMerge()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=13;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="680" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-78" value="ColumnSize getColumnSize(const String &amp;amp; column_name, const IDataType &amp;amp; /* type */)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
@@ -287,11 +287,11 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-115" value="mutable bool force_keep_shared_data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="1850" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-116" value="enum class State" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-116" value="enum class State" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontStyle=0;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="40" y="1880" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-117" value="bool is_temp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1910" width="110" height="30" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-117" value="TTLInfos ttl_infos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1910" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

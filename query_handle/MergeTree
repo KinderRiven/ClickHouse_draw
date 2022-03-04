@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T11:24:15.019Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ZYzZrV7f7TodhUSTNSRz" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T11:26:16.517Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="8PI4E2oEZDVMKBYYznN7" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2767" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -646,55 +646,60 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-239" value="&lt;b&gt;Space&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="-1620" y="-410" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-241" target="AUfJygzl4c1fihGhgo_K-251">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-241" target="AUfJygzl4c1fihGhgo_K-255">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1300" y="-385" />
+              <mxPoint x="-1300" y="-436" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-241" value="&lt;b&gt;IDisk&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="-1469.5" y="-410" width="119" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-251" target="AUfJygzl4c1fihGhgo_K-257">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1060" y="-750" as="sourcePoint" />
+            <mxPoint x="-1060" y="-670" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-251" value="&lt;b&gt;DiskDecorator&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="-690.72" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1270" y="-610.72" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-252" value="&lt;b&gt;DiskMemory&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#6a00ff;strokeColor=#3700CC;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="-640" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1270" y="-560" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-253" value="&lt;b&gt;DiskWebServer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="-590.72" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1270" y="-510.72" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-255" target="AUfJygzl4c1fihGhgo_K-261">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-255" value="&lt;b&gt;IDiskRemote&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="-540.72" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1270" y="-460.72" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-257" value="&lt;b&gt;DiskCacheWrapper&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="-820" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1000" y="-740" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-258" value="&lt;b&gt;DiskEncrypted&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="-770.72" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1000" y="-690.72" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-259" value="DiskRestartProxy" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="-721.44" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1000" y="-641.44" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-260" value="DiskHDFS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="-590" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1000" y="-510" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-261" value="DiskS3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="-640" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1000" y="-560" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-262" value="&lt;b&gt;DiskLocal&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="-492.15" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1270" y="-412.15" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-290" value="DiskKV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#1A1A1A;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="-540" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1000" y="-460" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-291" value="RemoteMemory" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#1A1A1A;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="-490" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1000" y="-410" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

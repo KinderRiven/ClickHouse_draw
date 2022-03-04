@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T05:11:07.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="vTF7G0eeD_sxAMUk5_Tp" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T05:13:51.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="z3wWMCaw30Cvyj9A-org" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="631" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -837,7 +837,12 @@
           <mxGeometry x="1080" y="2100" width="440" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=oval;startFill=1;endArrow=oval;endFill=1;" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-260" target="Lfx7dPJ4N00ivkeSFCbG-226" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2280" y="2125" />
+              <mxPoint x="2280" y="1713" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-262" value="&lt;b&gt;virtual size_t readRows&lt;/b&gt;(size_t from_mark, size_t current_task_last_mark, bool continue_reading, size_t max_rows_to_read, Columns &amp;amp; res_columns) = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="2670" y="960" width="370" height="70" as="geometry" />
@@ -1734,14 +1739,34 @@
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-382" value="MergeTreeMarksLoader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#6a00ff;strokeColor=#3700CC;rotation=0;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="930" y="1215" width="260.46" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-391" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;strokeWidth=2;fillColor=default;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1rFgEm3q2ZKk34zS4ytC-385" target="1rFgEm3q2ZKk34zS4ytC-388">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900" y="1933" />
+              <mxPoint x="1900" y="1780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-385" value="IMergeTreeDataPart" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1600" y="1860" width="190" height="40" as="geometry" />
+          <mxGeometry x="1610" y="1912.87" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-392" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=block;endFill=0;strokeWidth=2;fillColor=default;" edge="1" parent="1" source="1rFgEm3q2ZKk34zS4ytC-386" target="Lfx7dPJ4N00ivkeSFCbG-187">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-386" value="virtual MergeTreeReaderPtr getReader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1600" y="1900" width="270" height="40" as="geometry" />
+          <mxGeometry x="1610" y="1952.87" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1rFgEm3q2ZKk34zS4ytC-387" value="virtual MergeTreeWriterPtr getWriter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1600" y="1940" width="270" height="40" as="geometry" />
+          <mxGeometry x="1610" y="1993.2399999999998" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-388" value="MergeTreeDataPartCompact" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1760" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-389" value="MergeTreeDataPartInMemory" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1800" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rFgEm3q2ZKk34zS4ytC-390" value="MergeTreeDataPartWide" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1840" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

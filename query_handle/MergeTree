@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T08:36:12.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="jO6aEXSu_0uDKrvhsSSF" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T08:39:55.595Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="uRE88AUAV1mvZnnZcG_K" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="440" dy="300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,16 +141,16 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-44" value="bool hasColumnFiles(const NameAndTypePair &amp;amp; column)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="521" y="840" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-45" value="void checkConsistency(bool require_part_metadata)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-45" value="void checkConsistency(bool require_part_metadata)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="521" y="870" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-47" value="void loadIndexGranularity()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-47" value="void loadIndexGranularity()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="521" y="900" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-48" value="ColumnSize getColumnSizeImpl(const NameAndTypePair &amp;amp; column, std::unordered_set&lt;string&gt; * processed_substreams) const;&lt;/string&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-48" value="ColumnSize getColumnSizeImpl(const NameAndTypePair &amp;amp; column, std::unordered_set&lt;string&gt; * processed_substreams) const;&lt;/string&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="521" y="930" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-49" value="void calculateEachColumnSizes(ColumnSizeByName &amp;amp; each_columns_size, ColumnSize &amp;amp; total_size)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-49" value="void calculateEachColumnSizes(ColumnSizeByName &amp;amp; each_columns_size, ColumnSize &amp;amp; total_size)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="521" y="970" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-72" target="AUfJygzl4c1fihGhgo_K-40">
@@ -460,6 +460,48 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-173" value="std::optional&amp;lt;bool&amp;gt; keepSharedDataInDecoupledStorage()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="3660" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-174" value="NameToNumber column_name_to_position" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3690" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-175" value="void loadUUID()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-176" value="void loadColumns(bool require)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3750" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-177" value="void loadChecksums(bool require)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3780" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-178" value="virtual void loadIndexGranularity()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3810" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-179" value="void loadIndex()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3840" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-180" value="void loadRowsCount()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3870" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-182" value="void loadTTLInfos()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3900" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-183" value="void loadPartitionAndMinMaxIndex()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3930" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-184" value="void calculateColumnsSizesOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3960" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-185" value="void calculateSecondaryIndicesSizesOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3990" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-186" value="void loadDefaultCompressionCodec()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4020" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-187" value="CompressionCodecPtr detectDefaultCompressionCodec()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4050" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-188" value="mutable State state{State::Temporary}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4080" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

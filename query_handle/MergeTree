@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T07:16:10.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="88xfR-Z9fTPbLQxHD81j" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T07:16:56.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="pJxcsbexzkgBjYE08Cee" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
     <mxGraphModel dx="450" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-37" value="MergeTreeDataPartWide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="40" y="200" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-38" value="&lt;b&gt;MergeTreeReaderPtr getReader&lt;/b&gt;( const &lt;u&gt;NamesAndTypesList&lt;/u&gt; &amp;amp; columns, const &lt;u&gt;StorageMetadataPtr&lt;/u&gt; &amp;amp; metadata_snapshot, const MarkRanges &amp;amp; mark_ranges, UncompressedCache * uncompressed_cache, MarkCache * mark_cache, const MergeTreeReaderSettings &amp;amp; reader_settings_, const ValueSizeMap &amp;amp; avg_value_size_hints, const ReadBufferFromFileBase::ProfileCallback &amp;amp; profile_callback)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-38" value="&lt;b&gt;MergeTreeReaderPtr getReader&lt;/b&gt;( const &lt;u&gt;NamesAndTypesList&lt;/u&gt; &amp;amp; columns, const &lt;u&gt;StorageMetadataPtr&lt;/u&gt; &amp;amp; metadata_snapshot, const &lt;u&gt;MarkRanges&lt;/u&gt; &amp;amp; mark_ranges, &lt;u&gt;UncompressedCache&lt;/u&gt; * uncompressed_cache, &lt;u&gt;MarkCache&lt;/u&gt; * mark_cache, const &lt;u&gt;MergeTreeReaderSettings&lt;/u&gt; &amp;amp; reader_settings_, const &lt;u&gt;ValueSizeMap&lt;/u&gt; &amp;amp; avg_value_size_hints, const &lt;u&gt;ReadBufferFromFileBase&lt;/u&gt;::ProfileCallback &amp;amp; profile_callback)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="360" height="110" as="geometry" />
         </mxCell>
       </root>

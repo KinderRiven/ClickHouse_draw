@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T09:48:15.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="UqmJLnc9R8Ez9c7jQdfw" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T09:49:58.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="0owJBJNyGvA6cUtgY57J" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2210" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2115" dy="315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -540,7 +540,16 @@
           <mxGeometry x="-1200" y="330" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-203" value="ColumnsDescription columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-1230" y="360" width="240" height="30" as="geometry" />
+          <mxGeometry x="-1230" y="360" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-204" value="IndicesDescription secondary_indices" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="410" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-205" value="ConstraintsDescription constraints" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="440" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-206" value="Note : Columns of table with their names, types" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1430" y="360" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

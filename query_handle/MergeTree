@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T11:30:46.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="I_42MsLR8wAefLTbvMiN" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T11:33:06.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-nGgp9JdapwLWa0bzMQj" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2600" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2442" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -515,8 +515,8 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-191" value="MergeTreeDataPartType choosePartTypeOnDisk(size_t bytes_uncompressed, size_t rows_count)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-690" y="680" width="530" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-192" value="Note : select data part type according to rows_count &amp;amp; size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="640" width="210" height="40" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-192" value="Note : select data part type according to rows_count &amp;amp; size : Wide/Compact/InMemory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="640" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-194" value="&lt;b&gt;MutableDataPartPtr createPart&lt;/b&gt;(const String &amp;amp; name, &lt;u&gt;&lt;b&gt;MergeTreeDataPartType&lt;/b&gt;&lt;/u&gt; type, const &lt;b&gt;&lt;u&gt;MergeTreePartInfo&lt;/u&gt;&lt;/b&gt; &amp;amp; part_info, const &lt;u&gt;&lt;b&gt;VolumePtr&lt;/b&gt;&lt;/u&gt; &amp;amp; volume, const &lt;u&gt;&lt;b&gt;String&lt;/b&gt;&lt;/u&gt; &amp;amp; relative_path, const &lt;b&gt;&lt;u&gt;IMergeTreeDataPart&lt;/u&gt;&lt;/b&gt; * parent_part = nullptr)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-690" y="710" width="530" height="50" as="geometry" />

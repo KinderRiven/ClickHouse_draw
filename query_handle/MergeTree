@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T11:26:16.517Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="8PI4E2oEZDVMKBYYznN7" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T11:30:46.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="I_42MsLR8wAefLTbvMiN" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2306" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2600" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -700,6 +700,9 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-291" value="RemoteMemory" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#1A1A1A;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-1000" y="-410" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-292" value="Note : create direcoty in each disk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="570" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

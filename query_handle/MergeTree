@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T11:15:12.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HKrxtyrQ07BjOwYO8mBs" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T11:18:53.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="XJ5hFWgtmXO8LnRTNWHB" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2767" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2650" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -646,32 +646,29 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-239" value="&lt;b&gt;Space&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="-1620" y="-410" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-241" target="AUfJygzl4c1fihGhgo_K-251">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-241" target="AUfJygzl4c1fihGhgo_K-251">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-241" value="&lt;b&gt;IDisk&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-1400" y="-410" width="119" height="50" as="geometry" />
+          <mxGeometry x="-1469.5" y="-410" width="119" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-251" target="AUfJygzl4c1fihGhgo_K-257">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-251" value="&lt;b&gt;DiskDecorator&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="-750" width="180" height="50" as="geometry" />
+          <mxGeometry x="-1270" y="-701.44" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-252" value="&lt;b&gt;class DiskMemory&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-252" value="&lt;b&gt;DiskMemory&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="-650.72" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-253" value="&lt;b&gt;class DiskWebServer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-253" value="&lt;b&gt;DiskWebServer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="-601.44" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-255" target="AUfJygzl4c1fihGhgo_K-260">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-255" target="AUfJygzl4c1fihGhgo_K-261">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-255" value="&lt;b&gt;class IDiskRemote&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-255" value="&lt;b&gt;IDiskRemote&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="-551.44" width="180" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-256" value="&lt;b&gt;class IDiskRemote&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="-700" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-257" value="&lt;b&gt;DiskCacheWrapper&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="-990" y="-750" width="180" height="50" as="geometry" />
@@ -683,19 +680,19 @@
           <mxGeometry x="-990" y="-651.44" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-260" value="DiskHDFS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="-990" y="-551.44" width="180" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-261" value="DiskS3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-990" y="-501.44000000000005" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-262" value="&lt;b&gt;DiskLocal&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-261" value="DiskS3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="-551.44" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-262" value="&lt;b&gt;DiskLocal&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="-502.87" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-263" value="&lt;b&gt;DiskLocal&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-990" y="-430" width="180" height="50" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-289" value="&lt;b&gt;MemoryLocak&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#1A1A1A;strokeColor=#B20000;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="-751.44" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=oval;startFill=1;endArrow=oval;endFill=1;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-262" target="AUfJygzl4c1fihGhgo_K-263">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-290" value="DisKV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#1A1A1A;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="-451.44000000000005" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

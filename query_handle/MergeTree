@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T11:04:18.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="zQUm9F2ubuLu2J3v1Ham" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T11:06:54.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QY8VxjR3Luf_qDHbu5Ul" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2330" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2104" dy="1477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -597,6 +597,24 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-221" value="StoragePolicyPtr Context::getStoragePolicy&lt;br style=&quot;font-size: 13px;&quot;&gt;(const String &amp;amp; name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="-840" y="150" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-224" value="class StoragePolicy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="-300" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-225" value="Volumes volumes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="-270" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-226" value="const String name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="-240" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-227" value="std::unordered_map&amp;lt;String, size_t&amp;gt; volume_index_by_volume_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-210" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-228" value="std::unordered_map&amp;lt;String, size_t&amp;gt; volume_index_by_disk_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-170" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-229" value="double move_factor = 0.1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="-130" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

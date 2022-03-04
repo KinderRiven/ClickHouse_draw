@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T09:41:39.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="iX64be4Qj8tZYRR4oCJG" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T09:46:41.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HDhFhXgDCvz0qpR9TQiv" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
     <mxGraphModel dx="2600" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -532,6 +532,12 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-199" value="&lt;b&gt;MergeTreeData&lt;/b&gt;(const StorageID &amp;amp; table_id_, &lt;b&gt;&lt;u&gt;const String &amp;amp; relative_data_path_&lt;/u&gt;&lt;/b&gt;, const &lt;b&gt;&lt;u&gt;StorageInMemoryMetadata&lt;/u&gt;&lt;/b&gt; &amp;amp; metadata_, ContextMutablePtr context_, const String &amp;amp; date_column_name, const &lt;b&gt;&lt;u&gt;MergingParams&lt;/u&gt;&lt;/b&gt; &amp;amp; merging_params_, std::unique_ptr&amp;lt;&lt;b&gt;&lt;u&gt;MergeTreeSettings&lt;/u&gt;&lt;/b&gt;&amp;gt; settings_, bool require_part_metadata_, bool attach, BrokenPartCallback broken_part_callback_ = [](const String &amp;amp;){});" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="-790" y="570" width="630" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-200" target="AUfJygzl4c1fihGhgo_K-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-200" value="&amp;nbsp;StorageInMemoryMetadata" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="320" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

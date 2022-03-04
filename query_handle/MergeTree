@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T09:52:25.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="OLx2nG-ElOHHCr6nuVAW" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T09:54:44.031Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="5wXAeuRf9PZ4zRTo8l2a" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2330" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2411" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -540,7 +540,7 @@
           <mxGeometry x="-1130" y="60" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-203" value="ColumnsDescription columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-1160" y="90" width="240" height="30" as="geometry" />
+          <mxGeometry x="-1130" y="90" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-204" value="IndicesDescription secondary_indices" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-1190" y="120" width="270" height="30" as="geometry" />
@@ -549,7 +549,7 @@
           <mxGeometry x="-1190" y="150" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-206" value="Note : Columns of table with their names, types" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1510" y="90" width="350" height="30" as="geometry" />
+          <mxGeometry x="-1480" y="90" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-208" value="Note : Table index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="120" width="170" height="30" as="geometry" />
@@ -557,11 +557,26 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-210" value="ProjectionsDescription projections" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-1190" y="180" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-211" value="ProjectionsDescription projections" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-1190" y="210" width="270" height="30" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-211" value="KeyDescription partition_key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="240" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-212" value="std::optional&amp;lt;ProjectionDescription&amp;gt; minmax_count_projection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1640" y="150" width="450" height="30" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-212" value="std::optional&amp;lt;ProjectionDescription&amp;gt; minmax_count_projection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="210" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-213" value="KeyDescription sorting_key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="270" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-214" value="TTLColumnsDescription column_ttls_by_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="300" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-215" value="TTLTableDescription table_ttl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="330" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-216" value="ASTPtr settings_changes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="360" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-217" value="SelectQueryDescription select" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="390" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

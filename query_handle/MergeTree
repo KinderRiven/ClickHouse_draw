@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T09:19:42.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="vUjLbbxxsrLyG2z6gwnW" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T09:35:34.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="PVcKKyZg1v0-6qBXzB-b" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2285" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2477" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,25 +510,28 @@
           <mxGeometry x="-320" y="520" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-190" value="&lt;span style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;MergeTreeDataPartType choosePartType&lt;/b&gt;(size_t bytes_uncompressed, size_t rows_count)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="560" width="320" height="40" as="geometry" />
+          <mxGeometry x="-480" y="640" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-191" value="MergeTreeDataPartType choosePartTypeOnDisk(size_t bytes_uncompressed, size_t rows_count)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="600" width="530" height="30" as="geometry" />
+          <mxGeometry x="-690" y="680" width="530" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-192" value="Note : select data part type according to rows_count &amp;amp; size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="560" width="210" height="40" as="geometry" />
+          <mxGeometry x="-690" y="640" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-194" value="&lt;b&gt;MutableDataPartPtr createPart&lt;/b&gt;(const String &amp;amp; name, &lt;u&gt;&lt;b&gt;MergeTreeDataPartType&lt;/b&gt;&lt;/u&gt; type, const &lt;b&gt;&lt;u&gt;MergeTreePartInfo&lt;/u&gt;&lt;/b&gt; &amp;amp; part_info, const &lt;u&gt;&lt;b&gt;VolumePtr&lt;/b&gt;&lt;/u&gt; &amp;amp; volume, const &lt;u&gt;&lt;b&gt;String&lt;/b&gt;&lt;/u&gt; &amp;amp; relative_path, const &lt;b&gt;&lt;u&gt;IMergeTreeDataPart&lt;/u&gt;&lt;/b&gt; * parent_part = nullptr)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="630" width="530" height="50" as="geometry" />
+          <mxGeometry x="-690" y="710" width="530" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-195" value="Note : create a data part according to data part type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-900" y="630" width="210" height="50" as="geometry" />
+          <mxGeometry x="-900" y="710" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-196" value="&lt;b&gt;MutableDataPartPtr createPart&lt;/b&gt;(const String &amp;amp; name, const VolumePtr &amp;amp; volume, const String &amp;amp; relative_path, const IMergeTreeDataPart * parent_part = nullptr)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-900" y="680" width="740" height="40" as="geometry" />
+          <mxGeometry x="-900" y="760" width="740" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-197" value="&lt;b&gt;MutableDataPartPtr createPart&lt;/b&gt;(const String &amp;amp; name, const MergeTreePartInfo &amp;amp; part_info, const VolumePtr &amp;amp; volume, const String &amp;amp; relative_path, const IMergeTreeDataPart * parent_part = nullptr)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-900" y="720" width="740" height="40" as="geometry" />
+          <mxGeometry x="-900" y="800" width="740" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-199" value="&lt;b&gt;MergeTreeData&lt;/b&gt;(const StorageID &amp;amp; table_id_, const String &amp;amp; relative_data_path_, const StorageInMemoryMetadata &amp;amp; metadata_, ContextMutablePtr context_, const String &amp;amp; date_column_name, const MergingParams &amp;amp; merging_params_, std::unique_ptr&amp;lt;MergeTreeSettings&amp;gt; settings_, bool require_part_metadata_, bool attach, BrokenPartCallback broken_part_callback_ = [](const String &amp;amp;){});" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontStyle=0;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="560" width="630" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

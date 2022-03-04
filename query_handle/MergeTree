@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T07:57:09.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Ny95-3AdRIiB055b-9QA" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T07:57:15.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="0I7p7U6FEM6jNcj2AM55" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
     <mxGraphModel dx="631" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,7 +264,7 @@
           <mxGeometry x="40" y="1610" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-108" value="MergeTreeIndexGranularityInfo index_granularity_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1640" width="320" height="30" as="geometry" />
+          <mxGeometry x="40" y="1640" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-109" value="VolumePtr volume" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="1670" width="120" height="30" as="geometry" />

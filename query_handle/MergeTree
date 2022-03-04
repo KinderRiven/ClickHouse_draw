@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T08:30:47.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="kLVXGLrvKxHmQnQXqmX7" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T08:31:47.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="fr50EFthWsGinorva6LR" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
     <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,6 +415,18 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-158" value="String getUniqueId()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="3190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-159" value="ColumnSize total_columns_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3220" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-160" value="ColumnSizeByName columns_sizes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3250" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-161" value="ColumnSize total_secondary_indices_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3280" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-162" value="IndexSizeByName secondary_index_sizes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3310" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

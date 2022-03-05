@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T09:14:18.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="hIzBkM4lpaQ5-tv-S0eG" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T10:34:51.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ajnn6quFVpU3Iz4ZDsB_" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="3477" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3238" dy="1686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1307,8 +1307,11 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-542" value="&lt;b&gt;MergeTreeData::MutableDataPartPtr MergeTreeData::createPart&lt;/b&gt;(const String &amp;amp; name, MergeTreeDataPartType type, const MergeTreePartInfo &amp;amp; part_info, const VolumePtr &amp;amp; volume, const String &amp;amp; relative_path, const IMergeTreeDataPart * parent_part)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-360" y="-880" width="520" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-545" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#FF0000;endArrow=classic;endFill=0;strokeColor=#1A1A1A;fillColor=#FFE45E;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-544" target="AUfJygzl4c1fihGhgo_K-542">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-544" value="IMergeTreeDataPart" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="278" y="-960" width="202" height="40" as="geometry" />
+          <mxGeometry x="240" y="-870" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

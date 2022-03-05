@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T04:56:50.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="YtvY3enWK8Sv_AlS2m1t" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T04:57:15.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="qq6FiKpnkBSPG1UPJJjC" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2411" dy="1686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2285" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -843,6 +843,9 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-344" value="std::optional&amp;lt;UInt64&amp;gt; totalBytes(const Settings &amp;amp;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry y="-580" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-345" value="SinkToStoragePtr write(const ASTPtr &amp;amp; query, const StorageMetadataPtr &amp;amp; /*metadata_snapshot*/, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="-540" width="480" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

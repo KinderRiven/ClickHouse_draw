@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T04:57:15.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="qq6FiKpnkBSPG1UPJJjC" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T05:00:04.281Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="JRETVPKOmf0FGlg9FPwE" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2285" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2264" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -846,6 +846,21 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-345" value="SinkToStoragePtr write(const ASTPtr &amp;amp; query, const StorageMetadataPtr &amp;amp; /*metadata_snapshot*/, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry y="-540" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-346" value="void mutate(const MutationCommands &amp;amp; commands, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="-490" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-347" value="std::vector&amp;lt;MergeTreeMutationStatus&amp;gt; getMutationsStatus()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="-450" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-348" value="CancellationCode killMutation(const String &amp;amp; mutation_id)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="-410" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-349" value="void drop()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="-380" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-350" value="SinkToStoragePtr write(const ASTPtr &amp;amp; query, const StorageMetadataPtr &amp;amp; /*metadata_snapshot*/, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="-290" width="480" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

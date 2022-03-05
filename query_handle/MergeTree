@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T08:55:44.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="jtRXsU9CIxVns8A-w3qE" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T08:55:54.670Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="i4aVkFlR_HH3x8sHxwA4" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
     <mxGraphModel dx="3133" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1274,8 +1274,8 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-530" value="virtual void dropPartNoWaitNoThrow(const String &amp;amp; part_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-530" y="2210" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-531" value="&lt;b&gt;virtual void dropPart(const String &amp;amp; part_name, bool detach, ContextPtr context)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="2240" width="480" height="30" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-531" value="virtual void dropPart(const String &amp;amp; part_name, bool detach, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="2240" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-532" value="virtual void dropPartition(const ASTPtr &amp;amp; partition, bool detach, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-610" y="2270" width="450" height="30" as="geometry" />

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T04:28:56.706Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="E5b352fZpWqS_gWJAtnR" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T04:31:05.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="1FiL1I1H0jjoLELX4n21" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2057" dy="1444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2227" dy="1561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -770,8 +770,23 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-317" value="Note : Returns the part with the given name and state or nullptr if no such part." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-750" y="1320" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-318" value="size_t getPartsCount()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="1400" width="150" height="30" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-318" value="&lt;b&gt;size_t getTotalActiveSizeInBytes&lt;/b&gt;()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1400" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-319" value="&lt;b&gt;size_t getTotalActiveSizeInRows&lt;/b&gt;()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1430" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-320" value="&lt;b&gt;size_t getPartsCount&lt;/b&gt;()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="1460" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-321" value="&lt;b&gt;size_t getMaxPartsCountForPartitionWithState&lt;/b&gt;(DataPartState state)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="1490" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-322" value="&lt;b&gt;size_t getMaxPartsCountForPartition&lt;/b&gt;()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="1520" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-323" value="&lt;b&gt;size_t getMaxInactivePartsCountForPartition&lt;/b&gt;()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1550" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

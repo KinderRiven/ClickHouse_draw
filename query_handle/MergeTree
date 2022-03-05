@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T05:36:47.703Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7oHGp1Pig06VZ2HLJQE8" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T05:38:05.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bARenJqVVumf-HYZnCxA" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
     <mxGraphModel dx="2306" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -977,6 +977,18 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-394" value="PartitionCommandsResultInfo attachPartition(const ASTPtr &amp;amp; partition, const StorageMetadataPtr &amp;amp; metadata_snapshot, bool part, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry y="2650" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-395" value="void replacePartitionFrom(const StoragePtr &amp;amp; source_table, const ASTPtr &amp;amp; partition, bool replace, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2700" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-397" value="void movePartitionToTable(const StoragePtr &amp;amp; dest_table, const ASTPtr &amp;amp; partition, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2750" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-398" value="bool partIsAssignedToBackgroundOperation(const DataPartPtr &amp;amp; part)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2800" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-399" value="void updateMutationEntriesErrors(FutureMergedMutatedPartPtr result_part, bool is_successful, const String &amp;amp; exception_message)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2830" width="500" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

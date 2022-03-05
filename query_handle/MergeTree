@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T09:10:02.071Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="dhzDFI_JBdrOcJ39T5qF" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T09:14:18.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="hIzBkM4lpaQ5-tv-S0eG" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="3133" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3477" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -593,10 +593,10 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-51" value="IMergeTreeDataPart" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="850" y="560" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-52" value="virtual MergeTreeReaderPtr getReader()" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-52" value="virtual MergeTreeReaderPtr getReader()" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="850" y="600" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-54" value="virtual MergeTreeWriterPtr getWriter()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-54" value="virtual MergeTreeWriterPtr getWriter()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontStyle=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="850" y="630" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-37" value="MergeTreeDataPartWide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=14;" vertex="1" parent="1">
@@ -647,7 +647,7 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-72" target="AUfJygzl4c1fihGhgo_K-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-72" value="virtual bool isStoredOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=13;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-72" value="virtual bool isStoredOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontStyle=1;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="850" y="660" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-73" target="AUfJygzl4c1fihGhgo_K-41">
@@ -658,7 +658,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-73" value="virtual bool isStoredOnRemoteDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-73" value="virtual bool isStoredOnRemoteDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontStyle=1;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="850" y="690" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-74" target="AUfJygzl4c1fihGhgo_K-42">
@@ -670,7 +670,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-74" value="virtual bool supportsVerticalMerge()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=13;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-74" value="virtual bool supportsVerticalMerge()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontStyle=1;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="850" y="720" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-78" value="ColumnSize getColumnSize(const String &amp;amp; column_name, const IDataType &amp;amp; /* type */)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
@@ -1306,6 +1306,9 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-542" value="&lt;b&gt;MergeTreeData::MutableDataPartPtr MergeTreeData::createPart&lt;/b&gt;(const String &amp;amp; name, MergeTreeDataPartType type, const MergeTreePartInfo &amp;amp; part_info, const VolumePtr &amp;amp; volume, const String &amp;amp; relative_path, const IMergeTreeDataPart * parent_part)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-360" y="-880" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-544" value="IMergeTreeDataPart" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="278" y="-960" width="202" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T11:21:14.311Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="gJlzJDnP6XtaDE4mqsaB" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T11:23:00.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="11oHud7SEO6Y2X1em-Li" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="591" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1095,6 +1095,24 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-47" value="template&amp;lt;typename TSource&amp;gt; &lt;br&gt;ProcessorPtr createSource(const RangesInDataPart &amp;amp; part, const Names &amp;amp; required_columns, bool use_uncompressed_cache, bool has_limit_below_one_block)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1920" y="2800" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-48" value="Pipe spreadMarkRangesAmongStreams( RangesInDataParts &amp;amp;&amp;amp; parts_with_ranges, const Names &amp;amp; column_names)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2850" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-49" value="Pipe spreadMarkRangesAmongStreamsWithOrder( RangesInDataParts &amp;amp;&amp;amp; parts_with_ranges, const Names &amp;amp; column_names, const ActionsDAGPtr &amp;amp; sorting_key_prefix_expr, ActionsDAGPtr &amp;amp; out_projection, const InputOrderInfoPtr &amp;amp; input_order_info)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2890" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-50" value="Pipe spreadMarkRangesAmongStreamsFinal( RangesInDataParts &amp;amp;&amp;amp; parts, const Names &amp;amp; column_names, ActionsDAGPtr &amp;amp; out_projection)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2950" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-51" value="MergeTreeDataSelectAnalysisResultPtr selectRangesToRead(MergeTreeData::DataPartsVector parts)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2990" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-52" value="ReadFromMergeTree::AnalysisResult getAnalysisResult()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="3030" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-53" value="MergeTreeDataSelectAnalysisResultPtr analyzed_result_ptr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="3070" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T04:45:18.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="sP1_sgQzgLkz2Xhj9Qyu" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T04:46:33.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Su5WQgyD7yb3sLNOqwJu" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2477" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -803,8 +803,11 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-188" value="mutable State state{State::Temporary}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
           <mxGeometry y="3560" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-326" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;MergeTreeData&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="40" y="520" width="240" height="50" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-326" value="StorageMergeTree" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-329" value="void startup()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="570" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

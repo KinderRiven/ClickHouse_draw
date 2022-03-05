@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T06:07:00.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Ogr5b5l1X-IxmY0gFehK" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T06:07:27.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="aHYxRF_Js6NWPz9wwL13" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2306" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2195" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1011,7 +1011,7 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-407" value="&lt;b&gt;void loadDataPartsFromDisk&lt;/b&gt;( DataPartsVector &amp;amp; broken_parts_to_detach, DataPartsVector &amp;amp; duplicate_parts_to_remove, ThreadPool &amp;amp; pool, size_t num_parts, &lt;u&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;std::queue&amp;lt;std::vector&amp;lt;std::pair&amp;lt;String, DiskPtr&amp;gt;&amp;gt;&amp;gt; &amp;amp; parts_queue&lt;/font&gt;&lt;/b&gt;&lt;/u&gt;, bool skip_sanity_checks, const MergeTreeSettingsPtr &amp;amp; settings)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-1640" y="880" width="610" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-408" value="&lt;b&gt;void loadDataPartsFromWAL&lt;/b&gt;( DataPartsVector &amp;amp; broken_parts_to_detach, DataPartsVector &amp;amp; duplicate_parts_to_remove, MutableDataPartsVector &amp;amp; parts_from_wal, DataPartsLock &amp;amp; part_lock)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-408" value="&lt;b&gt;void loadDataPartsFromWAL&lt;/b&gt;( DataPartsVector &amp;amp; broken_parts_to_detach, DataPartsVector &amp;amp; duplicate_parts_to_remove, &lt;u&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;MutableDataPartsVector &amp;amp; parts_from_wal&lt;/b&gt;&lt;/font&gt;&lt;/u&gt;, DataPartsLock &amp;amp; part_lock)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-1640" y="940" width="610" height="40" as="geometry" />
         </mxCell>
       </root>

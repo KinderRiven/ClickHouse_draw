@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T16:23:20.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HnGNDb7f8TMDpRFXa4CW" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T16:24:58.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="zHlGTOi_cUeuqK806Uir" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="1479" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1650" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1081,14 +1081,11 @@
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-63" value="&lt;font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;std::unique_ptr&amp;lt;IInterpreter&amp;gt; InterpreterFactory::get&lt;/b&gt;(ASTPtr &amp;amp; query, ContextMutablePtr context, const SelectQueryOptions &amp;amp; options)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="220" y="1510" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;endArrow=classic;endFill=1;fontFamily=Helvetica;" edge="1" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-80" target="4nuNxfB_0Uh0BvwMZ_Dk-84">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-80" value="&lt;font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;BlockIO InterpreterSelectWithUnionQuery::execute()&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="245" y="1610" width="510" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-84" value="&lt;font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;void InterpreterSelectWithUnionQuery::buildQueryPlan&lt;/b&gt;(QueryPlan &amp;amp; query_plan)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="130" y="1692.5" width="740" height="40" as="geometry" />
+          <mxGeometry x="130" y="1650" width="740" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-224" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;rounded=0;fontFamily=Helvetica;" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-84" target="VBDGagkCTwYl4dxm7euT-62" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1096,7 +1093,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4nuNxfB_0Uh0BvwMZ_Dk-124" value="&lt;font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;QueryPipelineBuilderPtr QueryPlan::buildQueryPipeline&lt;/b&gt;( const QueryPlanOptimizationSettings &amp;amp; optimization_settings, const BuildQueryPipelineSettings &amp;amp; build_pipeline_settings)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="130" y="1732.5" width="740" height="65" as="geometry" />
+          <mxGeometry x="130" y="1690" width="740" height="65" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-225" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1A1A1A;endArrow=classic;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" parent="1" source="4nuNxfB_0Uh0BvwMZ_Dk-124" target="GLADV_qJz34p-wnXOpVd-87" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1104,16 +1101,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-87" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;QueryPipelineBuilderPtr&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;ISourceStep::&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;updatePipeline&lt;/b&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(QueryPipelineBuilders pipelines, const BuildQueryPipelineSettings &amp;amp; settings)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="920" y="1745" width="470" height="40" as="geometry" />
+          <mxGeometry x="920" y="1702.5" width="470" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-89" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;void ReadFromMergeTree::initializePipeline&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/b&gt;(QueryPipelineBuilder &amp;amp; pipeline, const BuildQueryPipelineSettings &amp;amp;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="996" y="1800" width="420" height="42.5" as="geometry" />
+          <mxGeometry x="996" y="1763.75" width="484" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.091;exitY=1.013;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=classic;endFill=1;exitPerimeter=0;fontFamily=Helvetica;" parent="1" source="GLADV_qJz34p-wnXOpVd-87" target="GLADV_qJz34p-wnXOpVd-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-62" value="void QueryPlan::addStep&lt;span style=&quot;font-weight: normal&quot;&gt;(QueryPlanStepPtr step)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1699.69" width="346" height="25.62" as="geometry" />
+          <mxGeometry x="920" y="1657.19" width="346" height="25.62" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;endArrow=block;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-64" target="VBDGagkCTwYl4dxm7euT-53">
           <mxGeometry relative="1" as="geometry">
@@ -1245,7 +1242,7 @@
           <mxGeometry x="-60" y="1842.5000000000002" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-115" value="&lt;b&gt;Pipe ReadFromMergeTree::spreadMarkRangesAmongStreamsWithOrder&lt;/b&gt;( RangesInDataParts &amp;amp;&amp;amp; parts_with_ranges, const Names &amp;amp; column_names, const ActionsDAGPtr &amp;amp; sorting_key_prefix_expr, ActionsDAGPtr &amp;amp; out_projection, const InputOrderInfoPtr &amp;amp; input_order_info)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="996" y="1842.5" width="484" height="87.5" as="geometry" />
+          <mxGeometry x="995" y="1806.25" width="484" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-119" value="&lt;b&gt;for (i= 0; i &amp;lt; num_stream; i++)&lt;/b&gt;&lt;br&gt;&lt;b&gt;pipes.emplace_back(readInOrder...)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=13;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="436" y="1960" width="484" height="50" as="geometry" />

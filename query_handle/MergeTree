@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T04:33:17.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="aTDxDm8RGiokHXQfqtX6" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T04:43:23.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="toqI0FnjpLZ4rvUdTj_J" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2306" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3109" dy="2163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,412 +99,8 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-27" value="MergeTreeDataPartInMemory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="760" y="120" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-51" target="AUfJygzl4c1fihGhgo_K-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-51" target="AUfJygzl4c1fihGhgo_K-194">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-51" value="IMergeTreeDataPart" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="520" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-52" target="AUfJygzl4c1fihGhgo_K-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-52" value="virtual MergeTreeReaderPtr getReader()" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="40" y="560" width="290" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-54" target="AUfJygzl4c1fihGhgo_K-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-54" value="virtual MergeTreeWriterPtr getWriter()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="40" y="590" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-37" value="MergeTreeDataPartWide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="521" y="520" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-38" value="&lt;span&gt;MergeTreeReaderPtr getReader( const NamesAndTypesList &amp;amp; columns, const StorageMetadataPtr &amp;amp; metadata_snapshot, const MarkRanges &amp;amp; mark_ranges, UncompressedCache * uncompressed_cache, MarkCache * mark_cache, const MergeTreeReaderSettings &amp;amp; reader_settings_, const ValueSizeMap &amp;amp; avg_value_size_hints, const ReadBufferFromFileBase::ProfileCallback &amp;amp; profile_callback)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="560" width="509" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-39" value="&lt;span&gt;MergeTreeWriterPtr getWriter( const NamesAndTypesList &amp;amp; columns_list, const StorageMetadataPtr &amp;amp; metadata_snapshot, const std::vector&amp;lt;MergeTreeIndexPtr&amp;gt; &amp;amp; indices_to_recalc, const CompressionCodecPtr &amp;amp; default_codec_, const MergeTreeWriterSettings &amp;amp; writer_settings, const MergeTreeIndexGranularity &amp;amp; computed_index_granularity)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="640" width="509" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-40" value="bool isStoredOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="720" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-41" value="bool isStoredOnRemoteDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="750" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-42" value="bool supportsVerticalMerge()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="780" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-43" value="String getFileNameForColumn(const NameAndTypePair &amp;amp; column)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="810" width="400" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-44" value="bool hasColumnFiles(const NameAndTypePair &amp;amp; column)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="840" width="350" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-45" value="void checkConsistency(bool require_part_metadata)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="870" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-47" value="void loadIndexGranularity()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="900" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-48" value="ColumnSize getColumnSizeImpl(const NameAndTypePair &amp;amp; column, std::unordered_set&lt;string&gt; * processed_substreams) const;&lt;/string&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="930" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-49" value="void calculateEachColumnSizes(ColumnSizeByName &amp;amp; each_columns_size, ColumnSize &amp;amp; total_size)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="521" y="970" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-72" target="AUfJygzl4c1fihGhgo_K-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-72" value="virtual bool isStoredOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=13;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="40" y="620" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-73" target="AUfJygzl4c1fihGhgo_K-41">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="400" y="665" />
-              <mxPoint x="400" y="765" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-73" value="virtual bool isStoredOnRemoteDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="650" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-74" target="AUfJygzl4c1fihGhgo_K-42">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="280" y="700" />
-              <mxPoint x="430" y="700" />
-              <mxPoint x="430" y="795" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-74" value="virtual bool supportsVerticalMerge()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=13;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="40" y="680" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-78" value="ColumnSize getColumnSize(const String &amp;amp; column_name, const IDataType &amp;amp; /* type */)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="710" width="280" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-80" value="IndexSize getSecondaryIndexSize(const String &amp;amp; secondary_index_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="760" width="260" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-81" value="IndexSize getTotalSeconaryIndicesSize()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="810" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-82" value="virtual String getFileNameForColumn(const NameAndTypePair &amp;amp; column)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="840" width="260" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-83" value="void accumulateColumnSizes(ColumnToSize &amp;amp; /* column_to_size */)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="880" width="280" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-84" value="Type getType()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="930" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-85" value="String getTypeName()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="960" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-86" value="void setColumns(const NamesAndTypesList &amp; new_columns)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="990" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-87" value="const NamesAndTypesList &amp; getColumns()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1030" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-89" value="void assertOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1060" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-90" value="void remove()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1090" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-91" value="void projectionRemove(const String &amp;amp; parent_to, bool keep_shared_data = false)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1120" width="280" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-92" value="void loadColumnsChecksumsIndexes(bool require_columns_checksums, bool check_consistency)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1160" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-93" value="String getMarksFileExtension()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1200" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-94" value="String getNewName(const MergeTreePartInfo &amp;amp; new_part_info)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1230" width="400" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-95" value="std::optional&amp;lt;size_t&amp;gt; getColumnPosition(const String &amp;amp; column_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1260" width="430" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-96" value="String getColumnNameWithMinimumCompressedSize(const StorageMetadataPtr &amp;amp; metadata_snapshot)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1290" width="370" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-97" value="bool contains(const IMergeTreeDataPart &amp;amp; other)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1340" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-98" value="std::pair&amp;lt;DayNum, DayNum&amp;gt; getMinMaxDate()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1370" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-100" value="std::pair&amp;lt;time_t, time_t&amp;gt; getMinMaxTime()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1400" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-101" value="bool isEmpty()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1430" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-102" value="const MergeTreeData &amp;amp; storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1460" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-103" value="String name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1490" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-104" value="MergeTreePartInfo info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1520" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-105" value="UUID uuid = UUIDHelpers::Nil" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1550" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-106" value="VolumePtr volume" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1580" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-107" value="mutable String relative_path" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1610" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-108" value="MergeTreeIndexGranularityInfo index_granularity_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1640" width="330" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-109" value="size_t rows_count" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1670" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-110" value="time_t modification_time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1700" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-111" value="mutable std::atomic&amp;lt;time_t&amp;gt; remove_time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1730" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-112" value="bool is_temp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1760" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-113" value="bool is_duplicate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1790" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-114" value="mutable std::atomic&amp;lt;bool&amp;gt; is_frozen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1820" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-115" value="mutable bool force_keep_shared_data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1850" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-116" value="enum class State" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontStyle=0;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1880" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-117" value="TTLInfos ttl_infos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1910" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-118" value="void setState(State new_state)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1940" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-119" value="State getState()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1970" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-120" value="static constexpr std::string_view stateString(State state)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2000" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-121" value="constexpr std::string_view stateString()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2030" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-122" value="String getNameWithState()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2060" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-123" value="bool checkState(const std::initializer_list&amp;lt;State&amp;gt; &amp;amp; affordable_states)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2090" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-124" value="void assertState(const std::initializer_list&amp;lt;State&amp;gt; &amp;amp; affordable_states)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2120" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-125" value="Index index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2150" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-126" value="MergeTreePartition partition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2180" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-127" value="MergeTreeIndexGranularity index_granularity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2210" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-128" value="struct MinMaxIndex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2240" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-129" value="MinMaxIndexPtr minmax_idx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2270" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-130" value="Checksums checksums" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2300" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-131" value="NameSet expired_columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2330" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-132" value="CompressionCodecPtr default_codec" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2360" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-133" value="UInt64 getIndexSizeInBytes()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2390" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-134" value="UInt64 getIndexSizeInAllocatedBytes()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2420" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-135" value="UInt64 getMarksCount()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2450" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-136" value="void setBytesOnDisk(UInt64 bytes_on_disk_)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2480" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-137" value="size_t getFileSizeOrZero(const String &amp;amp; file_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2510" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-138" value="String getFullRelativePath()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2540" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-139" value="String getFullPath()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2570" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-140" value="void renameToDetached(const String &amp;amp; prefix)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2600" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-141" value="virtual void renameTo(const String &amp;amp; new_relative_path, bool remove_new_dir_if_exists)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2630" width="320" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-142" value="virtual bool hasColumnFiles(const NameAndTypePair &amp;amp; /* column */)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2740" width="430" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-143" value="virtual void makeCloneInDetached(const String &amp;amp; prefix, const StorageMetadataPtr &amp;amp; metadata_snapshot)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2670" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-144" value="void makeCloneOnDisk(const DiskPtr &amp;amp; disk, const String &amp;amp; directory_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2710" width="455" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-145" value="bool shallParticipateInMerges(const StoragePolicyPtr &amp;amp; storage_policy)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2770" width="430" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-146" value="static UInt64 calculateTotalSizeOnDisk(const DiskPtr &amp;amp; disk_, const String &amp;amp; from)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2800" width="490" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-147" value="void calculateColumnsAndSecondaryIndicesSizesOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2830" width="360" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-148" value="String getRelativePathForPrefix(const String &amp;amp; prefix)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2860" width="330" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-149" value="bool isProjectionPart()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2890" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-150" value="const IMergeTreeDataPart * getParentPart()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2920" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-151" value="const std::map&amp;lt;String, std::shared_ptr&amp;lt;IMergeTreeDataPart&amp;gt;&amp;gt; &amp;amp; getProjectionParts()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2950" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-152" value="void addProjectionPart(const String &amp;amp; projection_name, std::shared_ptr&amp;lt;IMergeTreeDataPart&amp;gt; &amp;amp;&amp;amp; projection_part)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2990" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-153" value="bool hasProjection(const String &amp;amp; projection_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3030" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-154" value="void loadProjections(bool require_columns_checksums, bool check_consistency)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3060" width="340" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-155" value="NameSet getFileNamesWithoutChecksums()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3100" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-156" value="bool checkAllTTLCalculated(const StorageMetadataPtr &amp;amp; metadata_snapshot)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3130" width="470" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-157" value="SerializationPtr getSerializationForColumn(const NameAndTypePair &amp;amp; column)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3160" width="470" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-158" value="String getUniqueId()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3190" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-159" value="ColumnSize total_columns_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3220" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-160" value="ColumnSizeByName columns_sizes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3250" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-161" value="ColumnSize total_secondary_indices_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3280" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-162" value="IndexSizeByName secondary_index_sizes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3310" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-163" value="UInt64 bytes_on_disk{0}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3340" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-164" value="NamesAndTypesList columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3370" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-165" value="const Type part_type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3400" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-166" value="const IMergeTreeDataPart * parent_part" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3430" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-167" value="std::map&amp;lt;String, std::shared_ptr&amp;lt;IMergeTreeDataPart&amp;gt;&amp;gt; projection_parts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3460" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-168" value="void removeIfNeeded()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3500" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-169" value="virtual void checkConsistency(bool require_part_metadata)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3530" width="370" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-170" value="void checkConsistencyBase()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3560" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-171" value="virtual void calculateEachColumnSizes(ColumnSizeByName &amp;amp; each_columns_size, ColumnSize &amp;amp; total_size)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3590" width="370" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-172" value="String getRelativePathForDetachedPart(const String &amp;amp; prefix)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3630" width="370" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-173" value="std::optional&amp;lt;bool&amp;gt; keepSharedDataInDecoupledStorage()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3660" width="370" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-174" value="NameToNumber column_name_to_position" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3690" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-175" value="void loadUUID()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3720" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-176" value="void loadColumns(bool require)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3750" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-177" value="void loadChecksums(bool require)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3780" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-178" value="virtual void loadIndexGranularity()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3810" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-179" value="void loadIndex()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3840" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-180" value="void loadRowsCount()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3870" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-182" value="void loadTTLInfos()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3900" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-183" value="void loadPartitionAndMinMaxIndex()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3930" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-184" value="void calculateColumnsSizesOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3960" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-185" value="void calculateSecondaryIndicesSizesOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3990" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-186" value="void loadDefaultCompressionCodec()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="4020" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-187" value="CompressionCodecPtr detectDefaultCompressionCodec()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="4050" width="360" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-188" value="mutable State state{State::Temporary}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="40" y="4080" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-189" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;MergeTreeData&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-290" y="520" width="130" height="50" as="geometry" />
@@ -790,6 +386,413 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-324" value="&lt;b&gt;std::optional&amp;lt;Int64&amp;gt; getMinPartDataVersion&lt;/b&gt;()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-440" y="1580" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-325" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="1350" width="990" height="3590" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-51" value="IMergeTreeDataPart" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=14;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-52" value="virtual MergeTreeReaderPtr getReader()" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="40" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-54" value="virtual MergeTreeWriterPtr getWriter()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=14;fontColor=#333333;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="70" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-37" value="MergeTreeDataPartWide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;fontSize=14;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=block;endFill=0;" edge="1" parent="AUfJygzl4c1fihGhgo_K-325" source="AUfJygzl4c1fihGhgo_K-51" target="AUfJygzl4c1fihGhgo_K-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-38" value="&lt;span&gt;MergeTreeReaderPtr getReader( const NamesAndTypesList &amp;amp; columns, const StorageMetadataPtr &amp;amp; metadata_snapshot, const MarkRanges &amp;amp; mark_ranges, UncompressedCache * uncompressed_cache, MarkCache * mark_cache, const MergeTreeReaderSettings &amp;amp; reader_settings_, const ValueSizeMap &amp;amp; avg_value_size_hints, const ReadBufferFromFileBase::ProfileCallback &amp;amp; profile_callback)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="40" width="509" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=block;endFill=0;" edge="1" parent="AUfJygzl4c1fihGhgo_K-325" source="AUfJygzl4c1fihGhgo_K-52" target="AUfJygzl4c1fihGhgo_K-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-39" value="&lt;span&gt;MergeTreeWriterPtr getWriter( const NamesAndTypesList &amp;amp; columns_list, const StorageMetadataPtr &amp;amp; metadata_snapshot, const std::vector&amp;lt;MergeTreeIndexPtr&amp;gt; &amp;amp; indices_to_recalc, const CompressionCodecPtr &amp;amp; default_codec_, const MergeTreeWriterSettings &amp;amp; writer_settings, const MergeTreeIndexGranularity &amp;amp; computed_index_granularity)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="120" width="509" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=block;endFill=0;" edge="1" parent="AUfJygzl4c1fihGhgo_K-325" source="AUfJygzl4c1fihGhgo_K-54" target="AUfJygzl4c1fihGhgo_K-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-40" value="bool isStoredOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-41" value="bool isStoredOnRemoteDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="230" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-42" value="bool supportsVerticalMerge()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="260" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-43" value="String getFileNameForColumn(const NameAndTypePair &amp;amp; column)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="290" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-44" value="bool hasColumnFiles(const NameAndTypePair &amp;amp; column)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="320" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-45" value="void checkConsistency(bool require_part_metadata)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="350" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-47" value="void loadIndexGranularity()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="380" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-48" value="ColumnSize getColumnSizeImpl(const NameAndTypePair &amp;amp; column, std::unordered_set&lt;string&gt; * processed_substreams) const;&lt;/string&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="410" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-49" value="void calculateEachColumnSizes(ColumnSizeByName &amp;amp; each_columns_size, ColumnSize &amp;amp; total_size)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry x="481" y="450" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;" edge="1" parent="AUfJygzl4c1fihGhgo_K-325" source="AUfJygzl4c1fihGhgo_K-72" target="AUfJygzl4c1fihGhgo_K-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-72" value="virtual bool isStoredOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=13;fontColor=#333333;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="100" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="AUfJygzl4c1fihGhgo_K-325" source="AUfJygzl4c1fihGhgo_K-73" target="AUfJygzl4c1fihGhgo_K-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="145" />
+              <mxPoint x="360" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-73" value="virtual bool isStoredOnRemoteDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="130" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="AUfJygzl4c1fihGhgo_K-325" source="AUfJygzl4c1fihGhgo_K-74" target="AUfJygzl4c1fihGhgo_K-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="180" />
+              <mxPoint x="390" y="180" />
+              <mxPoint x="390" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-74" value="virtual bool supportsVerticalMerge()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=13;fontColor=#333333;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="160" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-78" value="ColumnSize getColumnSize(const String &amp;amp; column_name, const IDataType &amp;amp; /* type */)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="190" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-80" value="IndexSize getSecondaryIndexSize(const String &amp;amp; secondary_index_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="240" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-81" value="IndexSize getTotalSeconaryIndicesSize()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="290" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-82" value="virtual String getFileNameForColumn(const NameAndTypePair &amp;amp; column)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="320" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-83" value="void accumulateColumnSizes(ColumnToSize &amp;amp; /* column_to_size */)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="360" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-84" value="Type getType()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="410" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-85" value="String getTypeName()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="440" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-86" value="void setColumns(const NamesAndTypesList &amp; new_columns)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="470" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-87" value="const NamesAndTypesList &amp; getColumns()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="510" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-89" value="void assertOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="540" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-90" value="void remove()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-91" value="void projectionRemove(const String &amp;amp; parent_to, bool keep_shared_data = false)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="600" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-92" value="void loadColumnsChecksumsIndexes(bool require_columns_checksums, bool check_consistency)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="640" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-93" value="String getMarksFileExtension()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="680" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-94" value="String getNewName(const MergeTreePartInfo &amp;amp; new_part_info)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="710" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-95" value="std::optional&amp;lt;size_t&amp;gt; getColumnPosition(const String &amp;amp; column_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="740" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-96" value="String getColumnNameWithMinimumCompressedSize(const StorageMetadataPtr &amp;amp; metadata_snapshot)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="770" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-97" value="bool contains(const IMergeTreeDataPart &amp;amp; other)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="820" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-98" value="std::pair&amp;lt;DayNum, DayNum&amp;gt; getMinMaxDate()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="850" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-100" value="std::pair&amp;lt;time_t, time_t&amp;gt; getMinMaxTime()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="880" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-101" value="bool isEmpty()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-102" value="const MergeTreeData &amp;amp; storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="940" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-103" value="String name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="970" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-104" value="MergeTreePartInfo info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1000" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-105" value="UUID uuid = UUIDHelpers::Nil" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1030" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-106" value="VolumePtr volume" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1060" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-107" value="mutable String relative_path" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1090" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-108" value="MergeTreeIndexGranularityInfo index_granularity_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1120" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-109" value="size_t rows_count" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-110" value="time_t modification_time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-111" value="mutable std::atomic&amp;lt;time_t&amp;gt; remove_time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1210" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-112" value="bool is_temp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-113" value="bool is_duplicate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-114" value="mutable std::atomic&amp;lt;bool&amp;gt; is_frozen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1300" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-115" value="mutable bool force_keep_shared_data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1330" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-116" value="enum class State" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontStyle=0;fontSize=13;fontColor=#000000;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-117" value="TTLInfos ttl_infos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-118" value="void setState(State new_state)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1420" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-119" value="State getState()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-120" value="static constexpr std::string_view stateString(State state)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1480" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-121" value="constexpr std::string_view stateString()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1510" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-122" value="String getNameWithState()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1540" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-123" value="bool checkState(const std::initializer_list&amp;lt;State&amp;gt; &amp;amp; affordable_states)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1570" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-124" value="void assertState(const std::initializer_list&amp;lt;State&amp;gt; &amp;amp; affordable_states)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1600" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-125" value="Index index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1630" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-126" value="MergeTreePartition partition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1660" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-127" value="MergeTreeIndexGranularity index_granularity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1690" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-128" value="struct MinMaxIndex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1720" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-129" value="MinMaxIndexPtr minmax_idx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1750" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-130" value="Checksums checksums" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1780" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-131" value="NameSet expired_columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1810" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-132" value="CompressionCodecPtr default_codec" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1840" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-133" value="UInt64 getIndexSizeInBytes()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1870" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-134" value="UInt64 getIndexSizeInAllocatedBytes()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1900" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-135" value="UInt64 getMarksCount()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1930" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-136" value="void setBytesOnDisk(UInt64 bytes_on_disk_)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1960" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-137" value="size_t getFileSizeOrZero(const String &amp;amp; file_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="1990" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-138" value="String getFullRelativePath()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2020" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-139" value="String getFullPath()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2050" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-140" value="void renameToDetached(const String &amp;amp; prefix)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2080" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-141" value="virtual void renameTo(const String &amp;amp; new_relative_path, bool remove_new_dir_if_exists)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2110" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-142" value="virtual bool hasColumnFiles(const NameAndTypePair &amp;amp; /* column */)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2220" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-143" value="virtual void makeCloneInDetached(const String &amp;amp; prefix, const StorageMetadataPtr &amp;amp; metadata_snapshot)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2150" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-144" value="void makeCloneOnDisk(const DiskPtr &amp;amp; disk, const String &amp;amp; directory_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2190" width="455" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-145" value="bool shallParticipateInMerges(const StoragePolicyPtr &amp;amp; storage_policy)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2250" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-146" value="static UInt64 calculateTotalSizeOnDisk(const DiskPtr &amp;amp; disk_, const String &amp;amp; from)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2280" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-147" value="void calculateColumnsAndSecondaryIndicesSizesOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2310" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-148" value="String getRelativePathForPrefix(const String &amp;amp; prefix)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2340" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-149" value="bool isProjectionPart()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2370" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-150" value="const IMergeTreeDataPart * getParentPart()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2400" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-151" value="const std::map&amp;lt;String, std::shared_ptr&amp;lt;IMergeTreeDataPart&amp;gt;&amp;gt; &amp;amp; getProjectionParts()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2430" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-152" value="void addProjectionPart(const String &amp;amp; projection_name, std::shared_ptr&amp;lt;IMergeTreeDataPart&amp;gt; &amp;amp;&amp;amp; projection_part)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2470" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-153" value="bool hasProjection(const String &amp;amp; projection_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2510" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-154" value="void loadProjections(bool require_columns_checksums, bool check_consistency)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2540" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-155" value="NameSet getFileNamesWithoutChecksums()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2580" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-156" value="bool checkAllTTLCalculated(const StorageMetadataPtr &amp;amp; metadata_snapshot)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2610" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-157" value="SerializationPtr getSerializationForColumn(const NameAndTypePair &amp;amp; column)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2640" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-158" value="String getUniqueId()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2670" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-159" value="ColumnSize total_columns_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2700" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-160" value="ColumnSizeByName columns_sizes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2730" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-161" value="ColumnSize total_secondary_indices_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2760" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-162" value="IndexSizeByName secondary_index_sizes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2790" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-163" value="UInt64 bytes_on_disk{0}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2820" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-164" value="NamesAndTypesList columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2850" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-165" value="const Type part_type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2880" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-166" value="const IMergeTreeDataPart * parent_part" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2910" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-167" value="std::map&amp;lt;String, std::shared_ptr&amp;lt;IMergeTreeDataPart&amp;gt;&amp;gt; projection_parts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2940" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-168" value="void removeIfNeeded()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="2980" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-169" value="virtual void checkConsistency(bool require_part_metadata)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3010" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-170" value="void checkConsistencyBase()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3040" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-171" value="virtual void calculateEachColumnSizes(ColumnSizeByName &amp;amp; each_columns_size, ColumnSize &amp;amp; total_size)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3070" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-172" value="String getRelativePathForDetachedPart(const String &amp;amp; prefix)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3110" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-173" value="std::optional&amp;lt;bool&amp;gt; keepSharedDataInDecoupledStorage()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3140" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-174" value="NameToNumber column_name_to_position" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3170" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-175" value="void loadUUID()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-176" value="void loadColumns(bool require)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3230" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-177" value="void loadChecksums(bool require)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3260" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-178" value="virtual void loadIndexGranularity()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3290" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-179" value="void loadIndex()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-180" value="void loadRowsCount()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3350" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-182" value="void loadTTLInfos()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3380" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-183" value="void loadPartitionAndMinMaxIndex()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3410" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-184" value="void calculateColumnsSizesOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3440" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-185" value="void calculateSecondaryIndicesSizesOnDisk()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3470" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-186" value="void loadDefaultCompressionCodec()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3500" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-187" value="CompressionCodecPtr detectDefaultCompressionCodec()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3530" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-188" value="mutable State state{State::Temporary}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=13;" vertex="1" parent="AUfJygzl4c1fihGhgo_K-325">
+          <mxGeometry y="3560" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

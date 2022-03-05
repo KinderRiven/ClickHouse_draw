@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T04:23:54.997Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="qKDPFjknfG_HiZft5PEw" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T04:24:41.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Yt4Hk70qMg0fBddR85Tj" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2306" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2477" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -765,7 +765,10 @@
           <mxGeometry x="-510" y="1320" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-316" value="DataPartPtr getPartIfExists(const MergeTreePartInfo &amp;amp; part_info, const DataPartStates &amp;amp; valid_states)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="1360" width="350" height="40" as="geometry" />
+          <mxGeometry x="-750" y="1360" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-317" value="Note : Returns the part with the given name and state or nullptr if no such part." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1320" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

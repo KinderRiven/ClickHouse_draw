@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T06:58:45.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="PzBb71YMYXoePtsi8Nnz" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T07:00:43.649Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7hk3uBdNMZSZu-JDlkjb" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2018" dy="1417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2285" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1094,6 +1094,18 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-448" value="PinnedPartUUIDsPtr pinned_part_uuids" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-400" y="1910" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-449" value="mutable std::mutex data_parts_mutex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="1940" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-450" value="DataPartsIndexes data_parts_indexes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="1970" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-451" value="DataPartsIndexes::index&amp;lt;TagByInfo&amp;gt;::type &amp;amp; data_parts_by_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="2000" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-452" value="DataPartsIndexes::index&amp;lt;TagByStateAndInfo&amp;gt;::type &amp;amp; data_parts_by_state_and_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="2030" width="510" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

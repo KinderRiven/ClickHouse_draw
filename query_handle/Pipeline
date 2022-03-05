@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T11:17:28.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="08C36HrblVqUjXF93OKk" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T11:18:44.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ur53xdgq8vJJrPuj73bV" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="440" dy="300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="498" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1059,6 +1059,24 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-32" value="const size_t requested_num_streams" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1920" y="2390" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-33" value="const size_t preferred_block_size_bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2420" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-35" value="const size_t preferred_max_column_in_block_size_bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2450" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-36" value="const bool sample_factor_column_queried" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2480" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-37" value="Poco::Logger * log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-38" value="std::shared_ptr&amp;lt;PartitionIdToMaxBlock&amp;gt; max_block_numbers_to_read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2510" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-39" value="const size_t requested_num_streams" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2570" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

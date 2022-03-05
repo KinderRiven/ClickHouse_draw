@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T05:06:35.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="L7jg2IxKTD8ETDt50TZm" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T05:07:01.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="18xxOQ-ix-iEWKne0dl4" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
     <mxGraphModel dx="2442" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -888,8 +888,8 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-359" value="MergeTreeDeduplicationLog * getDeduplicationLog()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry y="1600" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-360" value="ActionLock getActionLock(StorageActionBlockType action_type)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry y="1660" width="440" height="40" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-360" value="std::mutex mutation_wait_mutex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="1640" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

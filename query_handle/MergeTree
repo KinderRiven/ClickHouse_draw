@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T08:07:30.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="VRaMz-FCjKQMDUOnRj_E" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T08:10:41.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3A1yPBJmTbH16yaHr-rl" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2875" dy="1438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2942" dy="1484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1223,8 +1223,20 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-455" value="&lt;b&gt;data_parts_indexes.insert(part)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="340" y="-290" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-509" value="&lt;span&gt;DataPartPtr&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13px ; font-weight: 700&quot;&gt;MergeTreeData::&lt;/span&gt;&lt;span&gt;getActiveContainingPart&lt;br&gt;(const String &amp;amp; part_name)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="-720" width="320" height="40" as="geometry" />
+        <mxCell id="AUfJygzl4c1fihGhgo_K-511" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF0000;endArrow=classic;endFill=1;strokeColor=#1A1A1A;fillColor=#FFE45E;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-509" target="AUfJygzl4c1fihGhgo_K-510">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-509" value="MergeTreeData::DataPartPtr&amp;nbsp;&lt;b&gt;MergeTreeData::getActiveContainingPart&lt;br&gt;&lt;/b&gt;(const String &amp;amp; part_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="-720" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-513" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF0000;endArrow=classic;endFill=1;strokeColor=#1A1A1A;fillColor=#FFE45E;" edge="1" parent="1" source="AUfJygzl4c1fihGhgo_K-510" target="AUfJygzl4c1fihGhgo_K-512">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-510" value="MergeTreeData::DataPartPtr &lt;b&gt;MergeTreeData::getActiveContainingPart&lt;br&gt;&lt;/b&gt;(const MergeTreePartInfo &amp;amp; part_info)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-573" y="-660" width="413" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-512" value="&lt;span&gt;DataPartPtr&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13px ; font-weight: 700&quot;&gt;MergeTreeData::&lt;/span&gt;&lt;span&gt;getActiveContainingPart&lt;br&gt;(const String &amp;amp; part_name)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-600.72" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

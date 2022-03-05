@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T06:50:38.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="El8facURxSlIesgC4wCs" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T06:52:46.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="iOdmKwjrGptIRs5ro8dw" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2104" dy="1477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2165" dy="1518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1076,6 +1076,18 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-440" value="DataTypePtr type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-900" y="1700" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-442" value="BrokenPartCallback broken_part_callback" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="1760" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-443" value="String log_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1790" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-444" value="Poco::Logger * log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1820" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-445" value="MultiVersion&amp;lt;MergeTreeSettings&amp;gt; storage_settings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1850" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

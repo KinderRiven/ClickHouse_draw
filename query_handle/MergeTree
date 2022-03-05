@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T08:50:14.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="pueMmPOBoPHQk97cL7IK" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T08:51:04.076Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ctxiwgW7N5QSOMEky6Y4" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="3269" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3133" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1270,6 +1270,18 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-528" value="std::function&amp;lt;void(bool)&amp;gt; moves_assignee_trigger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-440" y="2180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-530" value="virtual void dropPartNoWaitNoThrow(const String &amp;amp; part_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="2210" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-531" value="virtual void dropPart(const String &amp;amp; part_name, bool detach, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="2240" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-532" value="virtual void dropPartNoWaitNoThrow(const String &amp;amp; part_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="2270" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-533" value="virtual void dropPartNoWaitNoThrow(const String &amp;amp; part_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="2300" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

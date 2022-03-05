@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T05:34:18.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="kQI2Ib4EzpkcwkS8b1P_" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T05:36:47.703Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7oHGp1Pig06VZ2HLJQE8" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2355" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -953,6 +953,30 @@
         </mxCell>
         <mxCell id="AUfJygzl4c1fihGhgo_K-384" value="std::shared_ptr&amp;lt;MergeMutateSelectedEntry&amp;gt; selectPartsToMerge( const StorageMetadataPtr &amp;amp; metadata_snapshot, bool aggressive, const String &amp;amp; partition_id, bool final, String * disable_reason, TableLockHolder &amp;amp; table_lock_holder, std::unique_lock&amp;lt;std::mutex&amp;gt; &amp;amp; lock, bool optimize_skip_merged_partitions = false, SelectPartsDecision * select_decision_out = nullptr)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry y="2310" width="650" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-385" value="std::shared_ptr&amp;lt;MergeMutateSelectedEntry&amp;gt; selectPartsToMutate(const StorageMetadataPtr &amp;amp; metadata_snapshot, String * disable_reason, TableLockHolder &amp;amp; table_lock_holder)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2400" width="650" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-386" value="Int64 getCurrentMutationVersion( const DataPartPtr &amp;amp; part, std::unique_lock&amp;lt;std::mutex&amp;gt; &amp;amp; /* currently_processing_in_background_mutex_lock */)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2450" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-387" value="void clearOldMutations(bool truncate = false)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2500" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-390" value="void dropPartNoWaitNoThrow(const String &amp;amp; part_name)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2530" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-391" value="void dropPart(const String &amp;amp; part_name, bool detach, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2560" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-392" value="void dropPartition(const ASTPtr &amp;amp; partition, bool detach, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2590" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-393" value="void dropPartsImpl(DataPartsVector &amp;amp;&amp;amp; parts_to_remove, bool detach)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2620" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-394" value="PartitionCommandsResultInfo attachPartition(const ASTPtr &amp;amp; partition, const StorageMetadataPtr &amp;amp; metadata_snapshot, bool part, ContextPtr context)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=0;fontSize=15;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="2650" width="570" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

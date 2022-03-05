@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T11:10:13.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-7wD0SJAiVO3gbyhkPRn" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T11:11:32.343Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3npkl4LOid6b_Blc19Ck" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -974,16 +974,16 @@
           <mxGeometry x="1920" y="1400" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-4" value="enum class IndexType" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="1430" width="170" height="30" as="geometry" />
+          <mxGeometry x="1920" y="1430" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-5" value="struct IndexStat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="1460" width="170" height="30" as="geometry" />
+          <mxGeometry x="1920" y="1460" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-6" value="enum class ReadType" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="1490" width="170" height="30" as="geometry" />
+          <mxGeometry x="1920" y="1490" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-7" value="struct AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="1520" width="170" height="30" as="geometry" />
+          <mxGeometry x="1920" y="1520" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-8" value="&lt;b&gt;ReadFromMergeTree&lt;/b&gt;(&lt;u&gt;&lt;b&gt;MergeTreeData::DataPartsVector&lt;/b&gt;&lt;/u&gt; parts_, Names real_column_names_, Names virt_column_names_, &lt;b&gt;&lt;u&gt;const MergeTreeData&lt;/u&gt;&lt;/b&gt; &amp;amp; data_, const &lt;b&gt;&lt;u&gt;SelectQueryInfo&lt;/u&gt;&lt;/b&gt; &amp;amp; query_info_, &lt;b&gt;&lt;u&gt;StorageMetadataPtr&lt;/u&gt;&lt;/b&gt; metadata_snapshot_, &lt;u&gt;&lt;b&gt;StorageMetadataPtr&lt;/b&gt;&lt;/u&gt; metadata_snapshot_base_, ContextPtr context_, size_t max_block_size_, size_t num_streams_, bool sample_factor_column_queried_, std::shared_ptr&amp;lt;PartitionIdToMaxBlock&amp;gt; max_block_numbers_to_read_, Poco::Logger * log_, MergeTreeDataSelectAnalysisResultPtr analyzed_result_ptr_ )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;glass=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1550" width="600" height="100" as="geometry" />
@@ -1006,8 +1006,26 @@
         <mxCell id="VBDGagkCTwYl4dxm7euT-14" value="void describeIndexes(JSONBuilder::JSONMap &amp;amp; map)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1800" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-15" value="struct AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="1830" width="170" height="30" as="geometry" />
+        <mxCell id="VBDGagkCTwYl4dxm7euT-15" value="const StorageID getStorageID()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1830" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-16" value="UInt64 getSelectedParts()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1860" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-17" value="UInt64 getSelectedRows()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1890" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-18" value="UInt64 getSelectedMarks()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1920" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-19" value="struct AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1950" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-20" value="struct AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1980" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-21" value="struct AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2010" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

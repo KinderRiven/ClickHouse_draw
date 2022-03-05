@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T05:03:47.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="EDvfb16fswURSUWf0tP4" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T05:04:38.598Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="nTVByMAYNLtPGi0MpMKF" version="16.6.4" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="2442" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3005" dy="2092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -864,8 +864,17 @@
         <mxCell id="AUfJygzl4c1fihGhgo_K-350" value="void truncate(const ASTPtr &amp;amp;, const StorageMetadataPtr &amp;amp;, ContextPtr, TableExclusiveLockHolder &amp;amp;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry y="1300" width="680" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUfJygzl4c1fihGhgo_K-352" value="void alter(const AlterCommands &amp;amp; commands, ContextPtr context, AlterLockHolder &amp;amp; table_lock_holder)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="AUfJygzl4c1fihGhgo_K-352" value="void alter(const AlterCommands &amp;amp; commands, ContextPtr context, AlterLockHolder &amp;amp; table_lock_holder)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry y="1340" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-353" value="void checkTableCanBeDropped()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="1380" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-354" value="ActionLock getActionLock(StorageActionBlockType action_type)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="1420" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AUfJygzl4c1fihGhgo_K-355" value="ActionLock getActionLock(StorageActionBlockType action_type)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="1460" width="440" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T11:07:18.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ezI_qKmXLenbngr30ZPW" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T11:10:13.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-7wD0SJAiVO3gbyhkPRn" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -987,6 +987,27 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-8" value="&lt;b&gt;ReadFromMergeTree&lt;/b&gt;(&lt;u&gt;&lt;b&gt;MergeTreeData::DataPartsVector&lt;/b&gt;&lt;/u&gt; parts_, Names real_column_names_, Names virt_column_names_, &lt;b&gt;&lt;u&gt;const MergeTreeData&lt;/u&gt;&lt;/b&gt; &amp;amp; data_, const &lt;b&gt;&lt;u&gt;SelectQueryInfo&lt;/u&gt;&lt;/b&gt; &amp;amp; query_info_, &lt;b&gt;&lt;u&gt;StorageMetadataPtr&lt;/u&gt;&lt;/b&gt; metadata_snapshot_, &lt;u&gt;&lt;b&gt;StorageMetadataPtr&lt;/b&gt;&lt;/u&gt; metadata_snapshot_base_, ContextPtr context_, size_t max_block_size_, size_t num_streams_, bool sample_factor_column_queried_, std::shared_ptr&amp;lt;PartitionIdToMaxBlock&amp;gt; max_block_numbers_to_read_, Poco::Logger * log_, MergeTreeDataSelectAnalysisResultPtr analyzed_result_ptr_ )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;glass=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1550" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-9" value="String getName()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1650" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-10" value="void initializePipeline(QueryPipelineBuilder &amp;amp; pipeline, const BuildQueryPipelineSettings &amp;amp;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1680" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-11" value="void describeActions(FormatSettings &amp;amp; format_settings)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1710" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-12" value="void describeIndexes(FormatSettings &amp;amp; format_settings)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1740" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-13" value="void describeActions(JSONBuilder::JSONMap &amp;amp; map)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1770" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-14" value="void describeIndexes(JSONBuilder::JSONMap &amp;amp; map)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1800" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-15" value="struct AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1830" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

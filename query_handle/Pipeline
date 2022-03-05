@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T11:11:32.343Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3npkl4LOid6b_Blc19Ck" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T11:12:37.296Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="mD79xlgzr2CTewvZn_Xy" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="526" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1006,26 +1006,26 @@
         <mxCell id="VBDGagkCTwYl4dxm7euT-14" value="void describeIndexes(JSONBuilder::JSONMap &amp;amp; map)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1800" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-15" value="const StorageID getStorageID()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+        <mxCell id="VBDGagkCTwYl4dxm7euT-15" value="const StorageID getStorageID()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1830" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-16" value="UInt64 getSelectedParts()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+        <mxCell id="VBDGagkCTwYl4dxm7euT-16" value="UInt64 getSelectedParts()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1860" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-17" value="UInt64 getSelectedRows()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+        <mxCell id="VBDGagkCTwYl4dxm7euT-17" value="UInt64 getSelectedRows()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1890" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-18" value="UInt64 getSelectedMarks()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+        <mxCell id="VBDGagkCTwYl4dxm7euT-18" value="UInt64 getSelectedMarks()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1920" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-19" value="struct AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="1950" width="170" height="30" as="geometry" />
+        <mxCell id="VBDGagkCTwYl4dxm7euT-19" value="&lt;b&gt;static MergeTreeDataSelectAnalysisResultPtr selectRangesToRead&lt;/b&gt;( MergeTreeData::DataPartsVector parts, const StorageMetadataPtr &amp;amp; metadata_snapshot_base, const StorageMetadataPtr &amp;amp; metadata_snapshot, const SelectQueryInfo &amp;amp; query_info, ContextPtr context, unsigned num_streams, std::shared_ptr&amp;lt;PartitionIdToMaxBlock&amp;gt; max_block_numbers_to_read, const MergeTreeData &amp;amp; data, const Names &amp;amp; real_column_names, bool sample_factor_column_queried, Poco::Logger * log)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1950" width="600" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-20" value="struct AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="1980" width="170" height="30" as="geometry" />
+          <mxGeometry x="1920" y="2110" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-21" value="struct AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="2010" width="170" height="30" as="geometry" />
+          <mxGeometry x="1920" y="2055" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

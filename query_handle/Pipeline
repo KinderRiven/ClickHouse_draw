@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T12:21:01.039Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="CwRJBkLgr_FLpu2cLUo8" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T12:22:58.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bR5CJDHeovCp22Y-ZMMU" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="1368" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1940" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -922,6 +922,9 @@
         <mxCell id="GLADV_qJz34p-wnXOpVd-364" value="&lt;font&gt;...&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1074" y="3208" width="320" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-3" target="VBDGagkCTwYl4dxm7euT-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-3" value="&lt;b style=&quot;font-size: 11px&quot;&gt;ReadFromMergeTree&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1400" width="140" height="30" as="geometry" />
         </mxCell>
@@ -1116,16 +1119,25 @@
           <mxGeometry x="920" y="1699.69" width="346" height="25.62" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-64" value="AnalysisResult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="1289" width="120" height="30" as="geometry" />
+          <mxGeometry x="2640" y="1319" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-65" value="RangesInDataParts parts_with_ranges" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="1319" width="240" height="30" as="geometry" />
+        <mxCell id="VBDGagkCTwYl4dxm7euT-65" value="RangesInDataParts parts_with_ranges" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="1349" width="220" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-66" value="MergeTreeDataSelectSamplingData" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="1349" width="240" height="30" as="geometry" />
+        <mxCell id="VBDGagkCTwYl4dxm7euT-66" value="MergeTreeDataSelectSamplingData" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="1370" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-67" value="RangesInDataParts parts_with_ranges" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="1379" width="240" height="30" as="geometry" />
+        <mxCell id="VBDGagkCTwYl4dxm7euT-67" value="IndexStats index_stats" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="1390" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-68" value="Names column_names_to_read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="1410" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-69" value="ReadFromMergeTree::ReadType read_type = ReadFromMergeTree::ReadType::Default" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="1430" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-70" value="UInt64 total_parts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;glass=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="1470" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

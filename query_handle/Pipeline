@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T18:02:08.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="U8xx_4J3UChFUvGP9hhY" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T18:02:55.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="SAFuT7SDt2cpcD4_hcbB" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5673" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4421" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1716,7 +1716,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-361" value="&lt;b&gt;auto read_from_merge_tree = std::make_unique&amp;lt;ReadFromMergeTree&amp;gt;&lt;/b&gt;( std::move(parts), real_column_names, virt_column_names, data, query_info, metadata_snapshot, metadata_snapshot_base, context, max_block_size, num_streams, sample_factor_column_queried, max_block_numbers_to_read, log,&lt;u&gt;&lt;b&gt; merge_tree_select_result_ptr&lt;/b&gt;&lt;/u&gt; )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="VBDGagkCTwYl4dxm7euT-361" value="&lt;b&gt;auto read_from_merge_tree = std::make_unique&amp;lt;ReadFromMergeTree&amp;gt;&lt;/b&gt;( std::move(parts), real_column_names, virt_column_names, data, query_info, metadata_snapshot, metadata_snapshot_base, context, max_block_size, num_streams, sample_factor_column_queried, max_block_numbers_to_read, log,&lt;u&gt;&lt;b&gt; merge_tree_select_result_ptr&lt;/b&gt;&lt;/u&gt; )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#36393d;fontStyle=0;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-2160" y="2950" width="680" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-362" value="&lt;b&gt;create ReadFromMergeTree Step&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
@@ -1740,7 +1740,7 @@
         <mxCell id="VBDGagkCTwYl4dxm7euT-372" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-371" target="VBDGagkCTwYl4dxm7euT-370">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-371" value="&lt;b&gt;RangesInDataParts MergeTreeDataSelectExecutor::filterPartsByPrimaryKeyAndSkipIndexes&lt;/b&gt;( MergeTreeData::DataPartsVector &amp;amp;&amp;amp; parts, StorageMetadataPtr metadata_snapshot, const SelectQueryInfo &amp;amp; query_info, const ContextPtr &amp;amp; context, const KeyCondition &amp;amp; key_condition, const MergeTreeReaderSettings &amp;amp; reader_settings, Poco::Logger * log, size_t num_streams, ReadFromMergeTree::IndexStats &amp;amp; index_stats, bool use_skip_indexes)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="VBDGagkCTwYl4dxm7euT-371" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;RangesInDataParts MergeTreeDataSelectExecutor::filterPartsByPrimaryKeyAndSkipIndexes&lt;/b&gt;( MergeTreeData::DataPartsVector &amp;amp;&amp;amp; parts, StorageMetadataPtr metadata_snapshot, const SelectQueryInfo &amp;amp; query_info, const ContextPtr &amp;amp; context, const KeyCondition &amp;amp; key_condition, const MergeTreeReaderSettings &amp;amp; reader_settings, Poco::Logger * log, size_t num_streams, ReadFromMergeTree::IndexStats &amp;amp; index_stats, bool use_skip_indexes)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontSize=13;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="180.5" y="2080" width="739.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-373" value="/// Let&#39;s find what range to read from each part." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T06:37:20.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="E8PeRV_6UJKFZqjPykE3" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T06:38:50.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="jrMp59dt3TVxxMnBBboG" version="16.6.4" type="github">
   <diagram id="6C0A7F11ecszJQyKfArg" name="第 1 页">
-    <mxGraphModel dx="1892" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,34 +279,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-2" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;IParser&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1869" y="760" width="160" height="30" as="geometry" />
+          <mxGeometry x="1829.5" y="800" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-4" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;IParserBase&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="2109" y="760" width="120" height="30" as="geometry" />
+          <mxGeometry x="2069.5" y="800" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-13" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;struct Pos : TokenIterator&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="760" width="160" height="30" as="geometry" />
+          <mxGeometry x="1590.5" y="800" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-15" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;uint32_t depth&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="790" width="160" height="30" as="geometry" />
+          <mxGeometry x="1590.5" y="830" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-16" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;uint32_t max_depth&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="820" width="160" height="30" as="geometry" />
+          <mxGeometry x="1590.5" y="860" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-17" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;uint32_t max_depth&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="850" width="160" height="30" as="geometry" />
+          <mxGeometry x="1590.5" y="890" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="7ECqqQds-IBnISR1RDZz-18" target="7ECqqQds-IBnISR1RDZz-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-18" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;TokenIterator&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="760" width="120" height="30" as="geometry" />
+          <mxGeometry x="1400.5" y="800" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-20" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Tokens * tokens&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="790" width="120" height="30" as="geometry" />
+          <mxGeometry x="1400.5" y="830" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-21" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;size_t index = 0&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="820" width="120" height="30" as="geometry" />
+          <mxGeometry x="1400.5" y="860" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ECqqQds-IBnISR1RDZz-23" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;TokenIterator&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1240.5" y="800" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

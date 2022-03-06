@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T15:33:55.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Rg8AybroV0qwUiRDfnPM" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T16:01:17.497Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="2fvsZqQ3-V9TCt_daR5o" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="3157" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3269" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1578,8 +1578,8 @@
         <mxCell id="VBDGagkCTwYl4dxm7euT-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-293" target="VBDGagkCTwYl4dxm7euT-288">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-293" value="&lt;b&gt;struct SelectQueryOptions&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-2430" y="2607.5" width="230" height="35" as="geometry" />
+        <mxCell id="VBDGagkCTwYl4dxm7euT-293" value="&lt;b&gt;SelectQueryOptions&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-2400" y="2607.5" width="200" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-295">
           <mxGeometry relative="1" as="geometry">
@@ -1591,6 +1591,9 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-297" value="&lt;b&gt;auto plan = readFromParts&lt;/b&gt;( query_info.merge_tree_select_result_ptr ? MergeTreeData::DataPartsVector{} : data.getDataPartsVector(), column_names_to_return, metadata_snapshot, metadata_snapshot, query_info, context, max_block_size, num_streams, max_block_numbers_to_read, query_info.merge_tree_select_result_ptr)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-2160" y="2665" width="680" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-299" value="&lt;b&gt;SelectQueryInfo&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-2400" y="2830" width="200" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T06:44:59.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="DotiBc_K5Q09lSA17ALU" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T06:45:29.756Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="0dsCyir5UWS3Z8stXkmf" version="16.6.4" type="github">
   <diagram id="6C0A7F11ecszJQyKfArg" name="第 1 页">
-    <mxGraphModel dx="1351" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1051" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,15 +184,6 @@
         </mxCell>
         <mxCell id="WZrlSbva8Cn_7zD9WKA5-92" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="460" y="1020" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7ECqqQds-IBnISR1RDZz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#FF0000;endArrow=block;endFill=0;" edge="1" parent="1" source="7ECqqQds-IBnISR1RDZz-2" target="7ECqqQds-IBnISR1RDZz-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7ECqqQds-IBnISR1RDZz-2" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;IParser&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1779.5" y="960" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7ECqqQds-IBnISR1RDZz-4" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;IParserBase&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="2019.5" y="960" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-13" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;struct Pos : TokenIterator&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1540.5" y="960" width="160" height="30" as="geometry" />

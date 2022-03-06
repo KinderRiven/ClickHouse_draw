@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T15:30:31.525Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="RcBqu2c_V1Oj_8mijDbd" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T15:32:41.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="F9vP_79fSZJmx3m0ExbW" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="3304" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4583" dy="1436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1580,6 +1580,12 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-293" value="&lt;b&gt;struct SelectQueryOptions&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-2430" y="2607.5" width="230" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-295" target="VBDGagkCTwYl4dxm7euT-288">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-295" value="&lt;b&gt;QueryPlanPtr MergeTreeDataSelectExecutor::readFromParts&lt;/b&gt;( MergeTreeData::DataPartsVector parts, const Names &amp;amp; column_names_to_return, const StorageMetadataPtr &amp;amp; metadata_snapshot_base, const StorageMetadataPtr &amp;amp; metadata_snapshot, const SelectQueryInfo &amp;amp; query_info, ContextPtr context, const UInt64 max_block_size, const unsigned num_streams, std::shared_ptr&amp;lt;PartitionIdToMaxBlock&amp;gt; max_block_numbers_to_read, MergeTreeDataSelectAnalysisResultPtr merge_tree_select_result_ptr)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-2160" y="2700" width="680" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

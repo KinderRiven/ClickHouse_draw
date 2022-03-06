@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T17:44:35.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="s6WvmOLfsJiUholfFn1Z" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T17:46:44.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="WjLraWEORIIpssa7zRA8" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="4096" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4036" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1796,6 +1796,9 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-371" value="&lt;b&gt;RangesInDataParts MergeTreeDataSelectExecutor::filterPartsByPrimaryKeyAndSkipIndexes&lt;/b&gt;( MergeTreeData::DataPartsVector &amp;amp;&amp;amp; parts, StorageMetadataPtr metadata_snapshot, const SelectQueryInfo &amp;amp; query_info, const ContextPtr &amp;amp; context, const KeyCondition &amp;amp; key_condition, const MergeTreeReaderSettings &amp;amp; reader_settings, Poco::Logger * log, size_t num_streams, ReadFromMergeTree::IndexStats &amp;amp; index_stats, bool use_skip_indexes)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="180.5" y="2080" width="739.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-373" value="/// Let&#39;s find what range to read from each part." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="180.5" y="2160" width="739.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

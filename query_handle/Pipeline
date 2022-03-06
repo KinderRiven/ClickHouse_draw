@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T17:27:33.301Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="1KreIKRlau69DDGbu63k" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T17:29:17.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ybmvcnFY1hN8JpfFNKeJ" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="4131" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1069,7 +1069,7 @@
           <mxGeometry x="920" y="1702.5" width="470" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-89" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;void ReadFromMergeTree::initializePipeline&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/b&gt;(QueryPipelineBuilder &amp;amp; pipeline, const BuildQueryPipelineSettings &amp;amp;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="996" y="1763.75" width="484" height="42.5" as="geometry" />
+          <mxGeometry x="1000" y="1763.75" width="480" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="GLADV_qJz34p-wnXOpVd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.091;exitY=1.013;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;endArrow=classic;endFill=1;exitPerimeter=0;fontFamily=Helvetica;" parent="1" source="GLADV_qJz34p-wnXOpVd-87" target="GLADV_qJz34p-wnXOpVd-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1204,7 +1204,7 @@
           <mxGeometry x="-60" y="1842.5000000000002" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-115" value="&lt;b&gt;Pipe ReadFromMergeTree::spreadMarkRangesAmongStreamsWithOrder&lt;/b&gt;( RangesInDataParts &amp;amp;&amp;amp; parts_with_ranges, const Names &amp;amp; column_names, const ActionsDAGPtr &amp;amp; sorting_key_prefix_expr, ActionsDAGPtr &amp;amp; out_projection, const InputOrderInfoPtr &amp;amp; input_order_info)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="995" y="1806.25" width="484" height="73.75" as="geometry" />
+          <mxGeometry x="1000" y="1840" width="479" height="73.75" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-119" value="&lt;b&gt;for (i= 0; i &amp;lt; num_stream; i++)&lt;/b&gt;&lt;br&gt;&lt;b&gt;pipes.emplace_back(readInOrder...)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=13;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="436" y="1960" width="484" height="50" as="geometry" />
@@ -1775,6 +1775,9 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-362" value="&lt;b&gt;create ReadFromMergeTree Step&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-2160" y="3010" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-365" value="&lt;b&gt;auto result = getAnalysisResult() // select range to read&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontSize=13;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1806.25" width="479" height="33.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

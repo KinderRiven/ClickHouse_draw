@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T17:07:03.320Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="1nwxutYlsWdNW-Kz05f6" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T17:10:13.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Jnuof95vMpIhYZvurYOJ" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="3849" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4096" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1759,6 +1759,9 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-359" value="&lt;span&gt;getDataPartsStateRange&amp;nbsp; // get commit status data parts&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1409.5" y="2725" width="429.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-361" value="&lt;b&gt;auto read_from_merge_tree = std::make_unique&amp;lt;ReadFromMergeTree&amp;gt;&lt;/b&gt;( std::move(parts), real_column_names, virt_column_names, data, query_info, metadata_snapshot, metadata_snapshot_base, context, max_block_size, num_streams, sample_factor_column_queried, max_block_numbers_to_read, log, merge_tree_select_result_ptr )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-2160" y="2920" width="680" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

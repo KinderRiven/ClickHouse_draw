@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T10:26:31.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TPkkzy31w1cLTIKwBMGy" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T10:28:31.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="GpbghvJ4H7v5TxhKzjDH" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="2719" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1584" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1264,6 +1264,12 @@
             <mxPoint x="947" y="2045" as="sourcePoint" />
             <mxPoint x="1033" y="1960" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-136" value="InterpreterSelectWithUnionQuery::InterpreterSelectWithUnionQuery( const ASTPtr &amp;amp; query_ptr_, ContextPtr context_, const SelectQueryOptions &amp;amp; options_, const Names &amp;amp; required_result_column_names)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="200" width="680" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-137" value="public: IInterpreterUnionOrSelectQuery(const ASTPtr &amp;amp; query_ptr_, ContextPtr context_, const SelectQueryOptions &amp;amp; options_)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="290" width="680" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T07:33:09.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="_W_GWVv8aUbcz3cqV65k" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T07:52:07.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ae_cosr4MKUG4Hh1scMw" version="16.6.4" type="github">
   <diagram id="6C0A7F11ecszJQyKfArg" name="第 1 页">
-    <mxGraphModel dx="2703" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,6 +148,9 @@
         <mxCell id="WZrlSbva8Cn_7zD9WKA5-44" value="&lt;font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;ASTPtr parseQueryAndMovePosition&lt;/b&gt;( IParser &amp;amp; parser, const char * &amp;amp; pos, const char * end, const std::string &amp;amp; query_description, bool allow_multi_statements, size_t max_query_size, size_t max_parser_depth)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1110" y="1010" width="580" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="7ECqqQds-IBnISR1RDZz-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;endArrow=classic;endFill=1;" edge="1" parent="1" source="WZrlSbva8Cn_7zD9WKA5-46" target="7ECqqQds-IBnISR1RDZz-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WZrlSbva8Cn_7zD9WKA5-46" value="&lt;font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;ASTPtr tryParseQuery&lt;/b&gt;( &lt;u&gt;&lt;font color=&quot;#ff0000&quot;&gt;IParser &amp;amp; parser&lt;/font&gt;&lt;/u&gt;, const char * &amp;amp; _out_query_end, const char * all_queries_end, std::string &amp;amp; out_error_message, bool hilite, const std::string &amp;amp; query_description, bool allow_multi_statements, size_t max_query_size, size_t max_parser_depth)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1270" y="1120" width="560" height="100" as="geometry" />
         </mxCell>
@@ -282,6 +285,9 @@
         </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-48" value="&lt;font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;解析语法树&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="80" y="880" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ECqqQds-IBnISR1RDZz-53" value="&lt;font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;span&gt;bool IParserBase::parse(Pos &amp;amp; pos, ASTPtr &amp;amp; node, Expected &amp;amp; expected)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1240" width="600" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

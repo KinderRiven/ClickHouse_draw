@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T18:01:38.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3fVPJa-FK4XJZeykj-6q" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T18:02:08.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="U8xx_4J3UChFUvGP9hhY" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="4421" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5673" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1706,21 +1706,21 @@
         <mxCell id="VBDGagkCTwYl4dxm7euT-359" value="&lt;span&gt;getDataPartsStateRange&amp;nbsp; // get commit status data parts&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1409.5" y="2725" width="429.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=3;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-361" target="GLADV_qJz34p-wnXOpVd-89">
+        <mxCell id="VBDGagkCTwYl4dxm7euT-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=3;fillColor=#e51400;strokeColor=#B20000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-362" target="GLADV_qJz34p-wnXOpVd-89">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint y="2965" />
-              <mxPoint y="2380" />
+              <mxPoint x="20" y="2935" />
+              <mxPoint x="20" y="2380" />
               <mxPoint x="1590" y="2380" />
               <mxPoint x="1590" y="1785" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-361" value="&lt;b&gt;auto read_from_merge_tree = std::make_unique&amp;lt;ReadFromMergeTree&amp;gt;&lt;/b&gt;( std::move(parts), real_column_names, virt_column_names, data, query_info, metadata_snapshot, metadata_snapshot_base, context, max_block_size, num_streams, sample_factor_column_queried, max_block_numbers_to_read, log,&lt;u&gt;&lt;b&gt; merge_tree_select_result_ptr&lt;/b&gt;&lt;/u&gt; )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-2160" y="2920" width="680" height="90" as="geometry" />
+          <mxGeometry x="-2160" y="2950" width="680" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-362" value="&lt;b&gt;create ReadFromMergeTree Step&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-2160" y="3010" width="680" height="30" as="geometry" />
+          <mxGeometry x="-2160" y="2920" width="680" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-365" value="&lt;b&gt;auto result = getAnalysisResult() // select range to read&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontSize=13;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1806.25" width="479" height="33.75" as="geometry" />

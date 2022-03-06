@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T11:58:48.668Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TnXUFx_owwWNJzNIbivd" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T11:59:33.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="356M5UgzcsHaBnJrqV0x" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="3742" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5634" dy="2153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1494,40 +1494,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-226" value="IDatabase" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1600" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="-1520" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-227" value="DatabaseDictionary" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1440" y="40" width="200" height="40" as="geometry" />
+          <mxGeometry x="-1360" y="240" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-229" target="VBDGagkCTwYl4dxm7euT-233">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-229" value="DatabaseWithOwnTablesBase" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1440" y="80" width="280" height="40" as="geometry" />
+          <mxGeometry x="-1360" y="280" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-230" value="DatabaseMySQL" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1440" y="120" width="170" height="40" as="geometry" />
+          <mxGeometry x="-1360" y="320" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-231" value="DatabasePostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1440" y="160" width="210" height="40" as="geometry" />
+          <mxGeometry x="-1360" y="360" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-232" value="DatabaseSQLite" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1440" y="200" width="170" height="40" as="geometry" />
+          <mxGeometry x="-1360" y="400" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-233" value="DatabaseMemory" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="40" width="200" height="40" as="geometry" />
+          <mxGeometry x="-1000" y="240" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-235" target="VBDGagkCTwYl4dxm7euT-238">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-235" value="DatabaseOnDisk" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="80" width="200" height="40" as="geometry" />
+          <mxGeometry x="-1000" y="280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-238" target="VBDGagkCTwYl4dxm7euT-242">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-238" value="DatabaseOrdinary" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="40" width="200" height="40" as="geometry" />
+          <mxGeometry x="-720" y="240" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-241" value="DatabaseLazy" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="80" width="200" height="40" as="geometry" />
+          <mxGeometry x="-720" y="280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-242" value="DatabaseAtomic" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="240" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

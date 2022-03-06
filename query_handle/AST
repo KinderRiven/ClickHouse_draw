@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T08:39:55.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="23P5tzY3uncAk39mqLQu" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T08:42:32.686Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="G5Afp5pVsx8FaR5iS1AR" version="16.6.4" type="github">
   <diagram id="6C0A7F11ecszJQyKfArg" name="第 1 页">
-    <mxGraphModel dx="-39" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-175" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,8 +393,17 @@
         <mxCell id="7ECqqQds-IBnISR1RDZz-179" value="&lt;div style=&quot;font-size: 11.3pt&quot;&gt;bool ParserUnionQueryElement::parseImpl(Pos &amp;amp; pos, ASTPtr &amp;amp; node, Expected &amp;amp; expected)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Helvetica;labelBackgroundColor=none;fontSize=13;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="3160" y="1400" width="360" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="7ECqqQds-IBnISR1RDZz-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=#000000;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7ECqqQds-IBnISR1RDZz-181" target="7ECqqQds-IBnISR1RDZz-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7ECqqQds-IBnISR1RDZz-181" value="&lt;div style=&quot;font-size: 11.3pt&quot;&gt;ParserSubquery&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontFamily=Helvetica;labelBackgroundColor=none;fontSize=13;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="3160" y="1455" width="360" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7ECqqQds-IBnISR1RDZz-182" value="&lt;div style=&quot;font-size: 11.3pt&quot;&gt;bool ParserSubquery::parseImpl(Pos &amp;amp; pos, ASTPtr &amp;amp; node, Expected &amp;amp; expected)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;labelBackgroundColor=none;fontSize=13;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="3160" y="1520" width="360" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="7ECqqQds-IBnISR1RDZz-183" value="&lt;div style=&quot;font-size: 11.3pt&quot;&gt;ParserSelectWithUnionQuery&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontFamily=Helvetica;labelBackgroundColor=none;fontSize=13;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="1575" width="360" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

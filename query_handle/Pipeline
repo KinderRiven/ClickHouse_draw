@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T08:10:20.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Zta5Vs_69UqJvdSl7h99" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T08:20:24.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="s-OAXMtsTyzIH0NxH1EL" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="4889" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4096" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1936,6 +1936,20 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-432" value="&lt;span&gt;readFromPool(parts_with_range, required_columns, max_streams, min_marks_for_concurrent_read, use_uncompressed_cache)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=13;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-50" y="2131.25" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-435" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=19;fontColor=#000000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-433">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-295" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-433" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;MergeTreeThreadSelectProcessor::MergeTreeThreadSelectProcessor&lt;/b&gt;( const size_t thread_, const MergeTreeReadPoolPtr &amp;amp; pool_, const size_t min_marks_to_read_, const UInt64 max_block_size_rows_, size_t preferred_block_size_bytes_, size_t preferred_max_column_in_block_size_bytes_, const MergeTreeData &amp;amp; storage_, const StorageMetadataPtr &amp;amp; metadata_snapshot_, const bool use_uncompressed_cache_, const PrewhereInfoPtr &amp;amp; prewhere_info_, ExpressionActionsSettings actions_settings, const MergeTreeReaderSettings &amp;amp; reader_settings_, const Names &amp;amp; virt_column_names_)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=11;fontFamily=Helvetica;fontColor=#ffffff;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-500" y="2160" width="410" height="156.87" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-436" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=#000000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-434" target="VBDGagkCTwYl4dxm7euT-432">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-434" value="&lt;b&gt;Pipe ReadFromMergeTree::readFromPool&lt;/b&gt;( RangesInDataParts parts_with_range, Names required_columns, size_t max_streams, size_t min_marks_for_concurrent_read, bool use_uncompressed_cache)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-500" y="2059" width="410" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

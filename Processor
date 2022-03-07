@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T12:35:47.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="io-BK3ce07YcNppxNQWN" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T14:45:45.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="6wFMFawkADteZ1mBnV0P" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="4730" dy="3230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -736,38 +736,11 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-260" value="ReadResult MergeTreeRangeReader::read(size_t max_rows, MarkRanges &amp;amp; ranges)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1080" y="2192" width="440" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-276" value="&lt;b&gt;size_t readRows&lt;/b&gt;(size_t from_mark, size_t current_task_last_mark, bool continue_reading, size_t max_rows_to_read, Columns &amp;amp; res_columns)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="2980" y="2950" width="510" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-283" value="&lt;b&gt;void addStreams&lt;/b&gt;(const NameAndTypePair &amp;amp; name_and_type, const ReadBufferFromFileBase::ProfileCallback &amp;amp; profile_callback, clockid_t clock_type)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="2980" y="3010" width="560" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-284" value="&lt;b&gt;void addStreams&lt;/b&gt;(const NameAndTypePair &amp;amp; name_and_type, const ReadBufferFromFileBase::ProfileCallback &amp;amp; profile_callback, clockid_t clock_type)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="2980" y="3060" width="560" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-315" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-285" target="Lfx7dPJ4N00ivkeSFCbG-297" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-285" value="&lt;b&gt;void readData&lt;/b&gt;( const NameAndTypePair &amp;amp; name_and_type, ColumnPtr &amp;amp; column, size_t from_mark, bool continue_reading, size_t current_task_last_mark, size_t max_rows_to_read, ISerialization::SubstreamsCache &amp;amp; cache, bool was_prefetched)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="2980" y="3110" width="600" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-286" value="&lt;b&gt;void prefetch&lt;/b&gt;( const NameAndTypePair &amp;amp; name_and_type, size_t from_mark, bool continue_reading, size_t current_task_last_mark, ISerialization::SubstreamsCache &amp;amp; cache, std::unordered_set&amp;lt;std::string&amp;gt; &amp;amp; prefetched_streams)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="2980" y="3180" width="600" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#1A1A1A;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-276" target="Lfx7dPJ4N00ivkeSFCbG-285" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2860" y="2830" as="sourcePoint" />
-            <mxPoint x="2960" y="2830" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2950" y="2980" />
-              <mxPoint x="2950" y="3145" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1rFgEm3q2ZKk34zS4ytC-54" value="for" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#1A1A1A;" parent="Lfx7dPJ4N00ivkeSFCbG-288" vertex="1" connectable="0">
-          <mxGeometry x="-0.0311" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-290" value="&lt;b&gt;static ReadBuffer * getStream&lt;/b&gt;( bool seek_to_start, &lt;b&gt;&lt;u&gt;const ISerialization::SubstreamPath&lt;/u&gt;&lt;/b&gt; &amp;amp; substream_path, &lt;b&gt;&lt;u&gt;MergeTreeReaderWide::FileStreams&lt;/u&gt;&lt;/b&gt; &amp;amp; streams, &lt;b&gt;&lt;u&gt;const NameAndTypePair&lt;/u&gt;&lt;/b&gt; &amp;amp; name_and_type, size_t from_mark, bool seek_to_mark, size_t current_task_last_mark, ISerialization::SubstreamsCache &amp;amp; cache)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e3c800;strokeColor=#B09500;fontStyle=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2910" y="3355" width="665" height="85" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T15:39:44.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HYcdUzwTAapVwLEAt5Dx" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T15:40:02.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="mT17jqGrb2mIinDycaPP" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1566,7 +1566,7 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-475" value="&lt;b&gt;static ReadBuffer * getStream&lt;/b&gt;( bool seek_to_start, &lt;b&gt;&lt;u&gt;const ISerialization::SubstreamPath&lt;/u&gt;&lt;/b&gt; &amp;amp; substream_path, &lt;b&gt;&lt;u&gt;MergeTreeReaderWide::FileStreams&lt;/u&gt;&lt;/b&gt; &amp;amp; streams, &lt;b&gt;&lt;u&gt;const NameAndTypePair&lt;/u&gt;&lt;/b&gt; &amp;amp; name_and_type, &lt;b&gt;size_t from_mark&lt;/b&gt;, bool seek_to_mark, size_t current_task_last_mark, ISerialization::SubstreamsCache &amp;amp; cache)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e3c800;strokeColor=#B09500;fontStyle=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4160" y="3040" width="665" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-476" value="&lt;b&gt;MergeTreeReaderStream&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-476" value="&lt;span&gt;MergeTreeReaderStream&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="4160" y="3125" width="210" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-477" value="&lt;span&gt;if (seek_to_start) stream.seekToStart()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">

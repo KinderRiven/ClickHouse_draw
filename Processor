@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T15:04:38.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="qp9FytGW7h188IUkkNY6" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T15:11:54.499Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-zby05TBOsTEYRklPmAT" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="676" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-25" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="2180" width="1640" height="600.03" as="geometry" />
+        </mxCell>
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-44" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="3040" y="2890" width="1010" height="450" as="geometry" />
         </mxCell>
@@ -690,7 +693,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-243" value="&lt;b&gt;MergeTreeRangeReader::ReadResult MergeTreeRangeReader::startReadingChain&lt;/b&gt;&lt;br&gt;(size_t max_rows, MarkRanges &amp;amp; ranges)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="1640" y="2360" width="340" height="70" as="geometry" />
+          <mxGeometry x="1640" y="2360" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-244" value="MergeTreeRangeReader::ReadResult MergeTreeRangeReader::read&lt;br&gt;(size_t max_rows, MarkRanges &amp;amp; ranges)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="1640" y="2264" width="480" height="50" as="geometry" />
@@ -1326,9 +1329,6 @@
         </mxCell>
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-16" value="task-&amp;gt;data_part-&amp;gt;getReader(...)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1080" y="1851.4399999999998" width="440" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-25" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="2180" width="1640" height="600.03" as="geometry" />
         </mxCell>
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-28" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="2430" y="1345.5" width="370" height="755" as="geometry" />

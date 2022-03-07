@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T14:52:44.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="T5FZN1Tuej39oCNuj7mA" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T14:54:16.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="fYK5IQbDnpZKrESgN-At" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="2365" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -742,13 +742,8 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-294" value="&lt;b&gt;void ISerialization::&lt;/b&gt;&lt;b&gt;deserializeBinaryBulkStatePrefix&lt;/b&gt;( DeserializeBinaryBulkSettings &amp;amp; /*settings*/, DeserializeBinaryBulkStatePtr &amp;amp; /*state*/)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="3320" y="3190" width="665" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-453" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-296" target="Lfx7dPJ4N00ivkeSFCbG-452" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4060" y="3272" />
-              <mxPoint x="4060" y="3590" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-296" target="Lfx7dPJ4N00ivkeSFCbG-452">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-296" value="&lt;b&gt;virtual void&amp;nbsp;&lt;/b&gt;&lt;b&gt;ISerialization::&lt;/b&gt;&lt;b&gt;deserializeBinaryBulkWithMultipleStreams&lt;/b&gt;( ColumnPtr &amp;amp; column, size_t limit, DeserializeBinaryBulkSettings &amp;amp; settings, DeserializeBinaryBulkStatePtr &amp;amp; state, SubstreamsCache * cache) const;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="3320" y="3242.5" width="665" height="60" as="geometry" />
@@ -1060,8 +1055,8 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-426" value="&lt;b&gt;SeekableReadBuffer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="6160" y="244.28999999999996" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-452" value="&lt;b&gt;virtual void&amp;nbsp;&lt;span&gt;ISerialization::&lt;/span&gt;deserializeBinaryBulk&lt;/b&gt;(IColumn &amp;amp; column, ReadBuffer &amp;amp; istr, size_t limit, double avg_value_size_hint)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="4147.5" y="3560" width="665" height="60" as="geometry" />
+        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-452" value="&lt;b&gt;virtual void&amp;nbsp;&lt;span&gt;ISerialization::&lt;/span&gt;deserializeBinaryBulk&lt;/b&gt;(IColumn &amp;amp; column, ReadBuffer &amp;amp; istr, size_t limit, double avg_value_size_hint)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="3322.5" y="3380" width="660" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-454" value="MergeTreeMarksLoader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="4261.25" y="1835.99" width="207.5" height="42.5" as="geometry" />

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T04:49:49.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="SmayWlFWz_kCrTpAgT-F" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T04:51:25.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="OSITkzds9iJo2-h2rsu9" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="4155" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6697" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -991,13 +991,13 @@
         <mxCell id="VBDGagkCTwYl4dxm7euT-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-190" target="VBDGagkCTwYl4dxm7euT-194">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1400" y="1763" />
-              <mxPoint x="-1400" y="1954" />
+              <mxPoint x="-1400" y="1843" />
+              <mxPoint x="-1400" y="2034" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-190" value="void InterpreterSelectQuery::executeImpl(QueryPlan &amp;amp; query_plan, std::optional&amp;lt;Pipe&amp;gt; prepared_pipe)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="1728.75" width="630" height="67.5" as="geometry" />
+          <mxGeometry x="-1350" y="1808.75" width="630" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-191" target="4nuNxfB_0Uh0BvwMZ_Dk-84">
           <mxGeometry relative="1" as="geometry">
@@ -1008,25 +1008,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-191" value="void InterpreterSelectQuery::buildQueryPlan(QueryPlan &amp;amp; query_plan)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="1661.25" width="630" height="67.5" as="geometry" />
+          <mxGeometry x="-1350" y="1741.25" width="630" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-193" value="ExpressionStep" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="1796.25" width="630" height="53.75" as="geometry" />
+          <mxGeometry x="-1350" y="1876.25" width="630" height="53.75" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-194" value="void InterpreterSelectQuery::executeImpl(QueryPlan &amp;amp; query_plan, std::optional&amp;lt;Pipe&amp;gt; prepared_pipe)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="1920" width="630" height="67.5" as="geometry" />
+          <mxGeometry x="-1350" y="2000" width="630" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-198" target="VBDGagkCTwYl4dxm7euT-206">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1400" y="2081" />
-              <mxPoint x="-1400" y="2410" />
-              <mxPoint x="-1350" y="2410" />
+              <mxPoint x="-1400" y="2161" />
+              <mxPoint x="-1400" y="2490" />
+              <mxPoint x="-1350" y="2490" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-198" value="void InterpreterSelectQuery::executeWhere(QueryPlan &amp;amp; query_plan, const ActionsDAGPtr &amp;amp; expression, bool remove_filter)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="2051.25" width="710" height="58.75" as="geometry" />
+          <mxGeometry x="-1350" y="2131.25" width="710" height="58.75" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-199" target="VBDGagkCTwYl4dxm7euT-204">
           <mxGeometry relative="1" as="geometry">
@@ -1037,7 +1037,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-199" value="void InterpreterSelectQuery::executeFetchColumns(QueryProcessingStage::Enum processing_stage, QueryPlan &amp;amp; query_plan)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="1985" width="710" height="65" as="geometry" />
+          <mxGeometry x="-1350" y="2065" width="710" height="65" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-201" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-850" y="1060" width="770" height="260" as="geometry" />
@@ -1169,73 +1169,72 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-204" value="void InterpreterSelectQuery::executeFetchColumns(QueryProcessingStage::Enum processing_stage, QueryPlan &amp;amp; query_plan)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="2160" width="710" height="65" as="geometry" />
+          <mxGeometry x="-1350" y="2240" width="710" height="65" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-206" value="void InterpreterSelectQuery::executeWhere(QueryPlan &amp;amp; query_plan, const ActionsDAGPtr &amp;amp; expression, bool remove_filter)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="2381.25" width="710" height="58.75" as="geometry" />
+          <mxGeometry x="-1350" y="2461.25" width="710" height="58.75" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-208" value="FilterStep" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="2436.75" width="710" height="53.25" as="geometry" />
+          <mxGeometry x="-1350" y="2516.75" width="710" height="53.25" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-209" target="VBDGagkCTwYl4dxm7euT-284">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-209" value="storage-&amp;gt;read(query_plan, required_columns, metadata_snapshot, query_info, context, processing_stage, max_block_size, max_streams)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#000000;strokeColor=#000000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="2225" width="710" height="55" as="geometry" />
+          <mxGeometry x="-1350" y="2305" width="710" height="55" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-212" target="VBDGagkCTwYl4dxm7euT-157">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1480" y="1650" />
-              <mxPoint x="-1440" y="1650" />
-              <mxPoint x="-1440" y="1553" />
+              <mxPoint x="-1450" y="1402" />
+              <mxPoint x="-1450" y="1552" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-212" value="InterpreterSelectQuery::InterpreterSelectQuery" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-1920" y="1630" width="440" height="45" as="geometry" />
+          <mxGeometry x="-1940" y="1379" width="440" height="45" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-215" value="JoinedTables joined_tables(getSubqueryContext(context), getSelectQuery(), options.with_all_cols)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="1720" width="520" height="70" as="geometry" />
+          <mxGeometry x="-2020" y="1469" width="520" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-216" value="&lt;font color=&quot;#ffffff&quot;&gt;storage = joined_tables.getLeftTableStorage()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#000000;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="1790" width="520" height="40" as="geometry" />
+          <mxGeometry x="-2020" y="1539" width="520" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-218" target="VBDGagkCTwYl4dxm7euT-216">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-218" value="StoragePtr DatabaseCatalog::getTable(const StorageID &amp;amp; table_id, ContextPtr local_context)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="1880" width="520" height="60" as="geometry" />
+          <mxGeometry x="-2020" y="1629" width="520" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-221" target="VBDGagkCTwYl4dxm7euT-218">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-221" value="DatabaseAndTable DatabaseCatalog::getTableImpl( const StorageID &amp;amp; table_id, ContextPtr context_, std::optional&amp;lt;Exception&amp;gt; * exception)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="2000" width="520" height="90" as="geometry" />
+          <mxGeometry x="-2020" y="1749" width="520" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-224" value="database-&amp;gt;tryGetTable(table_id.table_name, context_)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="2090" width="520" height="40" as="geometry" />
+          <mxGeometry x="-2020" y="1839" width="520" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-225" value="get table informaction" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1920" y="1675" width="440" height="45" as="geometry" />
+          <mxGeometry x="-1940" y="1424" width="440" height="45" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-280" target="VBDGagkCTwYl4dxm7euT-224">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-280" value="StoragePtr DatabaseWithOwnTablesBase::tryGetTable(const String &amp;amp; table_name, ContextPtr)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="2200" width="520" height="70" as="geometry" />
+          <mxGeometry x="-2020" y="1949" width="520" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-282" value="Tables tables =&amp;nbsp;std::map&amp;lt;String, StoragePtr&amp;gt;&amp;nbsp;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Tables%20tables%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bglass%3D0%3BlabelBackgroundColor%3Dnone%3BfontFamily%3DHelvetica%3BfontSize%3D19%3BfillColor%3D%23ffff88%3BstrokeColor%3D%2336393d%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-2000%22%20y%3D%222268%22%20width%3D%22520%22%20height%3D%2242%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="2268" width="520" height="42" as="geometry" />
+          <mxGeometry x="-2020" y="2017" width="520" height="42" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-283" value="StoragePtr = std::shared_ptr&amp;lt;IStorage&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="2310" width="520" height="42" as="geometry" />
+          <mxGeometry x="-2020" y="2059" width="520" height="42" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-284" value="&lt;b&gt;void read&lt;/b&gt;( QueryPlan &amp;amp; query_plan, const Names &amp;amp; column_names, const StorageMetadataPtr &amp;amp; /*metadata_snapshot*/, SelectQueryInfo &amp;amp; query_info, ContextPtr context, QueryProcessingStage::Enum processed_stage, size_t max_block_size, unsigned num_streams)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-2160" y="2420" width="680" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-287" value="SettingQuotaAndLimitsStep" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=19;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="2280" width="710" height="53.25" as="geometry" />
+          <mxGeometry x="-1350" y="2360" width="710" height="53.25" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-291" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-288" target="VBDGagkCTwYl4dxm7euT-290">
           <mxGeometry relative="1" as="geometry" />

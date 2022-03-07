@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T16:02:06.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="D9oJu6UpI86k92Gq-VU6" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T16:05:55.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="J4IwifjPG7tJ2lQA9uu-" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="1113" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1613,14 +1613,29 @@
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-58" value="loadMarks()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="4910" y="3310.37" width="550" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-59" value="marks = loadMarksImpl()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-59" value="marks = loadMarksImpl()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="5469" y="3450" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-63" value="res =&amp;nbsp;std::make_shared&amp;lt;MarksInCompressedFile&amp;gt;(marks_count * columns_in_mark)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="5456.5" y="3570" width="583.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-64" value="auto buffer = disk-&amp;gt;readFile(mrk_path, ReadSettings().adjustBufferSize(file_size), file_size)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="5456.5" y="3600" width="620" height="30" as="geometry" />
+          <mxGeometry x="5456.5" y="3720" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-65" value="if (!index_granularity_info.is_adaptive)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="5456.5" y="3600" width="283.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-66" value="else" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="5456.5" y="3690" width="63.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-67" value="auto buffer = disk-&amp;gt;readFile(mrk_path, ReadSettings().adjustBufferSize(file_size), file_size)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5456.5" y="3630" width="623.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-68" value="buffer-&amp;gt;readStrict(reinterpret_cast&amp;lt;char *&amp;gt;(res-&amp;gt;data()), file_size)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="5456.5" y="3660" width="463.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-69" value="while (!buffer-&amp;gt;eof()) { &lt;br&gt;res-&amp;gt;read(*buffer, i * columns_in_mark, columns_in_mark); &lt;br&gt;buffer-&amp;gt;seek(sizeof(size_t), SEEK_CUR);&lt;br&gt;++i; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="5456.5" y="3750" width="443.5" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

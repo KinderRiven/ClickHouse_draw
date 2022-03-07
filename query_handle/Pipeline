@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T09:18:45.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="DkBpoRmup1ruXGhA6JJy" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T09:18:59.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="p-MfMJkpMu_rXKF1yhn5" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="4065" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2242,8 +2242,8 @@
         <mxCell id="V0K_wO2deuwI0UMMrc-a-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="V0K_wO2deuwI0UMMrc-a-101" source="V0K_wO2deuwI0UMMrc-a-44" target="V0K_wO2deuwI0UMMrc-a-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V0K_wO2deuwI0UMMrc-a-103" value="void addTransform(ProcessorPtr transform)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="-2840" y="400" width="300" height="30" as="geometry" />
+        <mxCell id="V0K_wO2deuwI0UMMrc-a-103" value="void Pipe::addTransform(ProcessorPtr transform)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="-2840" y="400" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-105" value="addTransform(std::move(transform), static_cast&amp;lt;OutputPort *&amp;gt;(nullptr), static_cast&amp;lt;OutputPort *&amp;gt;(nullptr))" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
           <mxGeometry x="-2840" y="430" width="400" height="50" as="geometry" />

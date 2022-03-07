@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T06:29:14.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="m6PF47OFF6Pc_lqCCWl1" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T06:29:25.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="NriZwCjbiWOjpFIZiayJ" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="3849" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4254" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1532,7 +1532,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-377" value="&lt;b&gt;MarkRanges MergeTreeDataSelectExecutor::markRangesFromPKRange&lt;/b&gt;( const MergeTreeData::DataPartPtr &amp;amp; part, const StorageMetadataPtr &amp;amp; metadata_snapshot, const KeyCondition &amp;amp; key_condition, const Settings &amp;amp; settings, Poco::Logger * log)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="2080" width="489.5" height="80" as="geometry" />
+          <mxGeometry x="-370" y="2040" width="489.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-380" value="KeyCondition key_condition(query_info, context, primary_key_columns, primary_key.expression)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=13;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1001" y="2180" width="479" height="40" as="geometry" />
@@ -1858,10 +1858,15 @@
           <mxGeometry x="180" y="2220" width="739" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-399" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=19;fontColor=#000000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-398" target="VBDGagkCTwYl4dxm7euT-397">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="2195" />
+              <mxPoint x="140" y="2235" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-398" value="&lt;b&gt;MarkRanges MergeTreeDataSelectExecutor::filterMarksUsingIndex&lt;/b&gt;( MergeTreeIndexPtr index_helper, MergeTreeIndexConditionPtr condition, MergeTreeData::DataPartPtr part, const MarkRanges &amp;amp; ranges, const Settings &amp;amp; settings, const MergeTreeReaderSettings &amp;amp; reader_settings, size_t &amp;amp; total_granules, size_t &amp;amp; granules_dropped, MarkCache * mark_cache, UncompressedCache * uncompressed_cache, Poco::Logger * log)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="2200" width="489.5" height="110" as="geometry" />
+          <mxGeometry x="-370" y="2140" width="489.5" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

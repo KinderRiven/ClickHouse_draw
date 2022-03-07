@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T12:34:54.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="X3DIPTvS5wn3KJiuiBop" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T12:35:47.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="io-BK3ce07YcNppxNQWN" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="6307" dy="4307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4730" dy="3230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1439,7 +1439,7 @@
           <mxGeometry y="200" width="370" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-264" value="MergeTreeReaderWide" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e51400;strokeColor=#B20000;fontStyle=1;fontColor=#ffffff;" parent="tHWcXS5wNc-7E1pkxQ5k-31" vertex="1">
-          <mxGeometry x="780" width="220" height="40" as="geometry" />
+          <mxGeometry x="780" y="160" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-266" value="NamesAndTypesList columns" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=0;" parent="tHWcXS5wNc-7E1pkxQ5k-31" vertex="1">
           <mxGeometry x="160" y="270" width="210" height="30" as="geometry" />
@@ -1472,19 +1472,19 @@
           <mxGeometry x="160" y="540" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-277" value="&lt;b&gt;FileStreams streams&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" parent="tHWcXS5wNc-7E1pkxQ5k-31" vertex="1">
-          <mxGeometry x="780" y="39.99000000000001" width="220" height="40.01" as="geometry" />
+          <mxGeometry x="780" y="199.99" width="220" height="40.01" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-278" value="&lt;b&gt;Serializations serializations&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" parent="tHWcXS5wNc-7E1pkxQ5k-31" vertex="1">
-          <mxGeometry x="780" y="79.99000000000001" width="220" height="40.01" as="geometry" />
+          <mxGeometry x="780" y="239.99" width="220" height="40.01" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-279" value="&lt;b&gt;DiskPtr disk&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" parent="tHWcXS5wNc-7E1pkxQ5k-31" vertex="1">
-          <mxGeometry x="780" y="119.99000000000001" width="220" height="40.01" as="geometry" />
+          <mxGeometry x="780" y="279.99" width="220" height="40.01" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=oval;startFill=1;endArrow=oval;endFill=1;" parent="tHWcXS5wNc-7E1pkxQ5k-31" source="Lfx7dPJ4N00ivkeSFCbG-190" target="Lfx7dPJ4N00ivkeSFCbG-264" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-33" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="3750" y="3190" width="1050" height="446.42999999999995" as="geometry" />
+          <mxGeometry x="3760" y="3680" width="1050" height="446.42999999999995" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-475" value="&lt;b&gt;static ReadBuffer * getStream&lt;/b&gt;( bool seek_to_start, &lt;b&gt;&lt;u&gt;const ISerialization::SubstreamPath&lt;/u&gt;&lt;/b&gt; &amp;amp; substream_path, &lt;b&gt;&lt;u&gt;MergeTreeReaderWide::FileStreams&lt;/u&gt;&lt;/b&gt; &amp;amp; streams, &lt;b&gt;&lt;u&gt;const NameAndTypePair&lt;/u&gt;&lt;/b&gt; &amp;amp; name_and_type, size_t from_mark, bool seek_to_mark, size_t current_task_last_mark, ISerialization::SubstreamsCache &amp;amp; cache)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e3c800;strokeColor=#B09500;fontStyle=0;fontColor=#000000;" parent="tHWcXS5wNc-7E1pkxQ5k-33" vertex="1">
           <mxGeometry width="665" height="85" as="geometry" />

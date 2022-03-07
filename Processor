@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T17:26:30.549Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3pGsXZGHrasYS9NVf6tV" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T17:34:46.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Z9BNHAnYwIVTRr0qy4DC" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="573" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -700,7 +700,7 @@
             <mxPoint x="60" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-243" target="1rFgEm3q2ZKk34zS4ytC-288">
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tHWcXS5wNc-7E1pkxQ5k-94" target="1rFgEm3q2ZKk34zS4ytC-288">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-243" value="&lt;b&gt;MergeTreeRangeReader::ReadResult MergeTreeRangeReader::startReadingChain&lt;/b&gt;&lt;br&gt;(size_t max_rows, &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;MarkRanges &amp;amp; ranges&lt;/font&gt;&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
@@ -718,13 +718,8 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-248" value="&lt;span&gt;&lt;b&gt;size_t MergeTreeRangeReader::Stream::readRows&lt;/b&gt;&lt;br&gt;(Columns &amp;amp; columns, size_t num_rows)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="2280" y="2452.5" width="380" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Lfx7dPJ4N00ivkeSFCbG-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-250" target="Lfx7dPJ4N00ivkeSFCbG-252" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2450" y="2590" />
-              <mxPoint x="2450" y="2658" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="Lfx7dPJ4N00ivkeSFCbG-250" target="Lfx7dPJ4N00ivkeSFCbG-252">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-250" value="&lt;span&gt;&lt;b&gt;size_t MergeTreeRangeReader::DelayedStream::read&lt;/b&gt;&lt;br&gt;(Columns &amp;amp; columns, size_t from_mark, size_t offset, size_t num_rows)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="2410" y="2535.37" width="490" height="55" as="geometry" />
@@ -1688,6 +1683,15 @@
         </mxCell>
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-465" value="size_t columns_in_mark" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" parent="tHWcXS5wNc-7E1pkxQ5k-91" vertex="1">
           <mxGeometry x="1.25" y="280.0253135313533" width="207.5" height="34.364686468646866" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tHWcXS5wNc-7E1pkxQ5k-93" target="tHWcXS5wNc-7E1pkxQ5k-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-93" value="&lt;span&gt;Stream(size_t from_mark, size_t to_mark, size_t current_task_last_mark, IMergeTreeReader * merge_tree_reader)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="2670" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-94" value="Stream(ranges.front().begin, ranges.front().end, current_task_last_mark, merge_tree_reader)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="2370" width="440" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

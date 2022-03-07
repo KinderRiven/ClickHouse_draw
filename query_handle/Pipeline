@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T08:26:47.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Ydv89SD8SyTA4eqZ2HQM" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T08:36:21.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="5VgiWjLt1HfpT_9euoA6" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5464" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4036" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1955,6 +1955,48 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-434" value="&lt;b&gt;Pipe ReadFromMergeTree::readFromPool&lt;/b&gt;( RangesInDataParts parts_with_range, Names required_columns, size_t max_streams, size_t min_marks_for_concurrent_read, bool use_uncompressed_cache)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-500" y="2021" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-458" value="Pipe" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-459" value="explicit Pipe(ProcessorPtr source)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-460" value="explicit Pipe(ProcessorPtr source, OutputPort * output, OutputPort * totals, OutputPort * extremes)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="100" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-461" value="explicit Pipe(Processors processors_)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="140" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-462" value="const Block &amp;amp; getHeader()" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="170" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-463" value="bool empty()" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="200" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-464" value="size_t numOutputPorts()" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="230" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-465" value="size_t maxParallelStreams()" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="260" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-466" value="OutputPort * getOutputPort(size_t pos)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="290" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-467" value="OutputPort * getTotalsPort()" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="320" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-468" value="OutputPort * getExtremesPort()" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="350" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-469" value="void addSource(ProcessorPtr source)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="380" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-470" value="void addTotalsSource(ProcessorPtr source)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="410" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-471" value="void addExtremesSource(ProcessorPtr source)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="440" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T08:01:54.311Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="BbhuCG9RH2pJGXvpGJe9" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T08:02:21.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="x91Y2kMJ4T5jMbDHCwHF" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5200" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4096" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1924,6 +1924,9 @@
           <mxGeometry x="-0.6756" y="2" relative="1" as="geometry">
             <mxPoint x="-2" y="17" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-424" value="&lt;b&gt;Pipe ReadFromMergeTree::spreadMarkRangesAmongStreams&lt;/b&gt;( RangesInDataParts &amp;amp;&amp;amp; parts_with_ranges, const Names &amp;amp; column_names)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2120" width="479" height="57.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

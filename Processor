@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T14:47:34.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Fabvs5f_rczHeVICjhdH" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T14:48:54.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="VWdVkum_3do4WI7nGuOO" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="728" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1455" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1590,8 +1590,16 @@
         <mxCell id="Lfx7dPJ4N00ivkeSFCbG-449" value="double avg_value_size_hint" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" parent="tHWcXS5wNc-7E1pkxQ5k-34" vertex="1">
           <mxGeometry y="1155" width="207.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="tHWcXS5wNc-7E1pkxQ5k-35" target="Lfx7dPJ4N00ivkeSFCbG-297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-38" value="for (size_t pos = 0; pos &amp;lt; num_columns; ++pos, ++name_and_type)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="tHWcXS5wNc-7E1pkxQ5k-37">
+          <mxGeometry x="-0.4806" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-35" value="&lt;b&gt;size_t MergeTreeReaderWide::readRows( size_t from_mark, size_t current_task_last_mark, bool continue_reading, size_t max_rows_to_read, Columns &amp;amp; res_columns)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="3120" y="2900" width="560" height="75" as="geometry" />
+          <mxGeometry x="3120" y="2900" width="520" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

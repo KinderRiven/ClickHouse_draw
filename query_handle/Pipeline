@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T08:02:21.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="x91Y2kMJ4T5jMbDHCwHF" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T08:09:11.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="LMiECdGCKgHUyGidEYjP" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="4096" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4155" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -928,8 +928,8 @@
         <mxCell id="VBDGagkCTwYl4dxm7euT-107" value="&lt;b&gt;Note : create multiple source (processor)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontSize=13;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-60" y="1842.5000000000002" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-115" value="&lt;b&gt;Pipe ReadFromMergeTree::spreadMarkRangesAmongStreamsWithOrder&lt;/b&gt;( RangesInDataParts &amp;amp;&amp;amp; parts_with_ranges, const Names &amp;amp; column_names, const ActionsDAGPtr &amp;amp; sorting_key_prefix_expr, ActionsDAGPtr &amp;amp; out_projection, const InputOrderInfoPtr &amp;amp; input_order_info)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1840" width="479" height="73.75" as="geometry" />
+        <mxCell id="VBDGagkCTwYl4dxm7euT-115" value="pipe = spreadMarkRangesAmongStreams( std::move(result.parts_with_ranges), column_names_to_read);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1840" width="479" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-119" value="&lt;b&gt;for (i= 0; i &amp;lt; num_stream; i++)&lt;/b&gt;&lt;br&gt;&lt;b&gt;pipes.emplace_back(readInOrder...)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=13;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="436" y="1960" width="484" height="50" as="geometry" />
@@ -945,12 +945,6 @@
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-125" value="&lt;b&gt;return pipe = Pipe::unitePipes(std::move(pipes))&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontSize=13;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="435" y="2010" width="485" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="VBDGagkCTwYl4dxm7euT-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#1A1A1A;endArrow=classic;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-125" target="VBDGagkCTwYl4dxm7euT-115">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="947" y="2045" as="sourcePoint" />
-            <mxPoint x="1033" y="1960" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=19;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-136" target="4nuNxfB_0Uh0BvwMZ_Dk-63">
           <mxGeometry relative="1" as="geometry" />
@@ -1926,7 +1920,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-424" value="&lt;b&gt;Pipe ReadFromMergeTree::spreadMarkRangesAmongStreams&lt;/b&gt;( RangesInDataParts &amp;amp;&amp;amp; parts_with_ranges, const Names &amp;amp; column_names)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="440" y="2120" width="479" height="57.5" as="geometry" />
+          <mxGeometry x="438.5" y="2076.25" width="479" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-426" value="&lt;b&gt;Pipe ReadFromMergeTree::read&lt;/b&gt;( RangesInDataParts parts_with_range, Names required_columns, ReadType read_type, size_t max_streams, size_t min_marks_for_concurrent_read, bool use_uncompressed_cache)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="2076.25" width="410" height="73.75" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-430" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=19;fontColor=#000000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-427" target="VBDGagkCTwYl4dxm7euT-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VBDGagkCTwYl4dxm7euT-427" value="&lt;span&gt;return read(std::move(parts_with_ranges), column_names, ReadType::Default, num_streams, info.min_marks_for_concurrent_read, info.use_uncompressed_cache)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=13;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="438" y="2131.25" width="479" height="57.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

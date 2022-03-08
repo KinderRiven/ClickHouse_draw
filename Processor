@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T02:58:52.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="8hCKmZc9JiafcWcoskyv" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T03:01:30.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="GZT0UUgesjIws76oWCc7" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="728" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1812,6 +1812,14 @@
         </mxCell>
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-185" value="size_t current_mark_index_granularity" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3080" y="1100" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHWcXS5wNc-7E1pkxQ5k-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeWidth=1;" edge="1" parent="1" source="tHWcXS5wNc-7E1pkxQ5k-186" target="tHWcXS5wNc-7E1pkxQ5k-192">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3510" y="1145" />
+              <mxPoint x="3510" y="577" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tHWcXS5wNc-7E1pkxQ5k-186" value="MergeTreeRangeReader::DelayedStream stream" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3080" y="1130" width="310" height="30" as="geometry" />

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T04:54:02.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QDvayZ4JpgrCm6Md9Vlk" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T04:56:28.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bCdbQZQkXUzLI6iw12e9" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1972,7 +1972,16 @@
           <mxGeometry x="1350" y="2936.27" width="89.54" height="38.05" as="geometry" />
         </mxCell>
         <mxCell id="QO-PR4BNlAYjx89WpeXS-135" value="&lt;b&gt;MergeTreeReaderStream&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#000000;strokeColor=#36393d;rotation=0;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="719.54" y="3060" width="700" height="37.5" as="geometry" />
+          <mxGeometry x="720.4599999999999" y="3060" width="700" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QO-PR4BNlAYjx89WpeXS-136" value="&lt;font style=&quot;font-size: 15px&quot;&gt;ReadBuffer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#76608a;strokeColor=#432D57;rotation=0;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1172.17" y="3137.5" width="250" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QO-PR4BNlAYjx89WpeXS-137" value="IDISKPtr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e3c800;strokeColor=#B09500;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="719.5400000000001" y="3095.97" width="89.54" height="41.53" as="geometry" />
+        </mxCell>
+        <mxCell id="QO-PR4BNlAYjx89WpeXS-138" value="MergeTreeMarksLoader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#6a00ff;strokeColor=#3700CC;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="810.0000000000001" y="3095.4800000000005" width="207.5" height="42.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

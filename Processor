@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T04:52:00.866Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="xj8R7ss7WWpe88gq8DtG" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T04:54:02.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QDvayZ4JpgrCm6Md9Vlk" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1970,6 +1970,9 @@
         </mxCell>
         <mxCell id="QO-PR4BNlAYjx89WpeXS-134" value="IDISKPtr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e3c800;strokeColor=#B09500;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1350" y="2936.27" width="89.54" height="38.05" as="geometry" />
+        </mxCell>
+        <mxCell id="QO-PR4BNlAYjx89WpeXS-135" value="&lt;b&gt;MergeTreeReaderStream&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#000000;strokeColor=#36393d;rotation=0;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="719.54" y="3060" width="700" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

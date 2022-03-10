@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T09:27:35.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="X_Zx3JZ10CExpb-UOXa8" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T09:31:01.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QHiH-tYUDImtXq_qSEfj" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5785" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5638" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2584,10 +2584,10 @@
           <mxGeometry x="2370" y="760" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-57" value="data-&amp;gt;thread = ThreadFromGlobalPool(std::move(func))" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="810" width="370" height="30" as="geometry" />
+          <mxGeometry x="2370" y="840" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-58" value="first run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e51400;strokeColor=#B20000;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2290" y="720.94" width="80" height="119.06" as="geometry" />
+          <mxGeometry x="2290" y="720.94" width="80" height="149.06" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-59" target="DjmQDyjJm2jdEUCqPMwg-57">
           <mxGeometry relative="1" as="geometry" />
@@ -2596,7 +2596,7 @@
           <mxGeometry x="2840" y="802.5" width="470" height="45" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-61" value="chunk = lazy_format-&amp;gt;getChunk(milliseconds)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="840" width="370" height="30" as="geometry" />
+          <mxGeometry x="2370" y="870" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-63" value="LazyOutputFormat" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="3240" y="-50" width="160" height="40" as="geometry" />
@@ -2690,6 +2690,9 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-94" value="data.executor-&amp;gt;execute(num_threads)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2840" y="847.5" width="470" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-95" value="func =&amp;nbsp; threadFunction" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="810" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

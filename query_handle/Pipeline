@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T06:50:43.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="yfYAZiad_SONrrAZ3uZM" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T06:51:08.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="61Y5eREtyjt1Oo7mCbf5" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5750" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6145" dy="1977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2349,46 +2349,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-225" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;void ReadFromMergeTree::initializePipeline&lt;/b&gt;(QueryPipelineBuilder &amp;amp; pipeline, const BuildQueryPipelineSettings &amp;amp;)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2999.5" width="440" height="46" as="geometry" />
+          <mxGeometry x="-3210" y="-890" width="440" height="46" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="V0K_wO2deuwI0UMMrc-a-226" target="V0K_wO2deuwI0UMMrc-a-228">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-226" value="&lt;font style=&quot;font-size: 14px&quot;&gt;auto result = getAnalysisResult()&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3045.5" width="440" height="24.5" as="geometry" />
+          <mxGeometry x="-3210" y="-844" width="440" height="24.5" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-228" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ReadFromMergeTree::AnalysisResult ReadFromMergeTree::getAnalysisResult&lt;/b&gt;()&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="200" y="3090" width="440" height="50.5" as="geometry" />
+          <mxGeometry x="-3050" y="-799.5" width="440" height="50.5" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="V0K_wO2deuwI0UMMrc-a-230" target="V0K_wO2deuwI0UMMrc-a-231">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-230" value="&lt;font style=&quot;font-size: 14px&quot;&gt;auto result_ptr = analyzed_result_ptr ? analyzed_result_ptr : selectRangesToRead(prepared_parts)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="200" y="3140.5" width="440" height="49.5" as="geometry" />
+          <mxGeometry x="-3050" y="-749" width="440" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-231" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;MergeTreeDataSelectAnalysisResultPtr ReadFromMergeTree::selectRangesToRead&lt;/b&gt;( &lt;b&gt;MergeTreeData::DataPartsVector parts&lt;/b&gt;, const StorageMetadataPtr &amp;amp; metadata_snapshot_base, const StorageMetadataPtr &amp;amp; metadata_snapshot, &lt;b&gt;const SelectQueryInfo &amp;amp; query_info&lt;/b&gt;, ContextPtr context, unsigned num_streams, std::shared_ptr&amp;lt;PartitionIdToMaxBlock&amp;gt; max_block_numbers_to_read, const MergeTreeData &amp;amp; data, const Names &amp;amp; real_column_names, bool sample_factor_column_queried, Poco::Logger * log)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="400" y="3215" width="630" height="115" as="geometry" />
+          <mxGeometry x="-2850" y="-674.5" width="630" height="115" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-234" value="&lt;font style=&quot;font-size: 14px&quot;&gt;MergeTreeDataSelectExecutor::filterPartsByVirtualColumns(...)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="400" y="3330" width="630" height="40" as="geometry" />
+          <mxGeometry x="-2850" y="-559.5" width="630" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-235" value="&lt;font style=&quot;font-size: 14px&quot;&gt;MergeTreeDataSelectExecutor::filterPartsByPartition(...)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="400" y="3370" width="630" height="40" as="geometry" />
+          <mxGeometry x="-2850" y="-519.5" width="630" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="V0K_wO2deuwI0UMMrc-a-236" target="V0K_wO2deuwI0UMMrc-a-237">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-236" value="&lt;font style=&quot;font-size: 14px&quot;&gt;MergeTreeDataSelectExecutor::filterPartsByPrimaryKeyAndSkipIndexes(...)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="400" y="3410" width="630" height="40" as="geometry" />
+          <mxGeometry x="-2850" y="-479.5" width="630" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-237" value="&lt;font&gt;&lt;b&gt;RangesInDataParts MergeTreeDataSelectExecutor::filterPartsByPrimaryKeyAndSkipIndexes&lt;/b&gt;( MergeTreeData::DataPartsVector &amp;amp;&amp;amp; parts, StorageMetadataPtr metadata_snapshot, const SelectQueryInfo &amp;amp; query_info, const ContextPtr &amp;amp; context, const KeyCondition &amp;amp; key_condition, const MergeTreeReaderSettings &amp;amp; reader_settings, Poco::Logger * log, size_t num_streams, ReadFromMergeTree::IndexStats &amp;amp; index_stats, bool use_skip_indexes)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="3215" width="640" height="105" as="geometry" />
+          <mxGeometry x="-2130" y="-674.5" width="640" height="105" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-239" value="&lt;font style=&quot;font-size: 14px&quot;&gt;ranges.ranges = markRangesFromPKRange(part, metadata_snapshot, key_condition, settings, log)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="3320" width="640" height="40" as="geometry" />
+          <mxGeometry x="-2130" y="-569.5" width="640" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-240" value="&lt;font style=&quot;font-size: 14px&quot;&gt;ranges.ranges = filterMarksUsingIndex(...)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="3360" width="640" height="40" as="geometry" />
+          <mxGeometry x="-2130" y="-529.5" width="640" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T05:47:26.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ipBUegW6Z83wWUKgHP2_" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T05:49:32.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="iM8rB2utsWcLCJXXxQa_" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5703" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5993" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1260,7 +1260,7 @@
         <mxCell id="VBDGagkCTwYl4dxm7euT-297" value="&lt;b&gt;auto plan = readFromParts&lt;/b&gt;( query_info.merge_tree_select_result_ptr ? &lt;b&gt;&lt;u&gt;&lt;font color=&quot;#ff0000&quot;&gt;MergeTreeData::DataPartsVector{} : data.getDataPartsVector()&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;, column_names_to_return, metadata_snapshot, metadata_snapshot, query_info, context, max_block_size, num_streams, max_block_numbers_to_read, query_info.merge_tree_select_result_ptr)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-2160" y="2665" width="680" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="V0K_wO2deuwI0UMMrc-a-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-299" target="VBDGagkCTwYl4dxm7euT-295">
+        <mxCell id="V0K_wO2deuwI0UMMrc-a-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="VBDGagkCTwYl4dxm7euT-299" target="VBDGagkCTwYl4dxm7euT-295">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VBDGagkCTwYl4dxm7euT-299" value="&lt;b&gt;SelectQueryInfo&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;fontSize=15;" vertex="1" parent="1">

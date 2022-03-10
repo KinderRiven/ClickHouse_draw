@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T11:18:25.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="jQ_vLFFVZ6m2B1WmUwVv" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T11:24:36.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ci26Ydo0e0cB9inyAQqP" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5488" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5638" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2755,40 +2755,76 @@
           <mxGeometry x="4200" y="477.5" width="400" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-117" value="PipelineExecutor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="4240" y="-240.25" width="150" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-595.31" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-118" value="void execute(size_t num_threads)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="-200.5" width="240" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-555.56" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-119" value="bool executeStep(std::atomic_bool * yield_flag = nullptr)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="-160.5" width="370" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-515.56" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-120" value="const Processors &amp;amp; getProcessors() const" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="-120.5" width="280" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-475.56" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-121" value="void cancel()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="-80.5" width="110" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-435.56" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-122" value="Processors &amp;amp; processors" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="-40.5" width="180" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-395.56" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-123" value="std::mutex processors_mutex" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" width="200" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-355.06" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-124" value="&lt;b&gt;ExecutingGraphPtr&lt;/b&gt; graph = std::unique_ptr&amp;lt;ExecutingGraph&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="40" width="230" height="50" as="geometry" />
+          <mxGeometry x="4240" y="-315.06" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-125" value="TaskQueue&amp;lt;&lt;b&gt;ExecutingGraph::Node&lt;/b&gt;&amp;gt; task_queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="90" width="330" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-265.06" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-126" value="&lt;b&gt;PollingQueue &lt;/b&gt;async_task_queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="130" width="220" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-225.06" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-127" value="size_t num_waiting_async_tasks = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="170" width="250" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-185.06" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-128" value="&lt;b&gt;ThreadsQueue&lt;/b&gt; threads_queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4240" y="210" width="210" height="40" as="geometry" />
+          <mxGeometry x="4240" y="-145.06" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-129" value="std::mutex task_queue_mutex" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="-105.06" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-130" value="bool is_execution_initialized = false" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="-65.06" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-131" value="std::atomic_bool cancelled" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="-24.689999999999998" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-132" value="struct ExpandPipelineTask" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="4240" y="15.310000000000002" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-133" value="std::atomic&amp;lt;size_t&amp;gt; num_processing_executors" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="55.31" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-134" value="std::atomic&amp;lt;ExpandPipelineTask *&amp;gt; expand_pipeline_task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="95" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-135" value="struct ExecutorContext&lt;br&gt;/// Context for each thread.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f9f7ed;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="135" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-136" value="std::vector&amp;lt;std::unique_ptr&amp;lt;ExecutorContext&amp;gt;&amp;gt; executor_contexts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="175" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-137" value="std::mutex executor_contexts_mutex" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="215" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-138" value="using ProcessorsMap = std::unordered_map&amp;lt;const IProcessor *, UInt64&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="255" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-139" value="ProcessorsMap processors_map" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="295" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-140" value="QueryStatus * const process_list_element = nullptr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4240" y="335" width="340" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

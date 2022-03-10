@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T08:29:03.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="wtNDOXo2JRZ4LSoXspec" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T08:33:56.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="H-11zpS845j_ohOkQ0v8" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="6417" dy="2163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5785" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2500,6 +2500,14 @@
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-30" value="block = lazy_format-&amp;gt;getPort(IOutputFormat::PortKind::Main).getHeader().cloneWithColumns(chunk.detachColumns())" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;strokeColor=#432D57;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2360" y="610" width="800" height="32.5" as="geometry" />
         </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-32" target="DjmQDyjJm2jdEUCqPMwg-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2340" y="594" />
+              <mxPoint x="2340" y="701" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-32" value="pull(chunk, milliseconds)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;strokeColor=#432D57;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2360" y="577.5" width="210" height="32.5" as="geometry" />
         </mxCell>
@@ -2551,6 +2559,9 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-51" value="ChunkInfoPtr chunk_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="3240" y="725" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-53" value="bool PullingAsyncPipelineExecutor::pull(Chunk &amp;amp; chunk, uint64_t milliseconds)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="680" width="560" height="41.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

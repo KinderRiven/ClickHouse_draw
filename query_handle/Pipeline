@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T12:17:49.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="4Do9Hm8Ko8ZAQQstDAPb" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T12:20:12.793Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-Ul1oRKlsymZuvW7E7gs" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5402" dy="1469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5750" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2938,6 +2938,39 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-181" value="ExecStatus status = ExecStatus::Idle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4920" y="-70.5" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-182" value="std::mutex status_mutex" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="-40.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-183" value="std::function&amp;lt;void()&amp;gt; job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="-10.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-184" value="std::exception_ptr exception" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="19.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-185" value="IProcessor::Status last_processor_status = IProcessor::Status::NeedData" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="49.5" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-186" value="IProcessor::PortNumbers updated_input_ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="79.5" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-187" value="IProcessor::PortNumbers updated_output_ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="109.5" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-188" value="Port::UpdateInfo::UpdateList post_updated_input_ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="139.5" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-189" value="Port::UpdateInfo::UpdateList post_updated_output_ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="169.5" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-190" value="uint64_t num_executed_jobs = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="200" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-191" value="uint64_t execution_time_ns = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="230" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-194" value="uint64_t preparation_time_ns = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="260" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

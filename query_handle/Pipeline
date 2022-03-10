@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T12:20:52.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="5eor51cvjUzDt6xRSHfb" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T12:23:22.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="kHxsQs2d-KZFBA7-cQ61" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5373" dy="1450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5663" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2871,49 +2871,49 @@
           <mxGeometry x="4680" y="-500.30999999999995" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-154" value="Edge" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-720" width="90" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-720" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-156" value="uint64_t to" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-690" width="90" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-690" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-158" value="bool backward" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-660" width="110" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-660" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-159" value="uint64_t input_port_number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-630" width="190" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-630" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-160" value="uint64_t output_port_number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-600" width="190" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-600" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-161" value="Port::UpdateInfo update_info" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-569.5" width="190" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-569.5" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-162" value="Processor id this edge points to." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="5010" y="-690" width="230" height="30" as="geometry" />
+          <mxGeometry x="5160" y="-690" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-163" value="ExecutionState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-505.55999999999995" width="160" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-505.55999999999995" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-165" value="std::exception_ptr exception" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-475.56" width="190" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-475.56" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-166" value="std::function&amp;lt;void()&amp;gt; job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-445.56" width="190" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-445.56" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-167" value="IProcessor * processor = nullptr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-415.56" width="230" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-415.56" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-168" value="uint64_t processors_id = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-385.56" width="190" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-385.56" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-169" value="uint64_t num_executed_jobs = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-355.56" width="230" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-355.56" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-170" value="uint64_t execution_time_ns = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-325.56" width="230" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-325.56" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-171" value="uint64_t preparation_time_ns = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-295.56" width="230" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-295.56" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-172" target="DjmQDyjJm2jdEUCqPMwg-173">
           <mxGeometry relative="1" as="geometry" />
@@ -2922,61 +2922,73 @@
           <mxGeometry x="4680" y="-474.49999999999994" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-173" value="Node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-220.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-220.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-175" value="IProcessor * processor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-190.5" width="170" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-190.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-178" value="uint64_t processors_id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-160.5" width="170" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-160.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-179" value="Edges direct_edges" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-130.5" width="150" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-130.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-180" value="Edges back_edges" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-100.5" width="140" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-100.5" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-181" value="ExecStatus status = ExecStatus::Idle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-70.5" width="250" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-70.5" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-182" value="std::mutex status_mutex" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-40.5" width="170" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-40.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-183" value="std::function&amp;lt;void()&amp;gt; job" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="-10.5" width="170" height="30" as="geometry" />
+          <mxGeometry x="5070" y="-10.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-184" value="std::exception_ptr exception" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="19.5" width="200" height="30" as="geometry" />
+          <mxGeometry x="5070" y="19.5" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-185" value="IProcessor::Status last_processor_status = IProcessor::Status::NeedData" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="49.5" width="480" height="30" as="geometry" />
+          <mxGeometry x="5070" y="49.5" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-186" value="IProcessor::PortNumbers updated_input_ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="79.5" width="310" height="30" as="geometry" />
+          <mxGeometry x="5070" y="79.5" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-187" value="IProcessor::PortNumbers updated_output_ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="109.5" width="310" height="30" as="geometry" />
+          <mxGeometry x="5070" y="109.5" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-188" value="Port::UpdateInfo::UpdateList post_updated_input_ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="139.5" width="370" height="30" as="geometry" />
+          <mxGeometry x="5070" y="139.5" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-189" value="Port::UpdateInfo::UpdateList post_updated_output_ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="169.5" width="370" height="30" as="geometry" />
+          <mxGeometry x="5070" y="169.5" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-190" value="uint64_t num_executed_jobs = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="200" width="230" height="30" as="geometry" />
+          <mxGeometry x="5070" y="200" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-191" value="uint64_t execution_time_ns = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="230" width="230" height="30" as="geometry" />
+          <mxGeometry x="5070" y="230" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-194" value="uint64_t preparation_time_ns = 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4920" y="260" width="230" height="30" as="geometry" />
+          <mxGeometry x="5070" y="260" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-197" value="Nodes nodes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4680" y="-444.49999999999994" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-198" value="ProcessorsMap processors_map" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="4680" y="-414.5" width="160" height="44.5" as="geometry" />
+          <mxGeometry x="4680" y="-414.5" width="240" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-199" value="explicit ExecutingGraph(const Processors &amp;amp; processors)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4680" y="-380" width="240" height="44.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-200" value="std::vector&amp;lt;uint64_t&amp;gt; expandPipeline(const Processors &amp;amp; processors)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4680" y="-335.5" width="240" height="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-201" value="Edge &amp;amp; addEdge(Edges &amp;amp; edges, Edge edge, const IProcessor * from, const IProcessor * to)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4680" y="-280.56" width="240" height="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-202" value="bool addEdges(uint64_t node)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4680" y="-225.06" width="240" height="35.06" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

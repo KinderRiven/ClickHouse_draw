@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T08:11:59.343Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HjtWx1QdeMrBIuMC0wmv" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T08:12:07.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="2NXXZUXpW42IaJ4SK00a" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="5908" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2454,7 +2454,7 @@
             <mxPoint x="2800" y="-40" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2640" y="190" />
-              <mxPoint x="2640" y="-60" />
+              <mxPoint x="2640" y="-30" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2471,25 +2471,25 @@
           <mxGeometry x="2390" y="290" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-20" value="PullingAsyncPipelineExecutor::Data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2880" y="-80" width="280" height="40" as="geometry" />
+          <mxGeometry x="2880" y="-50" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-22" value="PipelineExecutorPtr executor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2880" y="-40" width="280" height="40" as="geometry" />
+          <mxGeometry x="2880" y="-10" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-23" value="std::exception_ptr exception" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2880" width="280" height="40" as="geometry" />
+          <mxGeometry x="2880" y="30" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-24" value="LazyOutputFormat * lazy_format" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2880" y="40" width="280" height="40" as="geometry" />
+          <mxGeometry x="2880" y="70" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-25" value="std::atomic_bool is_finished" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2880" y="80" width="280" height="40" as="geometry" />
+          <mxGeometry x="2880" y="110" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-26" value="ThreadFromGlobalPool thread" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2880" y="120" width="280" height="40" as="geometry" />
+          <mxGeometry x="2880" y="150" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-27" value="Poco::Event finish_event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2880" y="160" width="280" height="40" as="geometry" />
+          <mxGeometry x="2880" y="190" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

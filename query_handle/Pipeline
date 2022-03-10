@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T08:45:00.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="e5LhRZL_Kr7aU99LZ4nn" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T08:46:00.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bzu6GLP22AxGLu_CpAxE" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5908" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5435" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2482,6 +2482,9 @@
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-23" value="std::exception_ptr exception" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2880" y="30" width="280" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-24" target="DjmQDyjJm2jdEUCqPMwg-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-24" value="LazyOutputFormat * lazy_format" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2880" y="70" width="280" height="40" as="geometry" />
         </mxCell>
@@ -2583,6 +2586,9 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-61" value="chunk = lazy_format-&amp;gt;getChunk(milliseconds)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2370" y="840" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-63" value="LazyOutputFormat" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3240" y="-50" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

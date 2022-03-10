@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T08:09:45.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="GMLDS_T6JABRTEzh8fj7" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T08:11:59.343Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HjtWx1QdeMrBIuMC0wmv" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="8115" dy="3322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5908" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2449,6 +2449,15 @@
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-15" value="ProfileInfo &amp;amp; getProfileInfo()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2390" y="130" width="210" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-16" target="DjmQDyjJm2jdEUCqPMwg-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2800" y="-40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2640" y="190" />
+              <mxPoint x="2640" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-16" value="struct Data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffcccc;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2390" y="170" width="100" height="40" as="geometry" />
         </mxCell>
@@ -2460,6 +2469,27 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-19" value="std::unique_ptr&amp;lt;Data&amp;gt; data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2390" y="290" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-20" value="PullingAsyncPipelineExecutor::Data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2880" y="-80" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-22" value="PipelineExecutorPtr executor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2880" y="-40" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-23" value="std::exception_ptr exception" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2880" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-24" value="LazyOutputFormat * lazy_format" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2880" y="40" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-25" value="std::atomic_bool is_finished" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2880" y="80" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-26" value="ThreadFromGlobalPool thread" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2880" y="120" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-27" value="Poco::Event finish_event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2880" y="160" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

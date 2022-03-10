@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T11:45:56.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="PLOHxfTKSMcYWGhjrgOJ" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T11:50:32.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="wlQAAUDqQ-nHMnBUMa7x" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5614" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5435" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2775,6 +2775,14 @@
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-123" value="std::mutex processors_mutex" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="4240" y="-355.06" width="200" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-124" target="DjmQDyjJm2jdEUCqPMwg-147">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4630" y="-290" />
+              <mxPoint x="4630" y="-575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-124" value="&lt;b&gt;ExecutingGraphPtr&lt;/b&gt; graph = std::unique_ptr&amp;lt;ExecutingGraph&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e51400;strokeColor=#B20000;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="4240" y="-315.06" width="230" height="50" as="geometry" />
         </mxCell>
@@ -2843,6 +2851,9 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-146" value="queue.pop()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#a20025;strokeColor=#6F0000;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="4280" y="630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-147" value="ExecutingGraph" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="4680" y="-590.31" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T06:33:40.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="0Kx7wyf393Arqv8Ve-nG" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T06:34:07.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="wp00lRvExiw-mnHk4Xs9" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="6210" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5809" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2366,7 +2366,7 @@
         <mxCell id="V0K_wO2deuwI0UMMrc-a-230" value="&lt;font style=&quot;font-size: 14px&quot;&gt;auto result_ptr = analyzed_result_ptr ? analyzed_result_ptr : selectRangesToRead(prepared_parts)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="200" y="3140.5" width="440" height="49.5" as="geometry" />
         </mxCell>
-        <mxCell id="V0K_wO2deuwI0UMMrc-a-231" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;MergeTreeDataSelectAnalysisResultPtr ReadFromMergeTree::selectRangesToRead&lt;/b&gt;( MergeTreeData::DataPartsVector parts, const StorageMetadataPtr &amp;amp; metadata_snapshot_base, const StorageMetadataPtr &amp;amp; metadata_snapshot, const SelectQueryInfo &amp;amp; query_info, ContextPtr context, unsigned num_streams, std::shared_ptr&amp;lt;PartitionIdToMaxBlock&amp;gt; max_block_numbers_to_read, const MergeTreeData &amp;amp; data, const Names &amp;amp; real_column_names, bool sample_factor_column_queried, Poco::Logger * log)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="V0K_wO2deuwI0UMMrc-a-231" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;MergeTreeDataSelectAnalysisResultPtr ReadFromMergeTree::selectRangesToRead&lt;/b&gt;( &lt;b&gt;MergeTreeData::DataPartsVector parts&lt;/b&gt;, const StorageMetadataPtr &amp;amp; metadata_snapshot_base, const StorageMetadataPtr &amp;amp; metadata_snapshot, const SelectQueryInfo &amp;amp; query_info, ContextPtr context, unsigned num_streams, std::shared_ptr&amp;lt;PartitionIdToMaxBlock&amp;gt; max_block_numbers_to_read, const MergeTreeData &amp;amp; data, const Names &amp;amp; real_column_names, bool sample_factor_column_queried, Poco::Logger * log)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="400" y="3215" width="630" height="115" as="geometry" />
         </mxCell>
       </root>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T10:59:04.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ww6tSVsWMBlu2AKaaBpw" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T11:00:44.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TspUUrg1H3SfQdnBdg53" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5958" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5663" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2691,6 +2691,15 @@
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-93" value="connect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="3360" y="-240.5" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-94" target="DjmQDyjJm2jdEUCqPMwg-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3440" y="864" />
+              <mxPoint x="3440" y="660" />
+              <mxPoint x="3610" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-94" value="data.executor-&amp;gt;execute(num_threads)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2840" y="847.5" width="470" height="32.5" as="geometry" />
         </mxCell>
@@ -2717,6 +2726,15 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-105" value="template &amp;lt;typename Thread&amp;gt; template &amp;lt;typename ReturnType&amp;gt; ReturnType ThreadPoolImpl&amp;lt;Thread&amp;gt;::scheduleImpl(Job job, int priority, std::optional&amp;lt;uint64_t&amp;gt; wait_microseconds)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="3717" y="920" width="443" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-107" target="DjmQDyjJm2jdEUCqPMwg-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-107" value="void PipelineExecutor::execute(size_t num_threads)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="643.75" width="360" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-109" value="void PipelineExecutor::executeImpl(size_t num_threads)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="3743" y="693.75" width="377" height="32.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

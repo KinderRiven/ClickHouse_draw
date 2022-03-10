@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T09:34:41.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="cqRGAT6J9tLzvKtDxOGc" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T09:35:29.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="8slPdQqHZL559rMgp3zy" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5412" dy="1477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6075" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2697,11 +2697,11 @@
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-95" value="func =&amp;nbsp; threadFunction" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="2370" y="810" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DjmQDyjJm2jdEUCqPMwg-96" value="explicit ThreadFromGlobalPool(Function &amp;amp;&amp;amp; func, Args &amp;amp;&amp;amp;... args) : state(std::make_shared&amp;lt;Poco::Event&amp;gt;()) , thread_id(std::make_shared&amp;lt;std::thread::id&amp;gt;())" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="2840" y="920" width="480" height="60" as="geometry" />
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-96" value="explicit ThreadFromGlobalPool(Function &amp;amp;&amp;amp; func, Args &amp;amp;&amp;amp;... args)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="920" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-100" value="GlobalThreadPool::instance().scheduleOrThrow(...)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="2850" y="980" width="480" height="30" as="geometry" />
+          <mxGeometry x="2840" y="970" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

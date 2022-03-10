@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T08:13:29.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="5iA7DqORBeK2t-BdBF57" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T08:14:12.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="UZIm3o--jb4l8VXG3ic1" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="8115" dy="3322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6854" dy="2461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2404,7 +2404,7 @@
         <mxCell id="V0K_wO2deuwI0UMMrc-a-243" value="&lt;font&gt;&lt;b&gt;MarkRanges MergeTreeDataSelectExecutor::filterMarksUsingIndex&lt;/b&gt;( MergeTreeIndexPtr index_helper, MergeTreeIndexConditionPtr condition, MergeTreeData::DataPartPtr part, const MarkRanges &amp;amp; ranges, const Settings &amp;amp; settings, const MergeTreeReaderSettings &amp;amp; reader_settings, size_t &amp;amp; total_granules, size_t &amp;amp; granules_dropped, MarkCache * mark_cache, UncompressedCache * uncompressed_cache, Poco::Logger * log)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="-479.5" width="600" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DjmQDyjJm2jdEUCqPMwg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-1" target="DjmQDyjJm2jdEUCqPMwg-4">
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-2" target="DjmQDyjJm2jdEUCqPMwg-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-1" value="void TCPHandler::processOrdinaryQueryWithProcessors()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
@@ -2412,6 +2412,9 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-2" value="PullingAsyncPipelineExecutor executor(pipeline)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1800" y="480" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="DjmQDyjJm2jdEUCqPMwg-3" target="DjmQDyjJm2jdEUCqPMwg-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-3" value="while (executor.pull(block, interactive_delay / 1000))" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;strokeColor=#432D57;fontStyle=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1800" y="510" width="440" height="30" as="geometry" />
@@ -2490,6 +2493,9 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-27" value="Poco::Event finish_event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2880" y="190" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-28" value="bool PullingAsyncPipelineExecutor::pull(Block &amp;amp; block, uint64_t milliseconds)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2360" y="505" width="550" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

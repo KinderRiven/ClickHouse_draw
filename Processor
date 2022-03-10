@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T02:30:43.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="kcdScxszgg0gQwPwg7aF" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T12:48:54.774Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="K93DTP_T2D8wxDi6q8C5" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="1776" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2165,6 +2165,9 @@
         </mxCell>
         <mxCell id="QO-PR4BNlAYjx89WpeXS-247" value="&lt;b&gt;IDISK&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#000000;strokeColor=#36393d;rotation=0;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="721.0799999999999" y="3482.5" width="700.46" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QO-PR4BNlAYjx89WpeXS-248" value="&lt;b&gt;IProcessor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="40" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

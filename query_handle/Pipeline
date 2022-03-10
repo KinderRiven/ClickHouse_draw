@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T11:10:36.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QSy2caTydrlxxWZNmRHa" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T11:12:03.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="KsVXrcxztjJum_zEHWCI" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
     <mxGraphModel dx="6075" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2753,6 +2753,12 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-115" value="void PipelineExecutor::initializeExecution(size_t num_threads)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4200" y="477.5" width="400" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-117" value="PipelineExecutor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4240" y="-240.25" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjmQDyjJm2jdEUCqPMwg-118" value="void execute(size_t num_threads)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4240" y="-200.5" width="260" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

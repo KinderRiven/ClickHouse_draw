@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T06:31:23.019Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-bUdER2lDkssSD-r_c9D" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T06:32:55.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="XlqoDS7LfMiJ7iG2AFcp" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="5690" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5841" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2348,7 +2348,7 @@
             <mxPoint x="1449" y="682.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V0K_wO2deuwI0UMMrc-a-225" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;void ReadFromMergeTree::initializePipeline(QueryPipelineBuilder &amp;amp; pipeline, const BuildQueryPipelineSettings &amp;amp;)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="V0K_wO2deuwI0UMMrc-a-225" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;void ReadFromMergeTree::initializePipeline(QueryPipelineBuilder &amp;amp; pipeline, const BuildQueryPipelineSettings &amp;amp;)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="2999.5" width="440" height="46" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="V0K_wO2deuwI0UMMrc-a-226" target="V0K_wO2deuwI0UMMrc-a-228">
@@ -2357,11 +2357,17 @@
         <mxCell id="V0K_wO2deuwI0UMMrc-a-226" value="&lt;font style=&quot;font-size: 14px&quot;&gt;auto result = getAnalysisResult()&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="40" y="3045.5" width="440" height="24.5" as="geometry" />
         </mxCell>
-        <mxCell id="V0K_wO2deuwI0UMMrc-a-228" value="&lt;font style=&quot;font-size: 14px&quot;&gt;ReadFromMergeTree::AnalysisResult ReadFromMergeTree::getAnalysisResult()&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="V0K_wO2deuwI0UMMrc-a-228" value="&lt;font style=&quot;font-size: 14px&quot;&gt;ReadFromMergeTree::AnalysisResult ReadFromMergeTree::getAnalysisResult()&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="200" y="3090" width="440" height="50.5" as="geometry" />
+        </mxCell>
+        <mxCell id="V0K_wO2deuwI0UMMrc-a-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="V0K_wO2deuwI0UMMrc-a-230" target="V0K_wO2deuwI0UMMrc-a-231">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V0K_wO2deuwI0UMMrc-a-230" value="&lt;font style=&quot;font-size: 14px&quot;&gt;auto result_ptr = analyzed_result_ptr ? analyzed_result_ptr : selectRangesToRead(prepared_parts)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontFamily=Helvetica;fontStyle=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="200" y="3140.5" width="440" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="V0K_wO2deuwI0UMMrc-a-231" value="&lt;font style=&quot;font-size: 14px&quot;&gt;MergeTreeDataSelectAnalysisResultPtr ReadFromMergeTree::selectRangesToRead( MergeTreeData::DataPartsVector parts, const StorageMetadataPtr &amp;amp; metadata_snapshot_base, const StorageMetadataPtr &amp;amp; metadata_snapshot, const SelectQueryInfo &amp;amp; query_info, ContextPtr context, unsigned num_streams, std::shared_ptr&amp;lt;PartitionIdToMaxBlock&amp;gt; max_block_numbers_to_read, const MergeTreeData &amp;amp; data, const Names &amp;amp; real_column_names, bool sample_factor_column_queried, Poco::Logger * log)&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Helvetica;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="3215" width="630" height="124.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

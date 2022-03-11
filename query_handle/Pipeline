@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T17:32:09.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="W5bDs3j85DWc1OOWmKJP" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T02:47:14.932Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="glgr62m44A28_Q1aq3sB" version="16.6.4" type="github">
   <diagram id="rMQQFTmx8Upui93FtllE" name="第 1 页">
-    <mxGraphModel dx="6682" dy="2344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7327" dy="2784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2989,6 +2989,18 @@
         </mxCell>
         <mxCell id="DjmQDyjJm2jdEUCqPMwg-202" value="bool addEdges(uint64_t node)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="4680" y="-225.06" width="240" height="35.06" as="geometry" />
+        </mxCell>
+        <mxCell id="ZduVNJxYdebdmDmi_OKe-1" value="class InputPort" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-519.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZduVNJxYdebdmDmi_OKe-2" value="void push(Chunk chunk)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-479.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZduVNJxYdebdmDmi_OKe-3" value="Chunk pull()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-200.25" y="-480.56" width="200.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZduVNJxYdebdmDmi_OKe-4" value="class OutputPort" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-519.5" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

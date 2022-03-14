@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T14:01:12.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="vHiR-oSV_GYfc_PJrdC1" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T14:03:30.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Nr9K8nK_chuUcpQaQP1h" version="16.6.4" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
-    <mxGraphModel dx="2222" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1650" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,9 @@
         </mxCell>
         <mxCell id="_W88KkMsV6V8cURlqZ51-16" value="&lt;b&gt;AggregatingTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="170" y="800" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_v5sVbxUd_qrhQVhapI0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="_W88KkMsV6V8cURlqZ51-17" target="_v5sVbxUd_qrhQVhapI0-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_W88KkMsV6V8cURlqZ51-17" value="&lt;b&gt;ExceptionKeepingTransform&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="170" y="840" width="270" height="40" as="geometry" />
@@ -2210,6 +2213,15 @@
         </mxCell>
         <mxCell id="_v5sVbxUd_qrhQVhapI0-17" value="&lt;div style=&quot;font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;MergeTreeReadTask&lt;/span&gt;(&lt;br&gt;    &lt;span style=&quot;&quot;&gt;const &lt;/span&gt;MergeTreeData::DataPartPtr &amp;amp; data_part_&lt;span style=&quot;&quot;&gt;, const &lt;/span&gt;MarkRanges &amp;amp; mark_ranges_&lt;span style=&quot;&quot;&gt;, const &lt;/span&gt;&lt;span style=&quot;&quot;&gt;size_t &lt;/span&gt;part_index_in_query_&lt;span style=&quot;&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;    const &lt;/span&gt;Names &amp;amp; ordered_names_&lt;span style=&quot;&quot;&gt;, const &lt;/span&gt;NameSet &amp;amp; column_name_set_&lt;span style=&quot;&quot;&gt;, const &lt;/span&gt;NamesAndTypesList &amp;amp; columns_&lt;span style=&quot;&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;    const &lt;/span&gt;NamesAndTypesList &amp;amp; pre_columns_&lt;span style=&quot;&quot;&gt;, const bool &lt;/span&gt;remove_prewhere_column_&lt;span style=&quot;&quot;&gt;, const bool &lt;/span&gt;should_reorder_&lt;span style=&quot;&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;&quot;&gt;MergeTreeBlockSizePredictorPtr &lt;/span&gt;&amp;amp;&amp;amp; size_predictor_)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;labelBackgroundColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="720.92" y="4190" width="779.08" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_v5sVbxUd_qrhQVhapI0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="_v5sVbxUd_qrhQVhapI0-22" target="_v5sVbxUd_qrhQVhapI0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v5sVbxUd_qrhQVhapI0-22" value="SinkToStorage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="762.5" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_v5sVbxUd_qrhQVhapI0-23" value="MergeTreeSink" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="680" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

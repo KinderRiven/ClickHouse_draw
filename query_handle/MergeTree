@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T08:41:12.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ImK-vX2vxvcOvyXR2sdj" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T09:11:21.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="U2e2reSqXKwKyTpPsmXp" version="17.1.0" type="github">
   <diagram id="6MkrssIzSFBIL8_ETOMj" name="第 1 页">
-    <mxGraphModel dx="3799" dy="3056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3209" dy="2835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1401,6 +1401,24 @@
         </mxCell>
         <mxCell id="Kdsy0lRRdLG06xVTqLuF-31" value="void resizeWithFixedGranularity(size_t size, size_t fixed_granularity)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="560" y="-510.72" width="260" height="50.72" as="geometry" />
+        </mxCell>
+        <mxCell id="GGhPLynJSePbJ_Rbl9NT-2" value="Granule" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="-686" y="-1359.13" width="166" height="39.13" as="geometry" />
+        </mxCell>
+        <mxCell id="GGhPLynJSePbJ_Rbl9NT-3" value="size_t start_row" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="-686" y="-1320" width="166" height="39.13" as="geometry" />
+        </mxCell>
+        <mxCell id="GGhPLynJSePbJ_Rbl9NT-4" value="size_t rows_to_write" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="-686" y="-1280.87" width="166" height="39.13" as="geometry" />
+        </mxCell>
+        <mxCell id="GGhPLynJSePbJ_Rbl9NT-5" value="size_t mark_number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="-686" y="-1241.7399999999998" width="166" height="39.13" as="geometry" />
+        </mxCell>
+        <mxCell id="GGhPLynJSePbJ_Rbl9NT-6" value="bool mark_on_start" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="-686" y="-1202.6099999999997" width="166" height="39.13" as="geometry" />
+        </mxCell>
+        <mxCell id="GGhPLynJSePbJ_Rbl9NT-7" value="bool is_complete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="-686" y="-1163.4799999999996" width="166" height="39.13" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

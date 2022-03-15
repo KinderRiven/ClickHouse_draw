@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T14:50:41.707Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bOPhE-eDedn7GWJWlMdv" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T14:52:55.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="JLiEPWnT4y63Lxe9UA9Q" version="17.1.2" type="github">
   <diagram id="In7tR6foA1VLmcLSTeZU" name="第 1 页">
     <mxGraphModel dx="1479" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2283,17 +2283,29 @@
         <mxCell id="cl3Y3cUDHY20jr_9ougV-5" value="&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;Container&lt;/b&gt; data =&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;std::vector&amp;lt;ColumnWithTypeAndName&amp;gt;&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0;align=center;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="919.37" y="-680" width="230.63" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cl3Y3cUDHY20jr_9ougV-6" value="ColumnWithTypeAndName" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1200" y="-720" width="180.46" height="40" as="geometry" />
+        <mxCell id="cl3Y3cUDHY20jr_9ougV-6" value="ColumnWith&lt;br&gt;TypeAndName" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1200" y="-720" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cl3Y3cUDHY20jr_9ougV-7" value="ColumnPtr column" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="cl3Y3cUDHY20jr_9ougV-7" value="ColumnPtr column" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1200" y="-680" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cl3Y3cUDHY20jr_9ougV-9" value="DataTypePtr type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="cl3Y3cUDHY20jr_9ougV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="cl3Y3cUDHY20jr_9ougV-9" target="cl3Y3cUDHY20jr_9ougV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cl3Y3cUDHY20jr_9ougV-9" value="DataTypePtr type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1200" y="-640" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cl3Y3cUDHY20jr_9ougV-10" value="String name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="cl3Y3cUDHY20jr_9ougV-10" value="String name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1200" y="-600" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl3Y3cUDHY20jr_9ougV-12" value="IDataType" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1398.15" y="-640" width="91.85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl3Y3cUDHY20jr_9ougV-14" value="DataTypeCustomNamePtr custom_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1398.15" y="-600" width="161.85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl3Y3cUDHY20jr_9ougV-15" value="SerializationPtr custom_serialization" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1398.14" y="-560" width="161.86" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

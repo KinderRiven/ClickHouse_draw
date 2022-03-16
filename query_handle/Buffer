@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T10:05:44.703Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Pk3KA6tTWmGpVupC_LTG" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T10:06:15.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TYe8kE7erhgeYBiQ7GzV" version="17.1.2" type="github">
   <diagram id="SfU98MB2UJogBNYkxkNS" name="第 1 页">
     <mxGraphModel dx="1368" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,6 +215,9 @@
         </mxCell>
         <mxCell id="_dL3VBZb3Zq6B0aEIiJX-72" value="String multipart_upload_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1200" y="110" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-73" value="std::vector&amp;lt;String&amp;gt; part_tags" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="140" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

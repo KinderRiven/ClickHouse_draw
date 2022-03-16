@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T09:27:02.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="oOi0s_PS9mmP36BNkxGq" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T09:28:47.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="la_Tgnd9fc9bnyhnaLN3" version="17.1.2" type="github">
   <diagram id="SfU98MB2UJogBNYkxkNS" name="第 1 页">
-    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,6 +45,24 @@
         </mxCell>
         <mxCell id="_dL3VBZb3Zq6B0aEIiJX-14" value="inline void swap(BufferBase &amp;amp; other)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="40" y="310" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-16" value="size_t count()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-17" value="bool ALWAYS_INLINE hasPendingData()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-18" value="return available() &amp;gt; 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-19" value="bool isPadded()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-20" value="Position pos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-21" value="Read/write position" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T10:00:36.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="POZCXQQioqydmBqlQc15" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T10:02:51.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="kdmiCQalSsYvb_Vmhak8" version="17.1.2" type="github">
   <diagram id="SfU98MB2UJogBNYkxkNS" name="第 1 页">
-    <mxGraphModel dx="1773" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,8 +159,35 @@
         <mxCell id="_dL3VBZb3Zq6B0aEIiJX-52" value="explicit BufferWithOwnMemory(size_t size = DBMS_DEFAULT_BUFFER_SIZE, char * existing_memory = nullptr, size_t alignment = 0)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="840" y="-130" width="270" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="_dL3VBZb3Zq6B0aEIiJX-53" target="_dL3VBZb3Zq6B0aEIiJX-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_dL3VBZb3Zq6B0aEIiJX-53" value="Memory&amp;lt;&amp;gt; memory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="840" y="-70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-54" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-55" value="explicit Memory(size_t size_, size_t alignment_ = 0)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="20" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-56" value="void alloc()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-57" value="void alloc()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-58" value="size_t m_capacity = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-59" value="size_t m_size = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-60" value="char * m_data = nullptr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dL3VBZb3Zq6B0aEIiJX-61" value="size_t alignment = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

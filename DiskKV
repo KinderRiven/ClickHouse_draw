@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T08:18:48.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="P-Z2jYYa1Ku3d9LeeIbE" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T08:20:03.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-YxKNJCAnfT1OhgsAFCr" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="757" dy="2855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="701" dy="2817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -695,6 +695,14 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-244" target="GmYzs41VLdGNZhsiWyvD-242">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-375" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-244" target="GmYzs41VLdGNZhsiWyvD-374">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="-635" />
+              <mxPoint x="1400" y="-425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-244" value="BufferWithOwnMemory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1075" y="-650" width="170" height="30" as="geometry" />
         </mxCell>
@@ -960,6 +968,9 @@
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-370" value="fsync()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2040" y="-310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-374" value="WriteBufferFromKV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="-440" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

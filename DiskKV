@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T07:39:09.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7HgIGQ0wfNG2YsWEFPJn" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T07:39:44.311Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="l5ACdF6YjLQyFpEgwm0Q" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="757" dy="2855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="2784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -694,8 +694,8 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-275" value="free_space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="-740" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-276" value="virtual void nextImpl()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="680" y="-380" width="130" height="30" as="geometry" />
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-276" value="virtual void nextImpl() {throw Exception ...}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-380" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-278" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">

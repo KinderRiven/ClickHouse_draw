@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T03:14:42.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="xWYvENgoYaALSEhOC8dd" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T03:15:06.663Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Rf5yEu1YJ7Vrcoj43isV" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="403" dy="275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -247,8 +247,8 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-86" value="size_t getFileSize(const String &amp;amp; path) const override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="960" y="360" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-89" value="get key size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="360" width="90" height="30" as="geometry" />
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-89" value="get key size, get(key).Length()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="360" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

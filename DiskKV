@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T02:52:53.703Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="b8aE9V9k0sEW6GZ0i7ro" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T02:53:47.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="9-Ozt7-DRrLB86VTjMx0" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="996" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1455" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,10 +86,10 @@
           <mxGeometry x="400" y="690" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-29" value="virtual std::unique_ptr&amp;lt;ReadBufferFromFileBase&amp;gt; readFile( const String &amp;amp; path, const ReadSettings &amp;amp; settings = ReadSettings{}, std::optional&amp;lt;size_t&amp;gt; size = {}) const = 0;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="400" y="720" width="580" height="40" as="geometry" />
+          <mxGeometry x="400" y="720" width="550" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-30" value="virtual std::unique_ptr&amp;lt;WriteBufferFromFileBase&amp;gt; writeFile( const String &amp;amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="400" y="760" width="580" height="40" as="geometry" />
+          <mxGeometry x="400" y="760" width="550" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-31" value="virtual void removeFile(const String &amp;amp; path) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="800" width="280" height="30" as="geometry" />

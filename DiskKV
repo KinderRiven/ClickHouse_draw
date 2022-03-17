@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T03:04:22.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="zgQYDwUoX6WzuXgYGKHV" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T03:05:38.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HIRIYm5Qv4UjsFIpc8bv" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="1455" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,14 +28,23 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-7" value="explicit IDisk(std::unique_ptr&amp;lt;Executor&amp;gt; executor_ = std::make_unique&amp;lt;SyncExecutor&amp;gt;()) : executor(std::move(executor_))" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="400" y="80" width="400" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-8" target="GmYzs41VLdGNZhsiWyvD-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-8" value="virtual const String &amp;amp; getPath() const = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-9" target="GmYzs41VLdGNZhsiWyvD-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-9" value="virtual UInt64 getTotalSpace() const = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="150" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-10" value="virtual UInt64 getUnreservedSpace() const = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="210" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-11" target="GmYzs41VLdGNZhsiWyvD-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-11" value="virtual UInt64 getAvailableSpace() const = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="180" width="260" height="30" as="geometry" />
@@ -181,7 +190,7 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-61" value="const String &amp;amp; getPath() const final override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="960" y="120" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-62" value="Nothing TODO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-62" value="return &quot;&quot;;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1220" y="120" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-64" value="UInt64 getTotalSpace() const" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
@@ -189,6 +198,12 @@
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-65" value="return std::numeric_limits&amp;lt;UInt64&amp;gt;::max()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1150" y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-67" value="UInt64 getAvailableSpace() const override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="960" y="180" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-71" value="return std::numeric_limits&amp;lt;UInt64&amp;gt;::max()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="180" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

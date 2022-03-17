@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T03:34:54.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="dueU8rXrZ6fghfWpKf-D" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T03:35:01.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="GGhMtSB7GNwovQSwnVGh" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
     <mxGraphModel dx="591" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,13 +358,13 @@
           <mxGeometry x="1110" y="720" width="550" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-124" value="we need to achieve KVReadBuffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="720" width="220" height="40" as="geometry" />
+          <mxGeometry x="1660" y="720" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-125" value="std::unique_ptr&amp;lt;WriteBufferFromFileBase&amp;gt; writeFile( const String &amp;amp; path, size_t buf_size = DBMS_DEFAULT_BUFFER_SIZE, WriteMode mode = WriteMode::Rewrite) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1110" y="760" width="500" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-127" value="we need to achieve KVWriteBuffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1610" y="760" width="220" height="40" as="geometry" />
+          <mxGeometry x="1610" y="760" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-129" value="void removeFile(const String &amp;amp; path) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1110" y="800" width="280" height="30" as="geometry" />

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T02:54:12.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QB1oS74btPID5M2twj6r" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T02:55:56.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="4BwBLusHcAR-soOqmZfw" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="676" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="631" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-26" value="virtual void replaceFile(const String &amp;amp; from_path, const String &amp;amp; to_path) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="630" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-27" value="virtual void copy(const String &amp;amp; from_path, const std::shared_ptr&amp;lt;IDisk&amp;gt; &amp;amp; to_disk, const String &amp;amp; to_path);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-27" value="virtual void copy(const String &amp;amp; from_path, const std::shared_ptr&amp;lt;IDisk&amp;gt; &amp;amp; to_disk, const String &amp;amp; to_path);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="660" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-28" value="virtual void listFiles(const String &amp;amp; path, std::vector&amp;lt;String&amp;gt; &amp;amp; file_names) = 0;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
@@ -103,13 +103,13 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-34" value="virtual void removeRecursive(const String &amp;amp; path) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="890" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-35" value="virtual void removeSharedFile(const String &amp;amp; path, bool) { removeFile(path); }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-35" value="virtual void removeSharedFile(const String &amp;amp; path, bool) { removeFile(path); }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="920" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-36" value="virtual void removeSharedRecursive(const String &amp;amp; path, bool) { removeRecursive(path); }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="400" y="950" width="520" height="30" as="geometry" />
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-36" value="virtual void removeSharedRecursive(const String &amp;amp; path, bool) { removeRecursive(path); }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="950" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-37" value="virtual void removeSharedFileIfExists(const String &amp;amp; path, bool) { removeFileIfExists(path); }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-37" value="virtual void removeSharedFileIfExists(const String &amp;amp; path, bool) { removeFileIfExists(path); }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="980" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-38" value="virtual void setLastModified(const String &amp;amp; path, const Poco::Timestamp &amp;amp; timestamp) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
@@ -124,7 +124,7 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-41" value="virtual void createHardLink(const String &amp;amp; src_path, const String &amp;amp; dst_path) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1100" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-42" value="virtual void truncateFile(const String &amp;amp; path, size_t size)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-42" value="virtual void truncateFile(const String &amp;amp; path, size_t size)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1130" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-43" value="virtual DiskType getType() const = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
@@ -136,13 +136,13 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-45" value="virtual bool supportZeroCopyReplication() const = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1220" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-46" value="virtual bool isReadOnly() const { return false; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1250" width="280" height="30" as="geometry" />
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-46" value="virtual bool isReadOnly() const { return false; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1250" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-47" value="virtual void shutdown() {}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1280" width="170" height="30" as="geometry" />
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-47" value="virtual void shutdown() {}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1280" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-48" value="virtual void startup() {}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-48" value="virtual void startup() {}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1310" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-49" value="virtual String getUniqueId(const String &amp;amp; path) const { return path; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">

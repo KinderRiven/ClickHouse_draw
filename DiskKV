@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T07:58:05.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="vAvijtqnAHAKzh3MTq-j" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T07:58:36.893Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="K3y2IxyRdSovuAQY4NlP" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="1720" dy="3513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1455" dy="3332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -666,10 +666,15 @@
           <mxGeometry x="190" y="-710" width="265" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-329" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-242" target="GmYzs41VLdGNZhsiWyvD-327">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1860" y="-635" />
+              <mxPoint x="1860" y="-1305" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-242" value="WriteBufferFromFileBase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="-1410" width="170" height="30" as="geometry" />
+          <mxGeometry x="1460" y="-650" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-244" target="GmYzs41VLdGNZhsiWyvD-242">
           <mxGeometry relative="1" as="geometry" />
@@ -743,16 +748,16 @@
           <mxGeometry x="80" y="1740" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-287" value="WriteBufferFromFileBase(size_t buf_size, char * existing_memory, size_t alignment)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="-1380" width="290" height="40" as="geometry" />
+          <mxGeometry x="1460" y="-620" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-288" value="~WriteBufferFromFileBase() override = default;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="-1340" width="290" height="30" as="geometry" />
+          <mxGeometry x="1460" y="-580" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-289" value="void sync() override = 0;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="-1310" width="170" height="30" as="geometry" />
+          <mxGeometry x="1460" y="-550" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-290" value="virtual std::string getFileName() const = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="-1280" width="260" height="30" as="geometry" />
+          <mxGeometry x="1460" y="-520" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-291" value="void write(const char * from, size_t n)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="65" y="-1030" width="460" height="30" as="geometry" />
@@ -830,40 +835,40 @@
           <mxGeometry x="825" y="-950" width="195" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-327" value="WriteIndirectBuffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1410" width="120" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-1320" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-330" value="WriteIndirectBuffer(DiskMemory * disk_, String path_, WriteMode mode_, size_t buf_size) : WriteBufferFromFileBase(buf_size, nullptr, 0), disk(disk_), path(std::move(path_)), mode(mode_)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1380" width="360" height="60" as="geometry" />
+          <mxGeometry x="1920" y="-1290" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-331" value="~WriteIndirectBuffer() override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1320" width="180" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-1230" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-332" value="std::string getFileName()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1260" width="160" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-1170" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-333" value="void sync() override {}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1230" width="140" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-1140" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-334" value="void nextImpl() override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1200" width="140" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-1110" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-335" value="impl.write(working_buffer.begin(), offset());" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="-1200" width="250" height="30" as="geometry" />
+          <mxGeometry x="2060" y="-1110" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-336" value="WriteBufferFromOwnString impl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1170" width="200" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-1080" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-337" value="DiskMemory * disk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1140" width="130" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-1050" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-338" value="const String path" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1110" width="120" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-1020" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-339" value="const WriteMode mode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1080" width="140" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-990" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-340" value="void finalize() override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-1290" width="160" height="30" as="geometry" />
+          <mxGeometry x="1920" y="-1200" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

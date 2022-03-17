@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T03:21:34.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="cIzmMxWFDVpXH-wt-Gxw" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T03:21:46.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="_H2tx-fy3edoq4Co5IhX" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
     <mxGraphModel dx="676" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,13 +276,13 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-90" value="void createDirectory(const String &amp;amp; path) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1110" y="390" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-92" value="empty function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-92" value="empty function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1400" y="390" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-93" value="void createDirectories(const String &amp;amp; path) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1110" y="420" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-95" value="empty function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-95" value="empty function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1400" y="420" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-96" value="virtual UInt64 getKeepingFreeSpace() const { return 0; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
@@ -291,19 +291,19 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-97" value="void clearDirectory(const String &amp;amp; path)&amp;nbsp;override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1110" y="450" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-99" value="empty function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-99" value="empty function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1400" y="450" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-100" value="void moveDirectory(const String &amp;amp; from_path, const String &amp;amp; to_path) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1110" y="480" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-102" value="empty function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-102" value="empty function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1560" y="480" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-103" value="virtual DiskDirectoryIteratorPtr iterateDirectory(const String &amp;amp; path) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1110" y="510" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GmYzs41VLdGNZhsiWyvD-104" value="return NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-104" value="return NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1560" y="510" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-106" value="bool isDirectoryEmpty(const String &amp;amp; path)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">

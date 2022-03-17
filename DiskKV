@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T03:41:12.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="LuFN7TH9R0pxKoXyeI1A" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T03:43:39.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="YnaAyezsxFsIlfWIb2-7" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
     <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,8 +192,16 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-38" value="virtual void setLastModified(const String &amp;amp; path, const Poco::Timestamp &amp;amp; timestamp) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1010" width="520" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1055" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-39" value="virtual Poco::Timestamp getLastModified(const String &amp;amp; path) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1040" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-40" target="GmYzs41VLdGNZhsiWyvD-154">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-40" value="virtual void setReadOnly(const String &amp;amp; path) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1070" width="290" height="30" as="geometry" />
@@ -410,6 +418,21 @@
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-147" value="void setLastModified(const String &amp;amp; path, const Poco::Timestamp &amp;amp; timestamp) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1110" y="1010" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-149" value="?????" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1010" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-152" value="Poco::Timestamp getLastModified(const String &amp;amp; path) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1040" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-153" value="?????" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1040" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-154" value="void setReadOnly(const String &amp;amp; path) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1070" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-156" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="1070" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

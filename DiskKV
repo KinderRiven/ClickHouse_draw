@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T02:44:05.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="6dFNRIsAdeeExfETVico" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T02:44:29.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Tu4FXgswDd76jJJ6ILpz" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="1113" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,6 +81,18 @@
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-27" value="virtual void copy(const String &amp;amp; from_path, const std::shared_ptr&amp;lt;IDisk&amp;gt; &amp;amp; to_disk, const String &amp;amp; to_path);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="660" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-28" value="virtual void listFiles(const String &amp;amp; path, std::vector&amp;lt;String&amp;gt; &amp;amp; file_names) = 0;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="690" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-29" value="virtual void copy(const String &amp;amp; from_path, const std::shared_ptr&amp;lt;IDisk&amp;gt; &amp;amp; to_disk, const String &amp;amp; to_path);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="720" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-30" value="virtual void copy(const String &amp;amp; from_path, const std::shared_ptr&amp;lt;IDisk&amp;gt; &amp;amp; to_disk, const String &amp;amp; to_path);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="750" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-31" value="virtual void copy(const String &amp;amp; from_path, const std::shared_ptr&amp;lt;IDisk&amp;gt; &amp;amp; to_disk, const String &amp;amp; to_path);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="780" width="580" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

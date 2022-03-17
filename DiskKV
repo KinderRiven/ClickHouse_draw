@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T07:09:31.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-8umFcwtZ_nEDJn1ESuK" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T07:09:51.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="zDSWL9s3EuxPef6Ehlue" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="1773" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2404" dy="2246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -650,103 +650,103 @@
           <mxGeometry x="75" y="-1000" width="265" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-242" value="WriteBufferFromS3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-930" width="140" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-930" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-244" target="GmYzs41VLdGNZhsiWyvD-242">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-244" value="BufferWithOwnMemory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-930" width="170" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-930" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-245" value="explicit BufferWithOwnMemory(size_t size = DBMS_DEFAULT_BUFFER_SIZE, char * existing_memory = nullptr, size_t alignment = 0)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-900" width="270" height="60" as="geometry" />
+          <mxGeometry x="1025" y="-900" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-247" target="GmYzs41VLdGNZhsiWyvD-248">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-247" value="Memory&amp;lt;&amp;gt; memory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-840" width="140" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-840" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-248" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-780" width="120" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-780" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-249" value="explicit Memory(size_t size_, size_t alignment_ = 0)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-750" width="300" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-750" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-250" value="void alloc()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-720" width="90" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-720" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-251" value="void alloc()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-690" width="90" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-690" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-252" value="size_t m_capacity = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-660" width="150" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-660" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-253" value="size_t m_size = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-630" width="150" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-630" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-254" value="char * m_data = nullptr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-600" width="150" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-600" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-255" value="size_t alignment = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-570" width="150" height="30" as="geometry" />
+          <mxGeometry x="1025" y="-570" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-256" value="String bucket" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-900" width="90" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-900" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-257" value="String key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-870" width="90" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-870" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-258" value="std::optional&amp;lt;std::map&amp;lt;String, String&amp;gt;&amp;gt; object_metadata" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-840" width="320" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-840" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-259" value="std::shared_ptr&amp;lt;Aws::S3::S3Client&amp;gt; client_ptr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-810" width="260" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-810" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-260" value="size_t minimum_upload_part_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-780" width="200" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-780" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-261" value="size_t max_single_part_upload_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-750" width="210" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-750" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-262" value="std::shared_ptr&amp;lt;Aws::StringStream&amp;gt; temporary_buffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-720" width="310" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-720" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-263" value="size_t last_part_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-690" width="140" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-690" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-264" value="String multipart_upload_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-660" width="160" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-660" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-265" value="std::vector&amp;lt;String&amp;gt; part_tags" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-630" width="170" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-630" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-266" value="explicit WriteBufferFromS3( std::shared_ptr&amp;lt;Aws::S3::S3Client&amp;gt; client_ptr_, const String &amp;amp; bucket_, const String &amp;amp; key_, size_t minimum_upload_part_size_, size_t max_single_part_upload_size_, std::optional&amp;lt;std::map&amp;lt;String, String&amp;gt;&amp;gt; object_metadata_ = std::nullopt, size_t buffer_size_ = DBMS_DEFAULT_BUFFER_SIZE)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-600" width="520" height="70" as="geometry" />
+          <mxGeometry x="1530" y="-600" width="520" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-267" value="void nextImpl()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-530" width="90" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-530" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-268" value="void finalize()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-500" width="90" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-500" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-269" value="void allocateBuffer()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-470" width="120" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-470" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-270" value="void createMultipartUpload()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-440" width="170" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-440" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-271" value="void writePart()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-410" width="100" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-410" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-272" value="void completeMultipartUpload()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-380" width="190" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-380" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-273" value="void makeSinglepartUpload()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-350" width="180" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-350" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-274" value="void finalizeImpl()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-320" width="120" height="30" as="geometry" />
+          <mxGeometry x="1530" y="-320" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-275" value="free_space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="185" y="-1030" width="155" height="30" as="geometry" />

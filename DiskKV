@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T02:56:20.111Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="z2YwyylVrAONMWoKCNBf" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T02:57:32.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QuGlgx4iR-rDuqj-8Lx8" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
     <mxGraphModel dx="2102" dy="1436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,6 +159,15 @@
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-54" value="virtual void applyNewSettings(const Poco::Util::AbstractConfiguration &amp;amp;, ContextPtr, const String &amp;amp;, const DisksMap &amp;amp;) {}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1460" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-55" value="virtual Executor &amp;amp; getExecutor() { return *executor; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1500" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-56" value="void copyThroughBuffers(const String &amp;amp; from_path, const std::shared_ptr&amp;lt;IDisk&amp;gt; &amp;amp; to_disk, const String &amp;amp; to_path)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1530" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-57" value="std::unique_ptr&amp;lt;Executor&amp;gt; executor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1570" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T09:40:24.941Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3w-O3NnOD0jtMKfGnwfQ" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T09:42:03.473Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="N_e6SwgrfTH0GljoFKgw" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="1183" dy="3146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="450" dy="2646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1007,6 +1007,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-432" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-379" target="GmYzs41VLdGNZhsiWyvD-431">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="-195" />
+              <mxPoint x="1080" y="-55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-379" value="ReadBuffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="680" y="-210" width="90" height="30" as="geometry" />
         </mxCell>
@@ -1140,6 +1148,9 @@
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-430" value="String file_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1920" y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-431" value="ReadBuffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="-70" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

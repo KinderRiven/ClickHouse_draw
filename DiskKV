@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T09:21:34.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="H7QUKEJphxHtWX5OGQmD" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T09:22:14.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="i3Al57Sm7WVDYNJAAFO8" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="996" dy="3018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="403" dy="2613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1031,8 +1031,24 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-393" value="bool ALWAYS_INLINE peek(char &amp;amp; c)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="680" y="80" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-397" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-394" target="GmYzs41VLdGNZhsiWyvD-393">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="125" />
+              <mxPoint x="660" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-394" value="bool ALWAYS_INLINE read(char &amp;amp; c)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="680" y="110" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-396" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-395" target="GmYzs41VLdGNZhsiWyvD-394">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="155" />
+              <mxPoint x="660" y="125" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-395" value="void ALWAYS_INLINE readStrict(char &amp;amp; c)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="680" y="140" width="250" height="30" as="geometry" />

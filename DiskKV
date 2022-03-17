@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T03:43:39.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="YnaAyezsxFsIlfWIb2-7" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T03:44:30.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="pjK65HEYqaYUmOp1vfDy" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -205,6 +205,9 @@
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-40" value="virtual void setReadOnly(const String &amp;amp; path) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1070" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-41" target="GmYzs41VLdGNZhsiWyvD-157">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-41" value="virtual void createHardLink(const String &amp;amp; src_path, const String &amp;amp; dst_path) = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="1100" width="450" height="30" as="geometry" />
@@ -433,6 +436,15 @@
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-156" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1390" y="1070" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-157" value="void createHardLink(const String &amp;amp; src_path, const String &amp;amp; dst_path) override" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1100" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-159" value="empty function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-160" value="void truncateFile(const String &amp;amp; path, size_t size)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1130" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T09:37:48.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="fGhdE0fSlaVZvIj6dIXw" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T09:39:17.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Zt4cWUyxsN8m1nHJVbwL" version="17.1.2" type="github">
   <diagram id="PSWtxcpp8Qa8a_I6Rhx6" name="第 1 页">
-    <mxGraphModel dx="676" dy="2799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="394" dy="2607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1096,6 +1096,9 @@
         <mxCell id="GmYzs41VLdGNZhsiWyvD-406" value="virtual bool nextImpl() { return false; }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="680" y="450" width="210" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-422" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#1A1A1A;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="GmYzs41VLdGNZhsiWyvD-409" target="GmYzs41VLdGNZhsiWyvD-421">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-409" value="ReadBufferFromFileBase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1460" y="-70" width="170" height="30" as="geometry" />
         </mxCell>
@@ -1110,6 +1113,18 @@
         </mxCell>
         <mxCell id="GmYzs41VLdGNZhsiWyvD-417" value="virtual std::string getFileName() const = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1460" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-421" value="ReadBufferFromFileDecorator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-423" value="explicit ReadBufferFromFileDecorator&lt;br&gt;(std::unique_ptr&amp;lt;SeekableReadBuffer&amp;gt; impl_)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-40" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-424" value="ReadBufferFromFileDecorator(std::unique_ptr&amp;lt;SeekableReadBuffer&amp;gt; impl_, const String &amp;amp; file_name_)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1920" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GmYzs41VLdGNZhsiWyvD-425" value="std::string getFileName() const override;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="40" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T02:30:44.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="9F0HFMvJFJ-0UttjDM_w" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T02:31:53.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="OB1u_A-kmLJnh9COeGUF" version="17.1.2" type="github">
   <diagram id="i6NO9akPTIcfZH-VEYKZ" name="第 1 页">
-    <mxGraphModel dx="1351" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rEdcZI9rKduNlTTp7nbz-2" value="registerDiskLocal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="160" y="160" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rEdcZI9rKduNlTTp7nbz-3" value="registerDisks" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+        <mxCell id="rEdcZI9rKduNlTTp7nbz-3" value="void registerDisks()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
           <mxGeometry x="160" y="120" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rEdcZI9rKduNlTTp7nbz-4" value="registerDiskMemory" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -36,6 +36,9 @@
         </mxCell>
         <mxCell id="rEdcZI9rKduNlTTp7nbz-12" value="auto creator = [](const String &amp;amp; name, const Poco::Util::AbstractConfiguration &amp;amp; config, const String &amp;amp; config_prefix, ContextPtr context, const DisksMap &amp;amp; /*map*/) -&amp;gt; DiskPtr {...}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;align=center;" vertex="1" parent="1">
           <mxGeometry x="400" y="160" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rEdcZI9rKduNlTTp7nbz-13" value="DiskPtr DiskFactory::create( const String &amp;amp; name, const Poco::Util::AbstractConfiguration &amp;amp; config, const String &amp;amp; config_prefix, ContextPtr context, const DisksMap &amp;amp; map)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="480" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T04:30:45.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="vzNmpGrWIYhUTlPZzhr2" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T04:31:27.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="SNYTHGigvaSe7PrGssgI" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="4009" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4131" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,7 +81,7 @@
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="ex_lUb9hJ6ux8IgF76Ti-32" target="ex_lUb9hJ6ux8IgF76Ti-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-32" value="BackgroundSchedulePoolTaskHolder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-32" value="BackgroundSchedulePoolTaskInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1080" y="237.5" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-35" value="BackgroundSchedulePoolTaskInfo(BackgroundSchedulePool &amp;amp; pool_, const std::string &amp;amp; log_name_, const BackgroundSchedulePool::TaskFunc &amp;amp; function_)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">

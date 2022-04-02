@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T03:54:40.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="4imOFeRsQoZimB0YsV4y" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T03:55:47.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="yf-GDlDpZt7JXaNjwx6a" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="1940" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-40" y="485" />
-              <mxPoint x="-40" y="655" />
+              <mxPoint x="-40" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -184,8 +184,8 @@
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-66" value="holder-&amp;gt;scheduleAfter(next_time_to_execute, false)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-390" y="140" width="295" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-68" value="bool res = getContext()-&amp;gt;getMovesExecutor()-&amp;gt;trySchedule(move_task);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="40" y="640" width="400" height="30" as="geometry" />
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-68" value="bool res = getContext()-&amp;gt;getMovesExecutor()-&amp;gt;trySchedule(move_task);&lt;br&gt;res ? trigger() : postpone();" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

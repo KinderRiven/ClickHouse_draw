@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T04:13:01.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="AScVn-NiTwtfHeC2J7me" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T04:15:48.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="BK11-_aaO5VDSJ1TEk0G" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="1479" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2178" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,13 +191,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-620" y="880" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-720" y="1061" />
+              <mxPoint x="-720" y="955" />
               <mxPoint x="-720" y="519" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-74" value="&lt;div style=&quot;line-height: 18px ; font-size: 15px&quot;&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;bool&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0&quot;&gt;MergeTreeData&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa&quot;&gt;scheduleDataMovingJob&lt;/span&gt;(&lt;span style=&quot;color: #4ec9b0&quot;&gt;BackgroundJobsAssignee&lt;/span&gt; &lt;span style=&quot;color: #569cd6&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe&quot;&gt;assignee&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt; (&lt;span style=&quot;color: #9cdcfe&quot;&gt;parts_mover&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;moves_blocker&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;isCancelled&lt;/span&gt;())&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #569cd6&quot;&gt;false&lt;/span&gt;;&lt;/div&gt;&lt;br&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6&quot;&gt;auto&lt;/span&gt; moving_tagger = &lt;span style=&quot;color: #dcdcaa&quot;&gt;selectPartsForMove&lt;/span&gt;();&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #c586c0&quot;&gt;if&lt;/span&gt; (&lt;span style=&quot;color: #9cdcfe&quot;&gt;moving_tagger&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;parts_to_move&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;empty&lt;/span&gt;())&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #569cd6&quot;&gt;false&lt;/span&gt;;&lt;/div&gt;&lt;br&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe&quot;&gt;assignee&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;scheduleMoveTask&lt;/span&gt;(&lt;span style=&quot;color: #4ec9b0&quot;&gt;ExecutableLambdaAdapter&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa&quot;&gt;create&lt;/span&gt;(&lt;/div&gt;&lt;div&gt;        [&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe&quot;&gt;moving_tagger&lt;/span&gt;] () &lt;span style=&quot;color: #569cd6&quot;&gt;mutable&lt;/span&gt;&lt;/div&gt;&lt;div&gt;        {&lt;/div&gt;&lt;div&gt;            &lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa&quot;&gt;moveParts&lt;/span&gt;(moving_tagger);&lt;/div&gt;&lt;div&gt;        }, moves_assignee_trigger, &lt;span style=&quot;color: #dcdcaa&quot;&gt;getStorageID&lt;/span&gt;()));&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #c586c0&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #569cd6&quot;&gt;true&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="850" width="550" height="310" as="geometry" />
+          <mxGeometry x="-580" y="800" width="550" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T07:43:12.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="szXtycTVIo-ZuEm-y08T" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T07:44:08.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="G2D_U6rwv00nJal9zra-" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="4421" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4659" dy="2092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,8 +256,8 @@
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-93" value="std::atomic&amp;lt;bool&amp;gt; shutdown {false}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-1580" y="550" width="260" height="31.25" as="geometry" />
         </mxCell>
-        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-94" value="Threads threads" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-1450" y="581.25" width="130" height="31.25" as="geometry" />
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-94" value="Threads threads&amp;nbsp;= std::vector&amp;lt;ThreadFromGlobalPool&amp;gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;strokeWidth=1;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1720" y="581.25" width="400" height="31.25" as="geometry" />
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-95" value="Poco::NotificationQueue queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-1560" y="612.5" width="240" height="31.25" as="geometry" />

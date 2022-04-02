@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T06:57:14.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="0ohO2NdhD_oRxIsf0mxJ" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T07:17:10.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="yyp-YBuCNoxQWRcPEvXY" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="4304" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4421" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,6 +446,24 @@
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-170" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;BackgroundSchedulePool&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa&quot;&gt;BackgroundSchedulePool&lt;/span&gt;(&lt;span style=&quot;color: #569cd6&quot;&gt;size_t&lt;/span&gt; size_, &lt;span style=&quot;color: #4ec9b0&quot;&gt;CurrentMetrics&lt;/span&gt;::Metric tasks_metric_, &lt;span style=&quot;color: #569cd6&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #569cd6&quot;&gt;char&lt;/span&gt; *thread_name_)&lt;/div&gt;&lt;div&gt;    : &lt;span style=&quot;color: #dcdcaa&quot;&gt;size&lt;/span&gt;(size_)&lt;/div&gt;&lt;div&gt;    , &lt;span style=&quot;color: #dcdcaa&quot;&gt;tasks_metric&lt;/span&gt;(tasks_metric_)&lt;/div&gt;&lt;div&gt;    , &lt;span style=&quot;color: #dcdcaa&quot;&gt;thread_name&lt;/span&gt;(thread_name_)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #dcdcaa&quot;&gt;LOG_INFO&lt;/span&gt;(&amp;amp;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Poco&lt;/span&gt;::&lt;span style=&quot;color: #4ec9b0&quot;&gt;Logger&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa&quot;&gt;get&lt;/span&gt;(&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;BackgroundSchedulePool/&quot;&lt;/span&gt; + thread_name), &lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Create BackgroundSchedulePool with {} threads&quot;&lt;/span&gt;, size);&lt;/div&gt;&lt;br&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe&quot;&gt;threads&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;resize&lt;/span&gt;(size);&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #c586c0&quot;&gt;for&lt;/span&gt; (&lt;span style=&quot;color: #569cd6&quot;&gt;auto&lt;/span&gt; &amp;amp; thread : threads)&lt;/div&gt;&lt;div&gt;        thread = &lt;span style=&quot;color: #dcdcaa&quot;&gt;ThreadFromGlobalPool&lt;/span&gt;([&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;] { &lt;span style=&quot;color: #dcdcaa&quot;&gt;threadFunction&lt;/span&gt;(); });&lt;/div&gt;&lt;br&gt;&lt;div&gt;    delayed_thread = &lt;span style=&quot;color: #dcdcaa&quot;&gt;ThreadFromGlobalPool&lt;/span&gt;([&lt;span style=&quot;color: #569cd6&quot;&gt;this&lt;/span&gt;] { &lt;span style=&quot;color: #dcdcaa&quot;&gt;delayExecutionThreadFunction&lt;/span&gt;(); });&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;strokeWidth=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-3060" y="27.5" width="900" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-172" value="ThreadPoolImpl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="1560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-173" value="template &amp;lt;typename Thread&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-1500" y="1530" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;fontColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="ex_lUb9hJ6ux8IgF76Ti-174" target="ex_lUb9hJ6ux8IgF76Ti-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-174" value="GlobalThreadPool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-176" value="static void initialize(size_t max_threads = 10000)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1560" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-177" value="static GlobalThreadPool &amp;amp; instance()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1590" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

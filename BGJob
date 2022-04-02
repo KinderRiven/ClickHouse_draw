@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T03:24:19.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="E9xFpDA1t_JpoxACeLJJ" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T03:29:22.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="eDRSHaIwk8C8O2dj-DIO" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="701" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="591" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,6 +69,72 @@
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-30" value="using BackgroundSchedulePoolTaskInfoPtr = std::shared_ptr&amp;lt;BackgroundSchedulePoolTaskInfo&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="680" y="235" width="310" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="ex_lUb9hJ6ux8IgF76Ti-32" target="ex_lUb9hJ6ux8IgF76Ti-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-32" value="BackgroundSchedulePoolTaskHolder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="237.5" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-35" value="BackgroundSchedulePoolTaskInfo(BackgroundSchedulePool &amp;amp; pool_, const std::string &amp;amp; log_name_, const BackgroundSchedulePool::TaskFunc &amp;amp; function_)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="277.5" width="360" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-36" value="bool schedule()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-37" value="bool scheduleAfter(size_t ms, bool overwrite = true)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="370" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-38" value="void deactivate()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-39" value="void activate()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-40" value="bool activateAndSchedule()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="460" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-41" value="Coordination::WatchCallback getWatchCallback()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="490" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-42" value="void execute()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-43" value="void scheduleImpl(std::lock_guard&amp;lt;std::mutex&amp;gt; &amp;amp; schedule_mutex_lock)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="550" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-44" value="BackgroundSchedulePool &amp;amp; pool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="580" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-45" value="std::string log_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="610" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-46" value="BackgroundSchedulePool::TaskFunc function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="640" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-47" value="std::mutex exec_mutex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="670" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-48" value="std::mutex schedule_mutex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="700" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-49" value="bool deactivated = false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="730" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-50" value="bool scheduled = false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="760" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-51" value="bool deactivated = false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="790" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-52" value="bool delayed = false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="820" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-53" value="bool executing = false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="850" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-54" value="BackgroundSchedulePool::DelayedTasks::iterator iterator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="880" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T05:00:21.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="WCtW42nuMCR0pNRPdIiI" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T05:01:13.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="dxUC4KlIk9OtQYPuinTZ" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="4491" dy="1977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3849" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -365,6 +365,9 @@
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-139" value="OrdinaryBackgroundExecutor = MergeTreeBackgroundExecutor&amp;lt;OrdinaryRuntimeQueue&amp;gt;;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-1210" y="540" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-140" value="MergeTreeBackgroundExecutor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="960" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

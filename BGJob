@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T03:04:33.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" version="17.1.2" etag="y01fmdgFzfPJy_jNfi5p" type="github"><diagram id="sOtxer5ZXchhq9oxjsp1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-02T03:07:13.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="8x2QVMa8oRxwNEmbV79u" version="17.1.2" type="github">
+  <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
+    <mxGraphModel dx="652" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-1" value="BackgroundJobsAssignee" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="80" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-2" value="MergeTreeData &amp;amp; data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="ex_lUb9hJ6ux8IgF76Ti-8">
+          <mxGeometry width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-3" value="BackgroundTaskSchedulingSettings sleep_settings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="ex_lUb9hJ6ux8IgF76Ti-8">
+          <mxGeometry y="30.000000000000004" width="280" height="30.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-4" value="pcg64 rng" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="ex_lUb9hJ6ux8IgF76Ti-8">
+          <mxGeometry y="60" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-5" value="std::atomic&amp;lt;size_t&amp;gt; no_work_done_count{0}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="ex_lUb9hJ6ux8IgF76Ti-8">
+          <mxGeometry y="90" width="260" height="30.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-6" value="BackgroundSchedulePool::TaskHolder holder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="ex_lUb9hJ6ux8IgF76Ti-8">
+          <mxGeometry y="120.00000000000001" width="260" height="30.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-7" value="std::mutex holder_mutex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="ex_lUb9hJ6ux8IgF76Ti-8">
+          <mxGeometry y="150" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

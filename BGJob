@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T05:12:46.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="c3ICNB8iZ2hXmZRQXkd9" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T05:14:22.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="xXN4vSytERFnFX0olMQ3" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="4491" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5200" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -324,6 +324,9 @@
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-116" value="bool BackgroundSchedulePoolTaskInfo::activateAndSchedule()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="360" y="1340" width="350" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1" source="ex_lUb9hJ6ux8IgF76Ti-118" target="ex_lUb9hJ6ux8IgF76Ti-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-118" value="scheduleImpl(lock)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="360" y="1370" width="350" height="30" as="geometry" />
         </mxCell>
@@ -350,6 +353,9 @@
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-128" value="bool BackgroundSchedulePoolTaskInfo::schedule()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="360" y="1430" width="351" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1" source="ex_lUb9hJ6ux8IgF76Ti-130" target="ex_lUb9hJ6ux8IgF76Ti-160">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-130" value="scheduleImpl(lock);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="360" y="1460" width="351" height="30" as="geometry" />
@@ -428,6 +434,12 @@
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-158" value="BackgroundSchedulePool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1640" y="257.5" width="160" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-160" value="void BackgroundSchedulePoolTaskInfo::scheduleImpl(std::lock_guard&amp;lt;std::mutex&amp;gt; &amp;amp; schedule_mutex_lock)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1410" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-164" value="pool.queue.enqueueNotification(new TaskNotification(shared_from_this()));" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1450" width="470" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

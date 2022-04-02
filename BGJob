@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T04:24:57.237Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="qW0uyRuREN3Qdy9A3azn" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T04:27:50.362Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="tnfwh7jfMnWoErVG5GRN" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="3742" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3037" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -231,6 +231,42 @@
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-91" value="void cancelDelayedTask(const TaskInfoPtr &amp;amp; task_info, std::lock_guard&amp;lt;std::mutex&amp;gt; &amp;amp; task_schedule_mutex_lock)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-1750" y="470" width="430" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-92" value="const size_t size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1460" y="518.75" width="140" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-93" value="std::atomic&amp;lt;bool&amp;gt; shutdown {false}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="550" width="260" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-94" value="Threads threads" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1450" y="581.25" width="130" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-95" value="Poco::NotificationQueue queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="612.5" width="240" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-96" value="std::condition_variable wakeup_cond" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1600" y="643.75" width="280" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-97" value="std::mutex delayed_tasks_mutex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="675" width="240" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-98" value="ThreadFromGlobalPool delayed_thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="706.25" width="290" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-99" value="DelayedTasks delayed_tasks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="737.5" width="240" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-100" value="ThreadGroupStatusPtr thread_group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="768.75" width="260" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-101" value="CurrentMetrics::Metric tasks_metric" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="800" width="260" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-102" value="std::string thread_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="831.25" width="220" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-103" value="void attachToThreadGroup()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;strokeWidth=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="862.5" width="220" height="31.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

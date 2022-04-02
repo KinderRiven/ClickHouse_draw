@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T03:45:19.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="wg_t1Ir3kNBjtFouI61t" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T03:47:04.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="aajN49rAVhtszK5YI5TJ" version="17.1.2" type="github">
   <diagram id="sOtxer5ZXchhq9oxjsp1" name="第 1 页">
-    <mxGraphModel dx="1940" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1479" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,10 +152,29 @@
           <mxGeometry x="-550" y="373.75" width="440" height="402.5" as="geometry" />
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;fontColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="ex_lUb9hJ6ux8IgF76Ti-61" target="ex_lUb9hJ6ux8IgF76Ti-18">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-60" y="230" />
+              <mxPoint x="-60" y="335" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ex_lUb9hJ6ux8IgF76Ti-61" value="holder-&amp;gt;schedule()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-240" y="210" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-64" value="推迟" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;fontColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="ex_lUb9hJ6ux8IgF76Ti-66" target="ex_lUb9hJ6ux8IgF76Ti-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="160" />
+              <mxPoint x="-40" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ex_lUb9hJ6ux8IgF76Ti-66" value="holder-&amp;gt;scheduleAfter(next_time_to_execute, false)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="140" width="295" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

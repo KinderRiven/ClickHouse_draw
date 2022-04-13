@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T14:57:03.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="gK3xD-d2_axEooV2JhOr" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T14:58:00.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bUphJ5k5Fita3lvDbtNY" version="17.1.2" type="github">
   <diagram id="pZnCCsRfNs3h-QN_w_hm" name="第 1 页">
-    <mxGraphModel dx="526" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1051" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,6 +49,9 @@
         <mxCell id="8aG1Dv2riWGglkyZcnEj-16" value="DeltaIndexPtr delta_index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="320" y="130" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8aG1Dv2riWGglkyZcnEj-17" target="8aG1Dv2riWGglkyZcnEj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8aG1Dv2riWGglkyZcnEj-17" value="ColumnFilePersistedSetPtr persisted_file_set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="320" y="70" width="270" height="30" as="geometry" />
         </mxCell>
@@ -60,6 +63,9 @@
         </mxCell>
         <mxCell id="8aG1Dv2riWGglkyZcnEj-20" value="bool appendToCache(DMContext &amp;amp; context, const Block &amp;amp; block, size_t offset, size_t limit)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="320" y="200" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-22" value="ColumnFilePersistedSet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T14:45:22.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" version="17.1.2" etag="AnpCUHUAHwgGkkhu-YBu" type="github"><diagram id="pZnCCsRfNs3h-QN_w_hm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-13T14:49:12.031Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="j5b613npz1l6KtApkeje" version="17.1.2" type="github">
+  <diagram id="pZnCCsRfNs3h-QN_w_hm" name="第 1 页">
+    <mxGraphModel dx="676" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-1" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-2" value="const UInt64 epoch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-3" value="RowKeyRange rowkey_range" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-4" value="bool is_common_handle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-5" value="size_t rowkey_column_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-6" value="const PageId segment_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-7" value="const PageId next_segment_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-8" value="std::atomic&amp;lt;DB::Timestamp&amp;gt; last_check_gc_safe_point = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-9" value="const DeltaValueSpacePtr delta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-10" value="const StableValueSpacePtr stable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-11" value="bool split_forbidden = false" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aG1Dv2riWGglkyZcnEj-12" value="Poco::Logger * log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

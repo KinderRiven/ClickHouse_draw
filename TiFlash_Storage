@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T15:44:50.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3Eym--ZM42k_gAr7mx_z" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T15:49:56.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="1IEQMbKyHS95nxynuTHQ" version="17.1.2" type="github">
   <diagram id="pZnCCsRfNs3h-QN_w_hm" name="第 1 页">
-    <mxGraphModel dx="1368" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1479" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,8 +128,14 @@
         <mxCell id="S-3wO-ksmwzxGhRzamN6-1" value="DeltaMergeStore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-240" y="40" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-3wO-ksmwzxGhRzamN6-2" target="8aG1Dv2riWGglkyZcnEj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="S-3wO-ksmwzxGhRzamN6-2" value="SegmentSortedMap segments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-240" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-4" value="StorageDeltaMerge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="40" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

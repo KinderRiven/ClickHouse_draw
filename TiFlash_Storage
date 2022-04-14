@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T03:04:20.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="8YihCjs_I8-GlPusS1Ue" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T03:09:07.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="2sIzdUjRX7bhtqgoqp01" version="17.1.2" type="github">
   <diagram id="pZnCCsRfNs3h-QN_w_hm" name="第 1 页">
-    <mxGraphModel dx="3631" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2313" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,6 +187,54 @@
         </mxCell>
         <mxCell id="S-3wO-ksmwzxGhRzamN6-24" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;    BlockInputStreams &lt;span style=&quot;color: #9cdcfe&quot;&gt;res&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #c586c0&quot;&gt;for&lt;/span&gt; (&lt;span style=&quot;color: #4ec9b0&quot;&gt;size_t&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe&quot;&gt;i&lt;/span&gt; = &lt;span style=&quot;color: #b5cea8&quot;&gt;0&lt;/span&gt;; &lt;span style=&quot;color: #9cdcfe&quot;&gt;i&lt;/span&gt; &amp;lt; &lt;span style=&quot;color: #9cdcfe&quot;&gt;final_num_stream&lt;/span&gt;; ++&lt;span style=&quot;color: #9cdcfe&quot;&gt;i&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;    {&lt;/div&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;        BlockInputStreamPtr &lt;span style=&quot;color: #9cdcfe&quot;&gt;stream&lt;/span&gt; = &lt;span style=&quot;color: #4ec9b0&quot;&gt;std&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa&quot;&gt;make_shared&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;DMSegmentThreadInputStream&lt;/span&gt;&amp;gt;(&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;dm_context&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;read_task_pool&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;after_segment_read&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;columns_to_read&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;filter&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;max_version&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;expected_block_size&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;false&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;db_settings&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;dt_raw_filter_range&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;extra_table_id_index&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;physical_table_id&lt;/span&gt;,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;req_info&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;res&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa&quot;&gt;push_back&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe&quot;&gt;stream&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;    }&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#1A1A1A;strokeColor=#432D57;align=left;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1040" y="740" width="530" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-25" value="Context &amp;amp; global_context" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-26" value="StoragePathPool path_pool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-27" value="Settings settings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-28" value="StoragePool storage_pool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-29" value="String db_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-30" value="String table_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-31" value="bool is_common_handle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="280" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-32" value="size_t rowkey_column_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="310" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-33" value="ColumnDefines original_table_columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-34" value="BlockPtr original_table_header" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-35" value="ColumnDefine original_table_handle_define" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-36" value="ColumnDefinesPtr store_columns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-37" value="std::atomic&amp;lt;bool&amp;gt; shutdown_called{false}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-38" value="BackgroundProcessingPool &amp;amp; background_pool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="540" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-39" value="BackgroundProcessingPool::TaskHandle gc_handle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="570" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-41" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="600" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

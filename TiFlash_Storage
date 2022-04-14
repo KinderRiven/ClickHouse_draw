@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T03:12:31.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="rviaIXZBzsHCK87LXr3D" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T03:16:15.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="DEtdP-XkoMEYH0WdASe3" version="17.1.2" type="github">
   <diagram id="pZnCCsRfNs3h-QN_w_hm" name="第 1 页">
-    <mxGraphModel dx="3049" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3631" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,6 +54,14 @@
         </mxCell>
         <mxCell id="8aG1Dv2riWGglkyZcnEj-17" value="PageId id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="320" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="8aG1Dv2riWGglkyZcnEj-18" target="S-3wO-ksmwzxGhRzamN6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-46" value="vector" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S-3wO-ksmwzxGhRzamN6-44">
+          <mxGeometry x="0.5067" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8aG1Dv2riWGglkyZcnEj-18" value="DeltaPacks packs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="320" y="100" width="120" height="30" as="geometry" />
@@ -183,6 +191,27 @@
         </mxCell>
         <mxCell id="S-3wO-ksmwzxGhRzamN6-41" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-240" y="600" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="S-3wO-ksmwzxGhRzamN6-43" target="S-3wO-ksmwzxGhRzamN6-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="S-3wO-ksmwzxGhRzamN6-43" target="S-3wO-ksmwzxGhRzamN6-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="S-3wO-ksmwzxGhRzamN6-43" target="S-3wO-ksmwzxGhRzamN6-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-43" value="DeltaPack" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-47" value="DeltaPackBlock" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="880" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-49" value="DeltaPackDeleteRange" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="880" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S-3wO-ksmwzxGhRzamN6-51" value="DeltaPackFile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="880" y="280" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

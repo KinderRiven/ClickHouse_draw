@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T10:32:33.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Gq5hjuVlm_LXR5Q0nWey" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T10:33:14.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="0sOq1eCu7SjRng16DQyD" version="17.1.2" type="github">
   <diagram id="YWtXqjTE8WXgpGv1WYoR" name="第 1 页">
-    <mxGraphModel dx="1615" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1479" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,12 @@
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-36" value="using FileSegmentsByOffset = std::map&amp;lt;size_t, FileSegmentCell&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="40" y="390" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-37" value="using CachedFiles = std::unordered_map&amp;lt;Key, FileSegmentsByOffset&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-38" value="CachedFiles files" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

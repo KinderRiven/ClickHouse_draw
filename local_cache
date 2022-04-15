@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T13:41:48.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="xKfvLBCYlF-QGjeBVMkd" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T13:42:12.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="z1_Ez-hKtAcGzA5g6oMv" version="17.1.2" type="github">
   <diagram id="YWtXqjTE8WXgpGv1WYoR" name="第 1 页">
-    <mxGraphModel dx="2477" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,25 +243,25 @@
           <mxGeometry x="-1120" y="1960" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-80" value="&lt;span style=&quot;font-size: 17px&quot;&gt;Offset &lt;br&gt;[0, 100)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="1850" width="120" height="50" as="geometry" />
+          <mxGeometry x="-840" y="1840" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-83" value="&lt;span style=&quot;font-size: 17px&quot;&gt;FileSegmentCell&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="1850" width="160" height="50" as="geometry" />
+          <mxGeometry x="-720" y="1840" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-84" value="&lt;span style=&quot;font-size: 17px&quot;&gt;Offset &lt;br&gt;[100, 200)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="1900" width="120" height="50" as="geometry" />
+          <mxGeometry x="-840" y="1890" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-85" value="&lt;span style=&quot;font-size: 17px&quot;&gt;FileSegmentCell&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="1900" width="160" height="50" as="geometry" />
+          <mxGeometry x="-720" y="1890" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-86" value="&lt;span style=&quot;font-size: 17px&quot;&gt;...&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="1950" width="120" height="50" as="geometry" />
+          <mxGeometry x="-840" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-87" value="&lt;span style=&quot;font-size: 17px&quot;&gt;...&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="1950" width="160" height="50" as="geometry" />
+          <mxGeometry x="-720" y="1940" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-88" value="&lt;span style=&quot;font-size: 17px&quot;&gt;FileSegmentsByOffset&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="1800" width="280" height="50" as="geometry" />
+          <mxGeometry x="-840" y="1800" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

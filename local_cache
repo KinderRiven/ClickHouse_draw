@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T10:29:35.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="g5EMOjrYVfKRPtYFHumB" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T10:31:43.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="3OrDoe4A8dZejBXqdfvn" version="17.1.2" type="github">
   <diagram id="YWtXqjTE8WXgpGv1WYoR" name="第 1 页">
-    <mxGraphModel dx="1479" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1940" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,6 +81,30 @@
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-27" value="LRUFileCache( const String &amp;amp; cache_base_path_, size_t max_size_, size_t max_element_size_ = REMOTE_FS_OBJECTS_CACHE_DEFAULT_MAX_ELEMENTS, size_t max_file_segment_size_ = REMOTE_FS_OBJECTS_CACHE_DEFAULT_MAX_FILE_SEGMENT_SIZE)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="40" y="82.5" width="550" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-28" value="FileSegmentsHolder getOrSet(const Key &amp;amp; key, size_t offset, size_t size) override;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-29" value="void initialize() override;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-30" value="void remove(const Key &amp;amp; key) override;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-31" value="void remove(const Key &amp;amp; key) override;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-32" value="using FileKeyAndOffset = std::pair&amp;lt;Key, size_t&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-33" value="using LRUQueue = std::list&amp;lt;FileKeyAndOffset&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-34" value="using LRUQueueIterator = typename LRUQueue::iterator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="330" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-35" value="struct FileSegmentCell" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

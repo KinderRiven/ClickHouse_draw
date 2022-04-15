@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T13:42:12.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="z1_Ez-hKtAcGzA5g6oMv" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T13:43:13.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="8H7du-zpbUQg7b-hdIBa" version="17.1.2" type="github">
   <diagram id="YWtXqjTE8WXgpGv1WYoR" name="第 1 页">
-    <mxGraphModel dx="2306" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3546" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,6 +245,9 @@
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-80" value="&lt;span style=&quot;font-size: 17px&quot;&gt;Offset &lt;br&gt;[0, 100)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-840" y="1840" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="W5LDCzfc_84TAdT8Ca_G-83" target="W5LDCzfc_84TAdT8Ca_G-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-83" value="&lt;span style=&quot;font-size: 17px&quot;&gt;FileSegmentCell&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-720" y="1840" width="160" height="50" as="geometry" />
         </mxCell>
@@ -262,6 +265,12 @@
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-88" value="&lt;span style=&quot;font-size: 17px&quot;&gt;FileSegmentsByOffset&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-840" y="1800" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-93" value="&lt;span style=&quot;font-size: 17px&quot;&gt;FileSegmentCell&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="1800" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-95" value="&lt;span style=&quot;font-size: 17px&quot;&gt;FileSegmentPtr&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="1840" width="195" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

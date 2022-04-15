@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T10:33:52.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="wqIIV2nV8jmgFaxnjpIX" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T10:34:25.720Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="WKQmTnrWiIZfE11e7dHH" version="17.1.2" type="github">
   <diagram id="YWtXqjTE8WXgpGv1WYoR" name="第 1 页">
-    <mxGraphModel dx="1479" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,6 +133,15 @@
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-39" value="LRUQueue queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-42" value="size_t current_size = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-43" value="Poco::Logger * log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-44" value="Poco::Logger * log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

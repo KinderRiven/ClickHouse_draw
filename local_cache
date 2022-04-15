@@ -1,17 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T10:03:17.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TeUIk3uA-8u7nphweMLS" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T10:10:46.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="OTOrsxmzgA1JmuvBepbS" version="17.1.2" type="github">
   <diagram id="YWtXqjTE8WXgpGv1WYoR" name="第 1 页">
-    <mxGraphModel dx="1277" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1479" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-1" value="LRUFileCache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="47.5" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5LDCzfc_84TAdT8Ca_G-2" target="W5LDCzfc_84TAdT8Ca_G-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W5LDCzfc_84TAdT8Ca_G-2" value="IFileCache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="-160" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5LDCzfc_84TAdT8Ca_G-4" value="IFileCache( const String &amp;amp; cache_base_path_, size_t max_size_, size_t max_element_size_, size_t max_file_segment_size_)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="80" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
